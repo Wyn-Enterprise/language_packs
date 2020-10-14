@@ -1,0 +1,181 @@
+$defaults:
+  cm:
+    gridSize: 0.5cm
+  in:
+    gridSize: 0.25in
+  units: in
+$fonts: Arial, Arial Black, Comic Sans MS, Courier New, Geneva, Georgia, Helvetica, Impact, Lucida Console, Meiryo, Meiryo UI, MingLiU, MingLiU-ExtB, MS Gothic, MS Mincho, MS PGothic, MS PMincho, MS Song, MS UI Gothic, NSimSun, Osaka, PMingLiU, PMingLiU-ExtB, SimSun, SimSun-ExtB, Song, Tahoma, Times New Roman, Trebuchet MS, Verdana, Yu Gothic
+$locale:
+  fullName: Polski
+  id: pl
+$settings:
+  snapToGrid: false
+  snapToGuides: false
+about:
+  applicationVersion: "Wersja aplikacji: {applicationVersion}"
+  close: Zamknij
+  coreVersion: "Wersja podstawowa: {coreVersion}"
+  title: "O {applicationTitle}"
+  version: "Wersja: {versionNumber}"
+appActions:
+  copy: Kopiuj
+  cut: Wytnij
+  open: Otwórz
+  paste: Wklej
+  redo: Powtórz
+  save: Zapisz
+  saveAs: Zapisz jako
+  undo: Cofnij
+appBar:
+  design:
+    dirtyLabel: Niezapisane zmiany
+    fileLabel: Plik
+    homeLabel: Start
+    insertLabel: Wstaw
+    parameters: Parametry
+common:
+  copyright: 'Prawa autorskie © 2020 GrapeCity'
+  madeInWebDesigner: "Wykonano w {applicationTitle}"
+  untitledReportName: Brak tytułu
+  webDesignerTitle: Kreator sieciowy ActiveReports
+  webDesignerTitleCompact: Kreator sieciowy ActiveReports
+dataTab:
+  gettingSemanticModelContent: Pobieranie zawartości modelu semantycznego...
+  title: Dane
+dialogs:
+  cancel: Anuluj
+  confirmSavingChanges:
+    dontSaveLabel: Nie zapisuj
+    saveLabel: Zapisz
+    wantSaveChanges: "Czy chcesz zapisać zmiany w {reportName}?"
+  confirmUpgradeReport:
+    dontUpgradeLabel: Nie aktualizuj
+    upgradeLabel: Aktualizuj
+    wantUpgradeReport: Czy chcesz zaktualizować raport do najnowszej wersji modelu semantycznego?
+  restoreUnsavedReport:
+    deleteUnsavedReport: Usuń niezapisany raport
+    restore: Przywróć
+    text: Wykryto niezapisany raport. Czy chcesz go przywrócić?
+error:
+  errorCode: "Kod błędu: {code}"
+  internalReportWrapper: "Błąd wewnętrzny: {errorCaption}"
+  loadReportError: 'Nie można otworzyć raportu "{reportName}".'
+  loadReportVersionError: 'Nie można otworzyć raportu "{reportName}" (wersja: {reportVersion}).'
+  theme:
+    cannotLoad: Nie można wczytać motywu raportu
+    noThemes: Brak dostępnych innych motywów. Ten raport nie ma obecnie określonego motywu
+    notFound: "Motyw '{theme}' wykorzystany w tym raporcie nie został znaleziony."
+    notFoundOrInvalid: "Motyw '{theme}' wykorzystany w tym raporcie nie został lub ma niewłaściwą zawartość."
+    useDefault: "Zostanie wykorzystany motyw domyślny '{theme}'."
+  upgradeModelError: Nie można zaktualizować raportu do najnowszej wersji modelu.
+  upgradeModelErrorDetails: Należy naprawić wszystkie błędy walidacji i zapisać raport. Następnie otworzyć go ponownie i zaktualizować do najnowszej wersji modelu.
+helpInfo:
+  title: "{applicationTitle} - pomoc online"
+home:
+  backgroundColor: Kolor tła
+  copy: Kopiuj
+  cut: Wytnij
+  delete: Usuń
+  fontFamily: Rodzina czcionki
+  fontSize: Rozmiar czcionki
+  fontStyle: Styl czcionki
+  fontWeight: Grubość czcionki
+  paste: Wklej
+  textAlignCenter: Wyrównaj poziomo do środka
+  textAlignJustify: Wyjustuj
+  textAlignLeft: Wyrównaj do lewej
+  textAlignRight: Wyrównaj do prawej
+  textColor: Kolor tekstu
+  textDecoration: Podkreślenie
+  textVerticalAlignBottom: Wyrównaj do dołu
+  textVerticalAlignMiddle: Wyrównaj pionowo do środka
+  textVerticalAlignTop: Wyrównaj do góry
+info:
+  sharedDataSet:
+    addedFields: '✔ Dodano pola: {fieldNames}'
+    changed: Część zbiorów danych na serwerze została zmieniona. Zapisz raport aby zatwierdzić zmiany.
+    name: 'Zbiór Danych "{dataSetName}":'
+    parameter:
+      newDataSetParameters: '✔ Dodano parametry zbioru danych: {paramNames}'
+      newReportParameters: '✔ Dodano parametry raportu: {paramNames}'
+      removedDataSetParameters: '✔ Usunięto parametry raportu: {paramNames}'
+      updatedReportParameters: '✔ Zaktualizowana ustawienia parametrów raportu: {paramNames}'
+    removedFields: '✔ Usunięto pola: {fieldNames}'
+    updatedFields: '✔ Zaktualizowano pola: {fieldNames}'
+    version: '✔ Zaktualizowano zbiór danych do wersji #{version}'
+labels:
+  expression: "<Expression>"
+  expressionCompact: '< 𝑓 >'
+  none: "<Brak>"
+menu:
+  about: Informacje
+  back: Wstecz
+  close: Zamknij
+  explorer: Eksplorator
+  groupEditor: Edytor grup
+  report:
+    preview: Podgląd
+nameTemplates:
+  dataSet: ZestawDanych
+  dataSource: ŹrodłoDanych
+notificationPanel:
+  collapse: Zwiń
+  dismiss: Odrzuć
+  dismissAll: Odrzuć wszystko
+  expand: Rozwiń
+  multipleErrors: Błędy
+  multipleNotifications: Powiadomienia
+  multipleWarnings: Ostrzeżenia
+  oneError: Błąd
+  oneNotification: Powiadomienia
+  oneWarning: Ostrzeżenia
+  showDetails: Pokaż szczegóły
+overlayMessages:
+  creatingReport: Tworzenie raportu...
+  gettingReportContent: Pobieranie zawartości raportu...
+  gettingReportDataSources: Pobieranie źródeł danych raportu...
+  gettingReportParameters: 'Pobieranie parametrów raportu "{reportName}"...'
+  gettingReportStyles: Pobieranie stylów raportu...
+  gettingSemanticModels: Pobieranie modeli semantycznych...
+  preparingReportPreview: Przygotowywanie poglądu...
+  updatingSharedDataSets: Aktualizowanie zbiorów danych...
+  upgradingReportModel: Aktualizowanie modelu raportu...
+propertiesTab:
+  multipleTypesLabel: "<Wiele typów>"
+  reportItemsItemsLabel: "<Elementy raportu>"
+  searchBoxPlaceholder: wprowadź nazwę właściwości tutaj...
+  title: Właściwości
+sideBar:
+  collapse: Zwiń
+  expand: Rozwiń
+statusBar:
+  dismissNotification: Odrzuć
+  grid: Siatka
+  propertiesMode: Tryb właściwości
+  showAdvancedProperties: Zaawansowane właściwości
+  showBasicProperties: Podstawowe właściwości
+  snapSettings:
+    disabled: Wyłączone
+    enabled: Włączone
+    gridSize: Rozmiar siatki
+    snapToGrid: Wyrównaj do siatki
+    snapToGuides: Wyrównaj do wskazówek
+transform:
+  badReportItem: '✘ {sourceType} ''{itemName}'' nie mógł zostać przekształcony w {resultType} ze względu na błędy wewnętrzne:'
+  error: '– [{errorType}] {message}'
+  info: "Więcej informacji o przekształcaniu plików można znaleźć w {link}."
+  report: "Raport '{reportName}' został przekształcony."
+  reportItem: '✔ {sourceType} ''{itemName}'' został przekształcony w {resultType}.'
+units:
+  cm:
+    $id: cm
+    fullName: Centymetry
+    shortName: cm
+  in:
+    $id: cal
+    fullName: Cale
+    shortName: cal
+warning:
+  reportConversion: "Wystąpiły problemy podczas otwierania tego raportu:"
+  reportParameters: Nie można pobrać parametrów raportu.
+  unsavedChanges: Raport na tej stronie zawiera niezapisane zmiany.

@@ -27,6 +27,7 @@ export const portalPL: LanguageKeyValueMap = {
 	switchPortal: 'Zmień portal', // Switch Portal
 	globalOrgName: 'Global',
 	switchOrganization: 'Switch Organization',
+	editProfileSetting: 'Edit Profile Setting',
 
 	// Document List
 	dlName: 'Nazwa', // Name
@@ -97,6 +98,8 @@ export const portalPL: LanguageKeyValueMap = {
 	errorAccessDenied: 'Nie masz uprawnień dostępu do niektórych dokumentów powiązanych z tym dokumentem.', // You do not have permission to access some of the documents referenced in this document.
 	updateDocumentHideInDocumentPortalError: 'Show document on portal failed.',
 	insufficientReferenceDocNames: '\nInsufficient permission documents: ',
+	docOrRefDocNotFound: 'The document or the referenced document with id {{id}} not found.',
+	downloadFailed: 'Download failed',
 
 	// Permissions
 	psPermissions: 'Uprawnienia', // Premissions
@@ -107,7 +110,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
-	psNoRolesTip: 'Brak wyników', // no results
+	psNoRolesTip: 'no matched roes found', // no matched roes found
 	psPermissionInfo: 'Permission Information',
 	psApplyMinNeededPermission: 'Apply Minimum Needed Permission',
 	psApplyMinNeededPermissionTip: 'You will grant the \"Execute\" permission to the referenced documents.',
@@ -115,7 +118,10 @@ export const portalPL: LanguageKeyValueMap = {
 	psReferencedDocuments: 'Referenced documents:',
 	expandAll: 'Expand All',
 	collapseAll: 'Collapse All',
-	roleNameEveryone: 'Everyone',
+	// permission role display name
+	roleName_Everyone: 'Everyone',
+	roleName_administrator: 'Administrator',
+	roleName_orgadmin: 'Organization Administrator',
 
 	// Doc Info Tab
 	docInfoProps: 'Właściwości', // Properties
@@ -141,6 +147,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
+	'rdlx-master!name': 'Master Report',
+	'rdlx-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',
@@ -220,7 +228,7 @@ export const portalPL: LanguageKeyValueMap = {
 	err_20001: '{{parameter}} jest wymaganym parametrem.', // {{parameter}} is a required parameter.
 	err_20002: 'Dokument "{{newName}}" już istnieje.', // Document "{{newName}}" already exists.
 	err_20003: 'Dokument nie może zostać zduplikowany. Nie masz uprawnień aby edytować niektórych dokumentów powiązanych z tym dokumentem.', // The document can not be duplicated, you do not have permission to edit some of the documents referenced in this document.
-	err_20004: 'Nie znaleziono dokumentu.', // Document not found.
+	err_20004: 'Document or referenced document not found.', // 'Nie znaleziono dokumentu.', // Document not found.
 	err_20005: 'Liczba {{pluginKey}} dokumentów osiągnęła limit, nie możesz zduplikować dokumentu.', // The number of {{pluginKey}} documents has reached the limit,you can not duplicate new document.
 	err_20006: 'Dokument "{{documentProperty}}" nie został znaleziony.', // Document "{{documentProperty}}" is not found.
 	err_20007: 'Dokument "{{documentTitle}}" ma nierozpoznany typ "{{documentType}}.', // The document "{{documentTitle}}" has unknown/unregistered type "{{documentType}}.

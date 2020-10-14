@@ -89,6 +89,8 @@ export const reportingPL: LanguageKeyValueMap = {
 	'report!description': 'Raport', // Report
 	'template!name': 'Szablon', // Template
 	'template!description': 'Szablon', // Template
+	'masterReport!name': 'Master Report',
+	'masterReport!description': 'Master Report',
 
 	// Verbs
 	'createReport!name': 'Stwórz raport', // Create Report

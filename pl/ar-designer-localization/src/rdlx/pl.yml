@@ -1,0 +1,3350 @@
+$defaults:
+  bandedList:
+    props:
+      PreventOrphanedFooter: false
+      PreventOrphanedHeader: false
+    sizes:
+      cm:
+        width: 5cm
+      in:
+        width: 2in
+  bandedListDetails:
+    sizes:
+      cm:
+        height: 1.5cm
+      in:
+        height: 0.5in
+  bandedListFooter:
+    sizes:
+      cm:
+        height: 0.75cm
+      in:
+        height: 0.25in
+  bandedListGroup:
+    props:
+      PreventOrphanedFooter: false
+      PreventOrphanedHeader: false
+  bandedListHeader:
+    props:
+      RepeatOnNewPage: true
+    sizes:
+      cm:
+        height: 0.75cm
+      in:
+        height: 0.25in
+  barcode:
+    place:
+      cm:
+        Height: 4cm
+        Width: 4cm
+      in:
+        Height: 1.5in
+        Width: 1.5in
+    props:
+      Symbology: QRCode
+    sizes:
+      cm:
+        quietZone: 0cm
+        supplementOptionsSpacing: 0cm
+      in:
+        quietZone: 0in
+        supplementOptionsSpacing: 0in
+    style:
+      Color: Black
+      FontFamily: Courier New
+      FontSize: 8pt
+  body:
+    style:
+      BackgroundColor: Transparent
+  bullet:
+    place:
+      cm:
+        Height: 1.5cm
+        Width: 5cm
+      in:
+        Height: 0.5in
+        Width: 2in
+    props:
+      LabelFontColor: Black
+      LabelFontFamily: Arial
+      LabelFontSize: 10pt
+  checkbox:
+    place:
+      cm:
+        Height: 0.75cm
+        Width: 2.5cm
+      in:
+        Height: 0.25in
+        Width: 1in
+    style:
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
+  container:
+    place:
+      cm:
+        Height: 5cm
+        Width: 7.5cm
+      in:
+        Height: 2in
+        Width: 3in
+    props:
+      ConsumeWhiteSpace: false
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+  dvchart:
+    custom:
+      barBottomWidth: 0.55
+      barTopWidth: 0.55
+      barWidth: 0.55
+    place:
+      cm:
+        Height: 7.5cm
+        Width: 10cm
+      in:
+        Height: 3in
+        Width: 4in
+    props:
+      Palette: Office
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
+  dvchartAxisX:
+    props:
+      LabelStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        PaddingBottom: 2pt
+        PaddingLeft: 2pt
+        PaddingRight: 2pt
+        PaddingTop: 2pt
+      LineStyle:
+        Border:
+          Color: Black
+          Style: Solid
+          Width: 1pt
+      MajorGrid: false
+      MajorGridStyle:
+        Border:
+          Color: Gray
+          Style: Solid
+          Width: 1pt
+      TitleStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        PaddingBottom: 2pt
+        PaddingLeft: 2pt
+        PaddingRight: 2pt
+        PaddingTop: 2pt
+  dvchartAxisY:
+    props:
+      LabelStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        PaddingBottom: 2pt
+        PaddingLeft: 2pt
+        PaddingRight: 2pt
+        PaddingTop: 2pt
+      LineStyle:
+        Border:
+          Color: Black
+          Style: Solid
+          Width: 1pt
+      MajorGrid: true
+      MajorGridStyle:
+        Border:
+          Color: Gray
+          Style: Solid
+          Width: 1pt
+      TitleStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        PaddingBottom: 2pt
+        PaddingLeft: 2pt
+        PaddingRight: 2pt
+        PaddingTop: 2pt
+  dvchartFooter:
+    props:
+      TextStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+    style:
+      BackgroundColor: Transparent
+      PaddingBottom: 4pt
+      PaddingLeft: 0pt
+      PaddingRight: 0pt
+      PaddingTop: 2pt
+  dvchartGlobalLegend:
+    props:
+      Orientation: Vertical
+      TextStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+      TitleStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+    style:
+      BackgroundColor: Transparent
+      PaddingBottom: 2pt
+      PaddingLeft: 0pt
+      PaddingRight: 10pt
+      PaddingTop: 4pt
+  dvchartHeader:
+    props:
+      TextStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        FontWeight: Normal
+      Title: Tytuł wykresu
+    style:
+      BackgroundColor: Transparent
+      PaddingBottom: 2pt
+      PaddingLeft: 0pt
+      PaddingRight: 0pt
+      PaddingTop: 4pt
+  dvchartLegend:
+    props:
+      Orientation: Vertical
+      TextStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+      TitleStyle:
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+    style:
+      BackgroundColor: Transparent
+      PaddingBottom: 2pt
+      PaddingLeft: 0pt
+      PaddingRight: 10pt
+      PaddingTop: 4pt
+  dvchartPlot:
+    custom:
+      configInnerRadius: 0.5
+      configStartAngle: 0
+    props:
+      Config:
+        Text:
+          Style:
+            Color: Black
+            FontFamily: Arial
+            FontSize: 10pt
+  dvchartPlotArea:
+    style:
+      BackgroundColor: Transparent
+      PaddingBottom: 0pt
+      PaddingLeft: 0pt
+      PaddingRight: 0pt
+      PaddingTop: 0pt
+  formattedText:
+    place:
+      cm:
+        Height: 1.5cm
+        Width: 5cm
+      in:
+        Height: 0.5in
+        Width: 2in
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+  gridColumn:
+    props:
+      cm:
+        Width: 2.5cm
+      in:
+        Width: 1in
+  gridRow:
+    props:
+      cm:
+        Height: 0.75cm
+      in:
+        Height: 0.25in
+  image:
+    place:
+      cm:
+        Height: 2.5cm
+        Width: 2.5cm
+      in:
+        Height: 1in
+        Width: 1in
+    style:
+      Border:
+        Style: None
+  inputField:
+    place:
+      cm:
+        Height: 0.75cm
+        Width: 2.5cm
+      in:
+        Height: 0.25in
+        Width: 1in
+    style:
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
+  line:
+    place:
+      cm:
+        Height: 0cm
+        Width: 2.5cm
+      in:
+        Height: 0in
+        Width: 1in
+    props:
+      LineColor: Black
+      LineStyle: Solid
+      LineWidth: 1pt
+  list:
+    place:
+      cm:
+        Height: 2.5cm
+        Width: 2.5cm
+      in:
+        Height: 1in
+        Width: 1in
+    props:
+      ConsumeWhiteSpace: false
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+  overflowPlaceholder:
+    place:
+      cm:
+        Height: 2.5cm
+        Width: 2.5cm
+      in:
+        Height: 1in
+        Width: 1in
+  pageFooter:
+    place:
+      cm:
+        Height: 0.75cm
+      in:
+        Height: 0.25in
+    style:
+      BackgroundColor: Transparent
+  pageHeader:
+    place:
+      cm:
+        Height: 0.75cm
+      in:
+        Height: 0.25in
+    style:
+      BackgroundColor: Transparent
+  report:
+    props:
+      ConsumeContainerWhitespace: false
+    sizes:
+      cm:
+        BottomMargin: 2.5cm
+        ColumnSpacing: 0cm
+        LeftMargin: 2.5cm
+        PageHeight: 29.7cm
+        PageWidth: 21cm
+        RightMargin: 2.5cm
+        TopMargin: 2.5cm
+      in:
+        BottomMargin: 1in
+        ColumnSpacing: 0in
+        LeftMargin: 1in
+        PageHeight: 11in
+        PageWidth: 8.5in
+        RightMargin: 1in
+        TopMargin: 1in
+  shape:
+    place:
+      cm:
+        Height: 2.5cm
+        Width: 5cm
+      in:
+        Height: 1in
+        Width: 2in
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: Solid
+  sparkline:
+    place:
+      cm:
+        Height: 0.75cm
+        Width: 5cm
+      in:
+        Height: 0.25in
+        Width: 2in
+  subreport:
+    place:
+      cm:
+        Height: 5cm
+        Width: 5cm
+      in:
+        Height: 2in
+        Width: 2in
+    style:
+      Border:
+        Style: None
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+  table:
+    custom:
+      cellStyle:
+        BackgroundColor: Transparent
+        Border:
+          Color: Black
+          Style: None
+          Width: 1pt
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        FontStyle: Normal
+        FontWeight: Normal
+    sizes:
+      cm:
+        columnWidth: 2.5cm
+        rowHeight: 0.75cm
+      in:
+        columnWidth: 1in
+        rowHeight: 0.25in
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+  tableOfContents:
+    place:
+      cm:
+        Height: 2.5cm
+        Width: 5cm
+      in:
+        Height: 1in
+        Width: 2in
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+  tableOfContentsLevel:
+    style:
+      BackgroundColor: Transparent
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+  tablix:
+    custom:
+      cellStyle:
+        BackgroundColor: Transparent
+        Border:
+          Color: Black
+          Style: None
+          Width: 1pt
+        Color: Black
+        FontFamily: Arial
+        FontSize: 10pt
+        FontStyle: Normal
+        FontWeight: Normal
+    sizes:
+      cm:
+        columnWidth: 2.5cm
+        rowHeight: 0.75cm
+      in:
+        columnWidth: 1in
+        rowHeight: 0.25in
+    style:
+      BackgroundColor: Transparent
+      Border:
+        Style: None
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+  textbox:
+    place:
+      cm:
+        Height: 0.75cm
+        Width: 2.5cm
+      in:
+        Height: 0.25in
+        Width: 1in
+    props:
+      CanGrow: true
+      KeepTogether: true
+    style:
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
+$toolBoxContent:
+  cpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, BandedList, InputField
+  fpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, OverflowPlaceholder, BandedList, InputField
+adorners:
+  bandedList:
+    detailsLabel: "<Szczegóły>"
+    groupsLabel: Grupy
+  bullet:
+    targetValue: Wartość docelowa
+    value: Wartość
+  chart:
+    categoryEncoding:
+      fieldStub: "Kategoria {index}"
+    categoryFields: Pola kategorii
+    colorEncoding:
+      fieldStub: "Kolor {index}"
+      title: Kolor
+    dataFields: Pola danych
+    detailEncoding:
+      fieldStub: "Szczegóły {index}"
+      title: Szczegóły
+    encodingFields: Kodowania
+    itemsCountLabel: '[{itemsCount}]'
+    multiValueField: "{firstFieldValue}, ..."
+    seriesFields: Pola serii
+    shapeEncoding:
+      fieldStub: "Kształt {index}"
+      title: Kształt
+    sizeEncoding:
+      fieldStub: "Rozmiar {index}"
+      title: Rozmiar
+    staticGrouping: Grupowanie statyczne
+    valueEncoding:
+      fieldStub: "Wartość {index}"
+  fixedPage:
+    addPage: Dodaj stronę
+    page: Strona
+  formattedText:
+    previewError: Błąd parsowania XHTML. Sprawdź wartość właściości HTML oraz wartość pól łączenia.
+  sparkline:
+    groupingExpressions: Wyrażenia grupujące
+    seriesValue: Wartości serii
+  table:
+    detailsGroupLabel: "<Grupa szczegółów>"
+    groupsLabel: Grupy
+    newGroupLabel: "<Nowa grupa>"
+  tableOfContents:
+    addItem: Dodaj
+captions:
+  barcodeInvalidText: 'Wartość albo ustawienia [{symbology}] ''{itemName}'' są nieprawidłowe.'
+  barcodeUnsupportedSymbology: 'Podgląd [{symbology}] ''{itemName}'' jest ograniczony podczas pojektowania'
+  basicSupportReportItemInfo: "{itemLabel} '{itemName}' ma ograniczone wsparcie podczas projektowania"
+  dvchartAxis:
+    category: Kategoria
+    value: Wartość
+  dvchartColor: 'Kolor [{index}]'
+  dvchartDetails: 'Szczegóły [{index}]'
+  dvchartShape: 'Kształt [{index}]'
+  overflowPlaceholder: "Symbol zastępczy przepływu {overflowedItemName}"
+common:
+  add: Dodaj
+  cancel: Anuluj
+  ok: OK
+  open: Otwórz...
+contextActions:
+  bandedList:
+    addFooter: Dodaj stopkę
+    addGroupFooter: Dodaj stopkę grupy
+    addGroupHeader: Dodaj nagłówek grupy
+    addHeader: Dodaj nagłówek
+    delete: Usuń
+    deleteGroup: Usuń grupę
+    groupTitle: Grupa
+    insertGroup: Wstaw grupę
+    removeFooter: Usuń stopkę
+    removeGroupFooter: Usuń stopkę grupy
+    removeGroupHeader: Usuń nagłówek grupy
+    removeHeader: Usuń nagłowek
+    title: Lista grupowana
+  container:
+    delete: Usuń
+    expression: Wyrażenie
+    gridMode:
+      cellsTitle: Komórki
+      columnTitle: Kolumna
+      delete: Usuń
+      insertColumn:
+        left: Z lewej
+        right: Z prawej
+      insertColumnTitle: Wstaw kolumnę
+      insertRow:
+        above: Powyżej
+        below: Poniżej
+      insertRowTitle: Wstaw wiersz
+      mergeCells: Scal komórki
+      rowActions: Wiersz
+      splitCells: Rozdziel komórki
+      title: Siatka
+  dvchart:
+    addAxis: Dodaj oś Y
+    addCategoryField: Dodaj pole kategorii
+    addDataField: Dodaj pole danych
+    addSeriesField: Dodaj pole serii
+    insertAfter: Wstaw pole za
+    insertBefore: Wstaw pole przed
+    moveBackward: Cofnij
+    moveForward: W przód
+    palette: Ustaw paletę wykresu
+    presets:
+      area: Warstwowy
+      areaPercentStacked: Procentowy skumulowany warstwowy
+      areaStacked: Warstwowy skumulowany
+      bar: Słupkowy
+      barPercentStacked: Procentowy skumulowany słupkowy
+      barStacked: Słupkowy skumulowany
+      bubble: Bąbelkowy
+      candlestick: Świeczkowy
+      column: Kolumnowy
+      columnPercentStacked: Procentowy skumulowany kolumnowy
+      columnStacked: Kolumnowy skumulowany
+      doughnut: Pierścieniowy
+      funnel: Lejkowy
+      gantt: Wykres Gantta
+      groups:
+        area: Warstwowe
+        bar: Słupkowe
+        column: Kolumnowe
+        line: Liniowe
+        misc: Różne
+        pie: Kołowe
+        polarBar: Radarowe
+        polarColumn: Spiralne
+      highLowClose: Giełdowy2
+      highLowOpenClose: Giełdowy
+      line: Liniowy
+      lineSmooth: Liniowy wygładzony
+      pie: Kołowy
+      polarBar: Radarowy
+      polarBarPercentStacked: Procentowy skumulowany radarowy
+      polarBarStacked: Radarowy skumulowany
+      polarColumn: Spiralny
+      polarColumnPercentStacked: Procentowy skumulowany spiralny
+      polarColumnStacked: Spiralny skumulowany
+      pyramid: Piramidowy
+      scatter: Punktowy
+      title: Ustaw szablon kreślenia
+  report:
+    addFooter: Dodaj stopkę
+    addHeader: Dodaj nagłówek
+    deletePage: Usuń stronę
+    duplicatePage: Zduplikuj stronę
+    insertPage: Wstaw stronę
+    movePageBackward: Przesuń stronę w tył
+    movePageForward: Przesuń stronę w przód
+    pages: Strony
+    removeFooter: Usuń stopkę
+    removeHeader: Usuń nagłówek
+    switchTheme: Przełącz motyw
+    title: Raport
+  table:
+    addDetails: Dodaj szczegóły
+    addFooter: Dodaj nagłówek
+    addGroupFooter: Dodaj stopkę grupy
+    addGroupHeader: Dodaj nagłówek grupy
+    addHeader: Dodaj nagłówek
+    cellsTitle: Komórki
+    columnTitle: Kolumna
+    delete: Usuń
+    deleteColumn: Usuń kolumnę
+    deleteGroup: Usuń grupę
+    deleteRow: Usuń wiersz
+    expression: Wyrażenie komórki
+    groupTitle: Grupa
+    insertColumn:
+      left: Z lewej
+      right: Z prawej
+    insertColumnTitle: Wstaw kolumnę
+    insertGroup: Wstaw grupę
+    insertRow:
+      above: Powyżej
+      below: Poniżej
+    insertRowTitle: Wstaw wiersz
+    mergeCells: Scal komórki
+    removeDetails: Usuń szczegóły
+    removeFooter: Usuń stopkę
+    removeGroupFooter: Usuń stopkę grupy
+    removeGroupHeader: Usuń nagłówek grupy
+    removeHeader: Usuń nagłówek
+    rowTitle: Wiersz
+    splitCells: Rozdziel komórki
+    title: Tabela
+  tablix:
+    addGroup:
+      adjacentAfter: Przylegający za
+      adjacentBefore: Przylegający przed
+      child: Podrzędny
+      column: Dodaj grupę kolumn
+      parent: Nadrzędny
+      row: Dodaj grupę wierszy
+    addGroupTitle: Dodaj grupę
+    addTotal:
+      after: Za
+      before: Przed
+      contextMenuAfter: Dodaj wszystko za
+      contextMenuBefore: Dodawj wszystko po
+    cellsTitle: Komórki
+    columnGroup: Grupa kolumn
+    columnTitle: Kolumna
+    columnsRowsTitle: Kolumny & Wiersze
+    delete: Usuń
+    deleteColumn: Usuń kolumnę
+    deleteRow: Usuń wiersz
+    disableGroup: Wyłącz grupę
+    enableGroup: Włącz grupę
+    expression: Wyrażenie komórki
+    insertColumn:
+      insideGroupLeft: Wewnątrz grupy - z lewej
+      insideGroupRight: Wewnątrz grupy - z prawej
+      left: Z lewej
+      outsideGroupLeft: Poza grupą - z lewej
+      outsideGroupRight: Poza grupą - z prawej
+      right: Z prawej
+    insertColumnTitle: Wstaw kolumnę
+    insertRow:
+      above: Powyżej
+      below: Poniżej
+      insideGroupAbove: Wewnątrz grupy - powyżej
+      insideGroupBelow: Wewnątrz grupy - poniżej
+      outsideGroupAbove: Poza grupą - powyżej
+      outsideGroupBelow: Poza grupą - poniżej
+    insertRowTitle: Wstaw wiersz
+    mergeCells: Scal komórki
+    rowGroup: Grupa wierszy
+    rowTitle: Wiersz
+    splitCells: Rodziel komórki
+    totalTitle: Suma
+dataFieldPickerDropdown:
+  noMatchingFieldsFound: Nie znaleziono pasujących pól
+  searchPlaceholder: wprowadź nazwę pola tutaj...
+  semantic:
+    noMatchingAttributesRelationsFound: Nie znaleziono pasujących elementów
+    searchPlaceholder: wprowadź nazwę elementu tutaj
+dataPanel:
+  addDataSet: Dodaj zestaw danych
+  basedOnDataSource: "opierający się na {dataSourceName}"
+  commonValues:
+    currentDateTime: Aktualna data i czas
+    pageNM: Strona N z M
+    pageNMCumulative: Strona N z M (Łącznie)
+    pageNMSection: Strona N z M (Sekcja)
+    pageNofMLabel: '"Strona " & {pageNumber} & " z " & {totalPages}'
+    pageNumber: Numer strony
+    pageNumberCumulative: Numer strony (Łącznie)
+    pageNumberSection: Numer strony (Sekcja)
+    reportFolder: Folder raportu
+    reportName: Nazwa raportu
+    totalPages: Łącznie stron
+    totalPagesCumulative: W sumie stron (Łącznie)
+    totalPagesSection: W sumie stron (Sekcja)
+    userContext: Kontekst Użytkownika
+    userId: ID użytkownika
+    userLanguage: Język użytkownika
+  commonValuesLabel: Wspólne wartości
+  constantsLabel: Stałe
+  dataSets:
+    noMatchingFieldsFound: Nie znaleziono pasujących pól
+    searchPlaceholder: wprowadź nazwę pola tutaj
+    semantic:
+      editDataSet: Edytuj zestaw danych...
+      loading: Ładowanie
+      noMatchingAttributesRelationsFound: Nie znaleziono pasujących atrybutów ani relacji
+      searchPlaceholder: wprowadź nazwę atrybutu lub relacji tutaj...
+  dataSetsLabel: Zestawy danych
+  dataSourcesLabel: Źródła danych
+  datasetEditor:
+    title:
+      edit: 'Edytuj zestaw danych - "{datasetName}" bazujący na "{datasourceName}"'
+      editSemantic: 'Edytuj zestaw danych - "{datasetName}" bazujący na modelu "{modelName}" '
+      new: 'Nowy zestaw danych bazujący na "{datasourceName}"'
+    validate: Sprawdź poprawność
+    validating: Sprawdzanie poprawności
+  editDataSet: Edytuj zestaw danych
+  editDataSource: Edytuj źródło danych
+  editParameter: Edytuj parametr
+  fieldVariations:
+    DateTime:
+      - format: '=Year({fieldExpression})'
+        label: Year
+      - format: '=Year({fieldExpression}) & " Q" & DatePart("q", {fieldExpression})'
+        label: Year-Quarter
+      - format: '=Year({fieldExpression}) & " " & MonthName(Month({fieldExpression}))'
+        label: Year-Month
+      - format: '=Year({fieldExpression}) & " " & MonthName(Month({fieldExpression})) & " " & Day({fieldExpression})'
+        label: Year-Month-Day
+      - format: '=Year({fieldExpression}) & " W" & DatePart("ww", {fieldExpression})'
+        label: Year-Week
+      - format: '=DatePart("q", {fieldExpression})'
+        label: Quarter
+      - format: '=Month({fieldExpression})'
+        label: Month
+      - format: '=MonthName(Month({fieldExpression}))'
+        label: MonthName
+      - format: '=DatePart("ww", {fieldExpression})'
+        label: Week
+      - format: '=Day({fieldExpression})'
+        label: Day
+      - format: '=WeekdayName(Weekday({fieldExpression}))'
+        label: DayOfWeek
+  fieldsCountLabel: "{fieldsCount} pól"
+  modelLabel: Model
+  modelVersion: "Wersja: {version}"
+  moveParameterDown: W dół
+  moveParameterUp: W górę
+  noDataSets: Raport nie ma zestawu danych
+  noDataSources: Raport nie ma źródeł danych
+  noParameters: Raport nie ma parametrów
+  parametersLabel: Parametry
+  selectFields: Select Fields...
+  semantic:
+    multipleAttributes: "{count} atrybutów"
+    multipleRelations: "{count} relacji"
+    noAttributes: brak atrybutów
+    noRelations: brak relacji
+    oneAttribute: 1 atrybut
+    oneRelation: 1 relacja
+  theme:
+    color: Kolory
+    constant: Stałe
+    font: Czczionki
+    image: Obrazy
+    label: Motywy
+    majorFont: Główna czcionka
+    minorFont: Poboczna czcionka
+dataVisualizerEditor:
+  title: Wizualizator danych
+dialogs:
+  cancel: Anuluj
+error:
+  dataSetDialog:
+    duplicateFields: "Zapytanie ma zduplikowane pola: {fieldNames}"
+    unexpectedError: Nieprzewidziany błąd
+    validationTimeout: Minął czas sprawdzania poprawności zapytania
+  errorLabel: Błąd
+  expressionNode:
+    argumentIsNotValid: "Argument '{argument}' funkcji '{functionName}' nie jest poprawny. {details}"
+    argumentValueNotFitFunctionValueDataType: "Argument '{argument}' funkcji '{functionName}' powinien mieć jeden z następujących typów - {expectedTypes} , ale ma typ {actualType}."
+    argumentsShouldHaveSameDataType: "Argumenty {arguments} funkcji '{functionName}' powinny mieć taki sam typ danych."
+    typeMismatch: "Wartość '{value}' nie może zostać skonwertowana do {expectedType}."
+  upgradeReportSemanticModel:
+    entityIsAbsent: '● Brakuje encji ''{entityName}'' zestawu danych ''{dataSetName}'' w najnowszym modelu semantycznym.'
+    fieldAtQueryFilterIsAbsent: '● Brakuje pola ''{fieldName}'' zestawu danych ''{dataSetName}'' w najnowszym modelu semantycznym.'
+    fieldInControlGroupIsAbsent: '● Brakuje pola''{fieldName}'' w {controlName} grupie {groupName} atrybutu ''{propertyLabel}'' w najnowszym modelu semantycznym.'
+    fieldInControlIsAbsent: '● Brakuje pola ''{fieldName}'' w {controlName} atrybutu ''{propertyLabel}'' w najnowszym modelu semantycznym.'
+    fieldInReportIsAbsent: '● Brakuje pola ''{fieldName}'' w raporcie atrybutu ''{propertyLabel}'' w najnowszym modelu semantycznym.'
+expressionEditor:
+  expressionLabel: Wyrażenie
+  expressionPlaceholder: wyrażenie
+  fields:
+    commonValues:
+      info:
+        currentDateTime:
+          description: Wyświetla aktualną datę i czas. Może być użyte w nagłówku i stopce strony.
+        pageNM:
+          description: "Wyświetla aktualny numer strony (N) i łączną liczbę stron (M) w formacie 'N z M'. Może być użyte w nagłówku i stopce strony."
+        pageNMCumulative:
+          description: Wyświetla zarówno aktualną stronę jak i łączną liczbę stron w raporcie. Strona N z M (łącznie) jest stosowana do numerowania stron, gdy używasz porównywania w raporcie.
+        pageNMSection:
+          description: "Wyświetla aktualny numer strony (N) i łączną liczbę stron (M) w formacie 'N z M' w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych."
+        pageNumber:
+          description: Wyświetla aktualny numer strony. Może być użyte w nagłówku i stopce strony.
+        pageNumberCumulative:
+          description: Wyświetla aktualną łączną liczbę stron. Numer strony (łącznie) jest stosowany do numerowania stron, gdy używasz porównywanie w raporcie.
+        pageNumberSection:
+          description: Wyświetla aktualny numer strony w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych.
+        reportName:
+          description: Wyświetla nazwę raportu.
+        totalPages:
+          description: Wyświetla łączną liczbę stron. Może być użyte w nagłówku i stopce strony.
+        totalPagesCumulative:
+          description: Wyświetla łączną liczbę stron w raporcie. Liczba stron (łącznie) jest stosowana do numerowania stron, gdy używasz porównywanie w raporcie.
+        totalPagesSection:
+          description: Wyświetla aktualny numer strony w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych.
+        userContext:
+          description: 'Używaj tylko z funkcjami, np. UserContext.GetValue("name"), UserContext.NumberToWords(123).'
+        userId:
+          description: Wyświetla ID użytkownika podglądającego raport
+        userLanguage:
+          description: Wyświetla język użytkownika podglądającego raport zgodnie z ustawieniami systemowymi.
+    constants:
+      dvchart_template:
+        PercentageCategory:p0:
+          description: Wyświetla procent pola wartości wewnątrz kategorii.
+        PercentageDetail:p0:
+          description: Wyświetla procent pola wartości wewnątrz szczegółów.
+        categoryField:
+          name:
+            description: Wyświetla nazwę pola kategorii
+          value:
+            description: Wyświetla wartość pola kategorii.
+        colorField:
+          name:
+            description: Wyświetla nazwę pola koloru.
+          value:
+            description: Wyświetla wartość pola koloru.
+        detailFields:
+          name:
+            description: Wyświetla nazwę pola szczegółów.
+          value:
+            description: Wyświetla wartość pola szczegółów.
+        shapeField:
+          name:
+            description: Wyświetla nazwę pola kształtu.
+          value:
+            description: Wyświetla wartość pola kształtu.
+        sizeField:
+          name:
+            description: Wyświetla nazwę pola rozmiaru.
+          value:
+            description: Wyświetla wartość pola rozmiaru.
+        valueField:
+          name:
+            description: Wyświetla nazwę pola wartości.
+          value:
+            description: Wyświetla wartość pola wartości.
+    documentMap:
+      info:
+        path:
+          description: Zwraca ściężkę poziomu TOC.
+          example: '=DocumentMap.Path & "To jest nagłówek 1"'
+          label: Ścieżka
+      titles:
+        label: Mapa dokumentu
+    functions:
+      info:
+        aggregate:
+          aggregateIf:
+            description: Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria.
+            example: '=AggregateIf(Fields!Discontinued.Value = True, Sum, Fields!InStock.Value)'
+            label: AggregateIf
+            syntax: "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>)"
+          aggregateIfWithScope:
+            description: Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria w określonym zakresie.
+            example: '=AggregateIf(Fields!Discontinued.Value = True, Sum, Fields!InStock.Value, "Category")'
+            label: AggregateIf (with scope)
+            syntax: "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>, <Scope>)"
+          avg:
+            description: Oblicza średnią wszystkich niepustych wartości z określonego wyrażenia.
+            example: '=Avg(Fields!LifeExpentancy.Value)'
+            label: Avg
+            syntax: "Avg(<Values>)"
+          avgWithScope:
+            description: Oblicza średnią wszystkich niepustych wartości z określonego wyrażenia w określonym zakresie.
+            example: '=Avg(Fields!LifeExpentancy.Value, "GroupByCountry")'
+            label: Avg (with scope)
+            syntax: "Avg(<Values>, <Scope>)"
+          count:
+            description: Oblicza liczbę wszystkich niepustych wartości w określonym wyrażeniu.
+            example: '=Count(Fields!EmployeeID.Value)'
+            label: Count
+            syntax: "Count(<Values>)"
+          countDistinct:
+            description: Oblicza liczbę unikalnych wartości z określonego wyrażenia.
+            example: '=CountDistinct(Fields!OrderID.Value)'
+            label: CountDistinct
+            syntax: "CountDistinct(<Values>)"
+          countDistinctWithScope:
+            description: Oblicza liczbę unikalnych wartości z określonego wyrażenia, w określonym zakresie.
+            example: '=CountDistinct(Fields!OrderID.Value, "GroupByCategory")'
+            label: CountDistinct (with scope)
+            syntax: "CountDistinct(<Values>, <Scope>)"
+          countRows:
+            description: Oblicza liczbę wierszy.
+            example: '=CountRows()'
+            label: CountRows
+            syntax: CountRows()
+          countRowsWithScope:
+            description: Oblicza liczbę wierszy w określonym zakresie.
+            example: '=CountRows("Title")'
+            label: CountRows (with scope)
+            syntax: "CountRows(<Scope>)"
+          countWithScope:
+            description: Oblicza liczbę wszystkich niepustych wartości w określonym wyrażeniu, w okreslonym zakresie.
+            example: '=Count(Fields!EmployeeID.Value, "Title")'
+            label: Count (with scope)
+            syntax: "Count(<Values>, <Scope>)"
+          cumulativeTotal:
+            description: Calculates the sum of page-level aggregates returned by the expression for current and previous pages.
+            example: '=CumulativeTotal(Fields!OrderID.Value, Count)'
+            label: CumulativeTotal
+            syntax: "CumulativeTotal(<Expression>, <Aggregate>)"
+          distinctSum:
+            description: Oblicza sumę wartości z określonego wyrażenia, kiedy wartość innego wyrażenia nie jest powtórzona.
+            example: '=DistinctSum(Fields!OrderID.Value, Fields!OrderFreight.Value)'
+            label: DistinctSum
+            syntax: "DistinctSum(<Values>, <Value>)"
+          distinctSumWithScope:
+            description: Oblicza sumę unikalnych wartości z określonego wyrażenia, kiedy wartość innego wyrażenia nie jest powtórzona w określonym zakresie.
+            example: '=DistinctSum(Fields!OrderID.Value, Fields!OrderFreight.Value, "Order")'
+            label: DistinctSum (with scope)
+            syntax: "DistinctSum(<Values>, <Value>, <Scope>)"
+          first:
+            description: Zwraca pierwszą wartość z określonego wyrażenia.
+            example: '=First(Fields!ProductNumber.Value)'
+            label: First
+            syntax: "First(<Values>)"
+          firstWithScope:
+            description: Zwraca pierwszą wartość z określonego wyrażenia, w określonym zakresie.
+            example: '=First(Fields!ProductNumber.Value, "Category")'
+            label: First (with scope)
+            syntax: "First(<Values>, <Scope>)"
+          last:
+            description: Zwraca ostatnią wartość z określonego wyrażenia.
+            example: '=Last(Fields!ProductNumber.Value)'
+            label: Last
+            syntax: "Last(<Values>)"
+          lastWithScope:
+            description: Zwraca ostatnią wartość z określonego wyrażenia, w określonym zakresie.
+            example: '=Last(Fields!ProductNumber.Value, "Category")'
+            label: Last (with scope)
+            syntax: "Last(<Values>, <Scope>)"
+          max:
+            description: Zwraca maksymalną niepustą wartość z określonego wyrażenia.
+            example: '=Max(Fields!OrderTotal.Value)'
+            label: Max
+            syntax: "Max(<Values>)"
+          maxWithScope:
+            description: Zwraca maksymalną niepustą wartość z określonego wyrażenia, w określonym zakresie.
+            example: '=Max(Fields!OrderTotal.Value, "Year")'
+            label: Max (with scope)
+            syntax: "Max(<Values>, <Scope>)"
+          median:
+            description: Zwraca wartość z punktu środkowego w określonym wyrażeniu (mediana).
+            example: '=Median(Fields!OrderTotal.Value)'
+            label: Median
+            syntax: "Median(<Values>)"
+          medianWithScope:
+            description: Zwraca wartość z punktu środkowego w określonym wyrażeniu, w określonym zakresie (mediana).
+            example: '=Median(Fields!OrderTotal.Value, "Year")'
+            label: Median (with scope)
+            syntax: "Median(<Values>, <Scope>)"
+          min:
+            description: Zwraca minimalną niepustą wartość z określonego wyrażenia.
+            example: '=Min(Fields!OrderTotal.Value)'
+            label: Min
+            syntax: "Min(<Values>)"
+          minWithScope:
+            description: Zwraca minimalną niepustą wartość z określonego wyrażenia, w określonym zakresie.
+            example: '=Min(Fields!OrderTotal.Value, "Year")'
+            label: Min (with scope)
+            syntax: "Min(<Values>, <Scope>)"
+          mode:
+            description: Zwraca najczęściej występującą wartość z okreslonego wyrażenia.
+            example: '=Mode(Fields!OrderTotal.Value)'
+            label: Mode
+            syntax: "Mode(<Values>)"
+          modeWithScope:
+            description: Zwraca najczęściej występującą wartość z okreslonego wyrażenia, w określonym zakresie.
+            example: '=Mode(Fields!OrderTotal.Value, "Year")'
+            label: Mode (with scope)
+            syntax: "Mode(<Values>, <Scope>)"
+          runningValue:
+            description: Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, przy wykorzystaniu funkcji agregującej jako parametr.
+            example: '=RunningValue(Fields!Price.Value, Sum)'
+            label: RunningValue
+            syntax: "RunningValue(<Values>, <AggregateFunction>)"
+          runningValueWithScope:
+            description: Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie, przy wykorzystaniu funkcji agregującej jako parametr.
+            example: '=RunningValue(Fields!Price.Value, Sum, "Nwind")'
+            label: RunningValue (with scope)
+            syntax: "RunningValue(<Values>, <AggregateFunction>, <Scope>)"
+          stDev:
+            description: Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia.
+            example: '=StDev(Fields!LineTotal.Value)'
+            label: StDev
+            syntax: "StDev(<Values>)"
+          stDevP:
+            description: Oblicza odchylenie standardowe populacji wszystkich niepustych wartości z okreslonego wyrażenia.
+            example: '=StDevP(Fields!LineTotal.Value)'
+            label: StDevP
+            syntax: "StDevP(<Values>)"
+          stDevPWithScope:
+            description: Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.
+            example: '=StDevP(Fields!LineTotal.Value, "Order")'
+            label: StDevP (with scope)
+            syntax: "StDevP(<Values>, <Scope>)"
+          stDevWithScope:
+            description: Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.
+            example: '=StDev(Fields!LineTotal.Value, "Nwind")'
+            label: StDev (with scope)
+            syntax: "StDev(<Values>, <Scope>)"
+          sum:
+            description: Oblicza sumę wartości z określonego wyrażenia.
+            example: '=Sum(Fields!Price.Value)'
+            label: Sum
+            syntax: "Sum(<Values>)"
+          sumWithScope:
+            description: Oblicza sumę wartości z określonego wyrażenia, w określonym zakresie.
+            example: '=Sum(Fields!Price.Value, "Category")'
+            label: Sum (with scope)
+            syntax: "Sum(<Values>, <Scope>)"
+          var:
+            description: Oblicza wariancję wszystkich niepustych wartości z okreslonego wyrażenia.
+            example: '=Var(Fields!LineTotal.Value)'
+            label: Var
+            syntax: "Var(<Values>)"
+          varP:
+            description: Oblicza wariancję populacji wszystkich niepustych wartości z okreslonego wyrażenia.
+            example: '=VarP(Fields!LineTotal.Value)'
+            label: VarP
+            syntax: "VarP(<Values>)"
+          varPWithScope:
+            description: Oblicza wariancję populacji wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.
+            example: '=VarP(Fields!LineTotal.Value, "Order")'
+            label: VarP (with scope)
+            syntax: "VarP(<Values>, <Scope>)"
+          varWithScope:
+            description: Oblicza wariancję wszystkich niepustych wartości z okreslonego wyrażenia.
+            example: '=Var(Fields!LineTotal.Value, "Order")'
+            label: Var (with scope)
+            syntax: "Var(<Values>, <Scope>)"
+        conversion:
+          format:
+            description: Formatuje wartość do określonego formatu.
+            example: '=Format(Fields!OrderDate.Value, "dd MMM yyyy")'
+            label: Format
+            syntax: "Format(<Value>, <String>)"
+          toBoolean:
+            description: Przekształca określoną wartość do typu danych Boolean.
+            example: '=ToBoolean(Fields!HouseOwnerFlag.Value)'
+            label: ToBoolean
+            syntax: "ToBoolean(<Value>)"
+          toByte:
+            description: Przekształca określoną wartość do typu danych Byte.
+            example: '=ToByte(Fields!ProductNumber.Value)'
+            label: ToByte
+            syntax: "ToByte(<Value>)"
+          toChar:
+            description: Przekształca określoną wartość do typu danych Char.
+            example: '=ToChar(Fields!OrderStatus.Value); =ToChar(“Hello”))'
+            label: ToChar
+            syntax: "ToChar(<Value>)"
+          toDateTime:
+            description: Przekształca określoną wartość do typu danych DataCzas.
+            example: '=ToDateTime(Fields!SaleDate.Value); =ToDateTime("1 January, 2017")'
+            label: ToDateTime
+            syntax: "ToDateTime(<Value>)"
+          toDecimal:
+            description: Przekształca określoną wartość do typu danych Decimal.
+            example: '=ToDecimal(Fields!Sales.Value)'
+            label: ToDecimal
+            syntax: "ToDecimal(<Value>)"
+          toDouble:
+            description: Przekształca określoną wartość do typu danych Double.
+            example: '=ToDouble(Fields!AnnualSales.Value); =ToDouble(535.85 * .2691 * 67483)'
+            label: ToDouble
+            syntax: "ToDouble(<Value>)"
+          toInt16:
+            description: Przekształca określoną wartość do typu danych 16-bitowy Integer.
+            example: '=ToInt16(Fields!AnnualSales.Value); =ToInt16(535.85)'
+            label: ToInt16
+            syntax: "ToInt16(<Value>)"
+          toInt32:
+            description: Przekształca określoną wartość do typu danych 32-bitowy Integer.
+            example: '=ToInt32(Fields!AnnualSales.Value)'
+            label: ToInt32
+            syntax: "ToInt32(<Value>)"
+          toInt64:
+            description: Przekształca określoną wartość do typu danych 64-bitowy Integer.
+            example: '=ToInt64(Fields!AnnualSales.Value)'
+            label: ToInt64
+            syntax: "ToInt64(<Value>)"
+          toSingle:
+            description: Przekształca określoną wartość do typu danych single-precision floating-point number.
+            example: '=ToSingle(Fields!AnnualSales.Value); =ToSingle(15.857692134)'
+            label: ToSingle
+            syntax: "ToSingle(<Value>)"
+          toStringDot:
+            description: Przekształca określoną wartość do typu danych Napis w określonym formacie.
+            example: '=Fields!OrderDate.Value.ToString("dd MMM yyyy")'
+            label: .ToString
+            syntax: "<Value>.ToString(<String>)"
+          toStringKey:
+            description: Przekształca określoną wartość do typu danych Napis.
+            example: '=ToString(Fields!YearlyIncome.Value); =ToString(13.50)'
+            label: ToString
+            syntax: "ToString(<Value>)"
+          toUInt16:
+            description: Przekształca określoną wartość do typu danych 16-bitowy dodatni Integer.
+            example: '=ToUInt16(Fields!AnnualSales.Value)'
+            label: ToUInt16
+            syntax: "ToUInt16(<Value>)"
+          toUInt32:
+            description: Przekształca określoną wartość do typu danych 32-bitowy dodatni Integer.
+            example: '=ToUInt32(Fields!AnnualSales.Value)'
+            label: ToUInt32
+            syntax: "ToUInt32(<Value>)"
+          toUInt64:
+            description: Przekształca określoną wartość do typu danych 64-bitowy dodatni Integer.
+            example: '=ToUInt64(Fields!AnnualSales.Value)'
+            label: ToUInt64
+            syntax: "ToUInt64(<Value>)"
+        customFunctions:
+          getValue:
+            description: 'Wyświetla wartość kontekstu użytkownika dla określonego atrybutu, np. "nazwa", "email".'
+            example: '=UserContext.getValue("nazwa")'
+            label: GetUserValue
+            syntax: "UserContext.getValue(<String>)"
+          numberToWords:
+            description: 'Konwertuje wartość liczbową na tekst. Opcjonalny drugi argument określa język (wspierane wartości: "zh-cn", "en-us", "ja-jp"). Domyślnie wybierany jest aktualny język portalu.'
+            example: '=UserContext.NumberToWords(123.5), =UserContext.NumberToWords(981, "zh-CN")'
+            label: NumberToWords
+            syntax: "UserContext.NumberToWords(<Number>, <String>)"
+        dateTime:
+          addDays:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w dniach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddDays(5)'
+            label: AddDays
+            syntax: "<DateTime>.AddDays(<Number>)"
+          addHours:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w godzinach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddHours(12)'
+            label: AddHours
+            syntax: "<DateTime>.AddHours(<Number>)"
+          addMilliseconds:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w milisekundach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddMilliseconds(500)'
+            label: AddMilliseconds
+            syntax: "<DateTime>.AddMilliseconds(<Number>)"
+          addMinutes:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w minutach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddMinutes(30)'
+            label: AddMinutes
+            syntax: "<DateTime>.AddMinutes(<Number>)"
+          addMonths:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w miesiącach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddMonths(2)'
+            label: AddMonths
+            syntax: "<DateTime>.AddMonths(<Number>)"
+          addSeconds:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w sekundach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddSeconds(30)'
+            label: AddSeconds
+            syntax: "<DateTime>.AddSeconds(<Number>)"
+          addYears:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w latach. Przedział czasu może być ujemny.
+            example: '=Fields!OrderDate.Value.AddYears(3)'
+            label: AddYears
+            syntax: "<DateTime>.AddYears(<Number>)"
+          dateAdd:
+            description: Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w określonej jednostce.
+            example: '=DateAdd("d", 5, Fields!SaleDate.Value); =DateAdd(DateInterval.Day, 5, Fields!SaleDate.Value)'
+            label: DateAdd
+            syntax: "DateAdd(<DateInterval>, <Number>, <DateTime>)"
+          dateDiff:
+            description: Zwraca różnicę pomiędzy dwiema datami albo punktami w czasie w określonej jednostce.
+            example: '=DateDiff("yyyy", Fields!SaleDate.Value, "1/1/2015"); =DateDiff(DateInterval.Year, Fields!SaleDate.Value, "1/1/2015")'
+            label: DateDiff
+            syntax: 'DateDiff(<DateInterval>, <DateTime1>, <DateTime2>[, <DayOfWeek>[, <WeekOfYear>]])'
+          datePart:
+            description: Zwraca wartość reprezentującą określoną część daty w formie Integer.
+            example: '=DatePart("m", Fields!SaleDate.Value)'
+            label: DatePart
+            syntax: 'DatePart(<DateInterval>, <DateTime>[, <FirstDayOfWeek>[, <FirstWeekOfYear>]])'
+          dateSerial:
+            description: "Zwraca wartość daty, króa reprezentuje określony rok, miesiąc i dzień. Informacja o czasie ustawiona jest na północ (00:00:00)."
+            example: '=DateSerial(DatePart("yyyy", Fields!SaleDate.Value) - 10, DatePart("m", Fields!SaleDate.Value) + 5, DatePart("d", Fields!SaleDate.Value) - 1)'
+            label: DateSerial
+            syntax: "DateSerial(<Year Number>, <Month Number>, <Day Number>)"
+          dateString:
+            description: Zwraca aktualną datę w Twoim systemie w formacie Napis.
+            example: '=DateString(); =DatePart("m", DateString())'
+            label: DateString
+            syntax: DateString()
+          dateValue:
+            description: "Zwraca informację o dacie w formacie Napis. Informacja o czasie ustawiona na północ (00:00:00)."
+            example: '=DateValue("December 12, 2015")'
+            label: DateValue
+            syntax: "DateValue(<StringDate>)"
+          day:
+            description: Zwraca wartość dnia miesiąca (od 1 do 31) jako Integer.
+            example: '=Day(Fields!SaleDate.Value)'
+            label: Day
+            syntax: "Day(<DateTime>)"
+          hour:
+            description: Zwraca wartość godziny (od 0 do 23) jako Integer.
+            example: '=Hour(Fields!SaleDate.Value)'
+            label: Hour
+            syntax: "Hour(<DateTime>)"
+          minute:
+            description: Zwraca wartość minuty (od 0 do 59) jako Integer.
+            example: '=Minute(Fields!SaleDate.Value)'
+            label: Minute
+            syntax: "Minute(<DateTime>)"
+          month:
+            description: Zwraca wartość miesiąca (od 1 do 12) jako Integer.
+            example: '=Month(Fields!SaleDate.Value)'
+            label: Month
+            syntax: "Month(<DateTime>)"
+          monthName:
+            description: Zwraca nazwę miesiąca z określonej daty jako Napis.
+            example: '=MonthName(Fields!SaleDate.Value)'
+            label: MonthName
+            syntax: 'MonthName(<Month Number>[, <Abbreviate>])'
+          now:
+            description: Zwraca aktualną datę i czas w systemie.
+            example: '=Now()'
+            label: Now
+            syntax: Now()
+          parse:
+            description: Przekształca określony Napis do formatu DataCzas.
+            example: '=DateTime.Parse("01/01/1970")'
+            label: DateTime.Parse
+            syntax: 'DateTime.Parse(<String>[, <String>])'
+          quarter:
+            description: Zwraca wartość kwartału (od 1 do 4) jako Integer.
+            example: '=Quarter(Fields!SaleDate.Value)'
+            label: Quarter
+            syntax: "Quarter(<DateTime>)"
+          quarterName:
+            description: Zwraca nazwę kwartału jako Napis.
+            example: '=QuarterName(Fields!SaleDate.Value)'
+            label: QuarterName
+            syntax: "QuarterName(<DateTime>)"
+          second:
+            description: Zwraca wartość sekundy (od 0 do 59) jako Integer.
+            example: '=Second(Fields!SaleDate.Value)'
+            label: Second
+            syntax: "Second(<DateTime>)"
+          timeOfDay:
+            description: Zwraca aktualny czas w  systemie jako Date.
+            example: '=TimeOfDay()'
+            label: TimeOfDay
+            syntax: TimeOfDay()
+          timeSerial:
+            description: Zwraca godzinę, minutę i sekundę jako Date z datą 1 stycznia roku 0001.
+            example: '=TimeSerial(DatePart("h", Fields!SaleDate.Value), DatePart("n", Fields!SaleDate.Value), DatePart("s", Fields!SaleDate.Value))'
+            label: TimeSerial
+            syntax: "TimeSerial(<Hour Number>, <Minute Number>, <Second Number>)"
+          timeString:
+            description: Zwraca aktualny czas w  systemie jako Napis.
+            example: '=TimeString()'
+            label: TimeString
+            syntax: TimeString()
+          timeValue:
+            description: Zwraca informację o czasie w formacie Napis, względem 1 stycznia roku 0001.
+            example: '=TimeValue("15:25:45"); =TimeValue(Fields!SaleDate.Value)'
+            label: TimeValue
+            syntax: "TimeValue(<StringTime>)"
+          timer:
+            description: Zwraca liczbę sekund, które upłynęły od północy jako Double.
+            example: '=Timer()'
+            label: Timer
+            syntax: Timer()
+          today:
+            description: Zwraca akutalną datę w systemie jako Date.
+            example: '=Today()'
+            label: Today
+            syntax: Today()
+          weekday:
+            description: Zwraca liczbę reprezentującą dzień tygodnia jako Integer.
+            example: '=Weekday(Fields!SaleDate.Value, 0)'
+            label: Weekday
+            syntax: 'Weekday(<DateTime>[, <DayOfWeek>])'
+          weekdayName:
+            description: Zwraca nazwę określonego dnia tygodnia jako Napis.
+            example: '=WeekdayName(3, True, 0); =WeekDayName(DatePart("w", Fields!SaleDate.Value), True, 0)'
+            label: WeekdayName
+            syntax: 'WeekdayName(<WeekDay>[, <Abbreviate>[, <FirstDayOfWeek>]])'
+          year:
+            description: Zwraca Integer reprezentujący rok - wartości od 1 do 9999.
+            example: '=Year(Fields!SaleDate.Value)'
+            label: Year
+            syntax: "Year(<DateTime>)"
+        inspection:
+          dbNull:
+            description: Pozwala sprawdzić czy wartość jest DBNull.
+            example: '=IIF(Fields!Organization.Value is DBNull.Value, "<NULL>", Fields!Organization.Value)'
+            label: DBNull.Value
+            syntax: DBNull.Value
+          isArray:
+            description: 'Zwraca "Prawda" jeśli wyrażenie może zostać zakwalifikowane jako zakres.'
+            example: '=IsArray(Parameters!Initials.Value)'
+            label: IsArray
+            syntax: "IsArray(<Expression>)"
+          isDBNull:
+            description: 'Zwraca "Prawda" jeśli wyrażenie jest nullem.'
+            example: '=IsDBNull(Fields!MonthlySales.Value)'
+            label: IsDBNull
+            syntax: "IsDBNull(<Expression>)"
+          isDate:
+            description: 'Zwraca "Prawda" jeśli wyrażenie jest wartością Date.'
+            example: '=IsDate(Fields!BirthDate.Value); =IsDate("31/12/2010")'
+            label: IsDate
+            syntax: "IsDate(<Expression>)"
+          isError:
+            description: 'Zwraca "Prawda" jeśli wyrażenie jest błędne.'
+            example: '=IsError(Fields!AnnualSales.Value = 80000)'
+            label: IsError
+            syntax: "IsError(<Expression>)"
+          isNothing:
+            description: 'Zwraca "Prawda" jeśli wyrażenie nic nie zwraca.'
+            example: '=IsNothing(Fields!MiddleInitial.Value)'
+            label: IsNothing
+            syntax: "IsNothing(<Expression>)"
+          isNumeric:
+            description: 'Zwraca "Prawda" jeśli wyrażenie jest liczbą.'
+            example: '=IsNumeric(Fields!AnnualSales.Value)'
+            label: IsNumeric
+            syntax: "IsNumeric(<Expression>)"
+        math:
+          abs:
+            description: Zwraca bezwzględną lub pozytywną wartość single-precision floating-point number.
+            example: '=Abs(-5.5); =Abs(Fields!YearlyIncome.Value - 80000)'
+            label: Abs
+            syntax: "Abs(<Number>)"
+          acos:
+            description: Zwraca kąt odpowiadający wartości cosinus.
+            example: '=Acos(.5); =Acos(Fields!Angle.Value)'
+            label: Acos
+            syntax: "Acos(<Number>)"
+          asin:
+            description: Zwraca kąt odpowiadający wartości sinus.
+            example: '=Asin(.5); =Asin(Fields!Angle.Value)'
+            label: Asin
+            syntax: "Asin(<Number>)"
+          atan:
+            description: Zwraca kąt odpowiadający wartości tangens.
+            example: '=Atan(.5); =Atan(Fields!Angle.Value)'
+            label: Atan
+            syntax: "Atan(<Number>)"
+          atan2:
+            description: Zwraca kąt, którego tangens to iloraz dwóch podanych liczb.
+            example: '=Atan2(3,7); =Atan2(Fields!CoordinateY.Value, Fields!CoordinateX.Value)'
+            label: Atan2
+            syntax: "Atan2(<Number1>, <Number2>)"
+          bigMul:
+            description: Zwraca wynik możenia dwóch 32-bitowych liczb.
+            example: '=BigMul(4294967295,-2147483647); =BigMul(Fields!Int32Value.Value, Fields!Int32Value.Value)'
+            label: BigMul
+            syntax: "BigMul(<Number1>, <Number2>)"
+          ceiling:
+            description: Zwraca najmniejszy Integer większy lub równy określonej liczbie double-precision floating-point.
+            example: '=Ceiling(98.4331); =Ceiling(Fields!AnnualSales.Value / 6)'
+            label: Ceiling
+            syntax: "Ceiling(<Number>)"
+          cos:
+            description: Zwraca cosinus określonej liczby.
+            example: '=Cos(60)'
+            label: Cos
+            syntax: "Cos(<Number>)"
+          cosh:
+            description: Zwraca cosinus hyperboliczny określonej liczby.
+            example: '=Cosh(60)'
+            label: Cosh
+            syntax: "Cosh(<Number>)"
+          e:
+            description: 'Zwraca wartość E = 2.71828182845905.'
+            example: '=E * 2'
+            label: E
+            syntax: E
+          exp:
+            description: Zwraca e podniesione do określonej potęgi, gdzie e to liczba Eulera. Odwrotność funkcji log.
+            example: '=Exp(3); =Exp(Fields!IntegerCounter.Value)'
+            label: Exp
+            syntax: "Exp(<Number>)"
+          fix:
+            description: Zwraca część całkowitą (Integer) liczby.
+            example: '=Fix(-7.15); =Fix(Fields!AnnualSales.Value / -5)'
+            label: Fix
+            syntax: "Fix(<Number>)"
+          floor:
+            description: Zwraca największy Integer większy lub równy określonej liczbie double-precision floating-point.
+            example: '=Floor(4.67); =Floor(Fields!AnnualSales.Value / 12)'
+            label: Floor
+            syntax: "Floor(<Number>)"
+          ieeeRemainder:
+            description: Zwraca resztę z dzielenia dwóch liczb, zgodnie ze standardami IEEE.
+            example: '=IEEERemainder(9, 8)'
+            label: IEEERemainder
+            syntax: "IEEERemainder(<Number1>, <Number2>)"
+          log:
+            description: Zwraca logarytm określonej liczby.
+            example: '=Log(20.5); =Log(Fields!NumberValue.Value)'
+            label: Log
+            syntax: "Log(<Number>)"
+          log10:
+            description: Zwraca logarytm dziesiętny określonej liczby.
+            example: '=Log10(20.5); =Log10(Fields!NumberValue.Value)'
+            label: Log10
+            syntax: "Log10(<Number>)"
+          max:
+            description: Zwraca maksymalną niepustą wartość z określonego wyrażenia.
+            example: '=Max(Fields!OrderTotal.Value)'
+            label: Max
+            syntax: "Max(<Values>)"
+          min:
+            description: Zwraca minimalną niepustą wartość z określonego wyrażenia.
+            example: '=Min(Fields!OrderTotal.Value)'
+            label: Min
+            syntax: "Min(<Values>)"
+          pi:
+            description: Zwraca wartość liczby Pi, która wynosi 3.14159265358979.
+            example: '=2 * PI * Fields!Radius.Value'
+            label: PI
+            syntax: PI
+          pow:
+            description: Zwraca liczbę podniesioną do określonej potęgi.
+            example: '=Pow(Fields!Quantity.Value, 2)'
+            label: Pow
+            syntax: "Pow(<Number1>, <Number2>)"
+          round:
+            description: Zwraca zaokrąglenie liczby Decimal do najbliższego Integer lub do najbliższej liczby Decimal, z dokładnością do określonej liczby znaków.
+            example: '=Round(12.456); =Round(Fields!AnnualSales.Value / 12.3)'
+            label: Round
+            syntax: "Round(<Number>)"
+          sign:
+            description: Zwraca wartość określającą znak 8-bitowego signed Integera.
+            example: '=Sign(Fields!AnnualSales.Value - 60000)'
+            label: Sign
+            syntax: "Sign(<Number>)"
+          sin:
+            description: Zwraca sinus określonej liczby.
+            example: '=Sin(60)'
+            label: Sin
+            syntax: "Sin(<Number>)"
+          sinh:
+            description: Zwraca sinus hiperboliczny określonego kąta.
+            example: '=Sinh(60)'
+            label: Sinh
+            syntax: "Sinh(<Number>)"
+          sqrt:
+            description: Zwraca pierwiastek kwadratowy okreslonej liczby.
+            example: '=Sqrt(121)'
+            label: Sqrt
+            syntax: "Sqrt(<Number>)"
+          tan:
+            description: Zwraca tangens określonej liczby.
+            example: '=Tan(60)'
+            label: Tan
+            syntax: "Tan(<Number>)"
+          tanh:
+            description: Zwraca tangens hiperboliczny określonego kąta.
+            example: '=Tanh(60)'
+            label: Tanh
+            syntax: "Tanh(<Number>)"
+          truncate:
+            description: Usuwa znaki po przecinku liczby Decimal bez zaokrąglania, zwracając sam Integer.
+            example: '=Truncate(Fields!UnitPrice.Value)'
+            label: Truncate
+            syntax: "Truncate(<Number>)"
+        miscellaneous:
+          getFields:
+            description: "Zwraca obiekt IDictionary<string,Field>, który zawiera obecną zawartość kolekcji Pól. Poprawne jedynie podczas użycia w obszarze regionu danych. Ta funkcja pozwala na łatwiejsze pisanie kodu, który boryka się ze złożonymi warunkami. Napisanie równoznacznej funkcji bez GetFields() wymagałoby przekształcenia każdej z odpytywanych wartości pól w metodę, co mogłoby być nieprzystępne w odniesieniu do wielu pól."
+            example: '=GetFields(); =Code.DisplayAccountID(GetFields())'
+            label: GetFields
+            syntax: GetFields()
+          getLength:
+            description: Zwraca liczbę elementów w określonym zakresie.
+            example: '=Parameters!MultiValueParameter.Value.GetLength(0)'
+            label: GetLength
+            syntax: "<Collection>.GetLength(<Number>)"
+          inScope:
+            description: Sprawdza (Prawda - Fałsz) czy aktualna wartość jest w określonym zakresie.
+            example: '=InScope("Order")'
+            label: InScope
+            syntax: "InScope(<Scope>)"
+          item:
+            description: "Zwraca element po nazwie z Pola/Parametery/ElementyRaportu."
+            example: '=Fields.Item("Company Name").Name, =Parameters.Item("Parameter1").Name, =ReportItems.Item("TextBox1").Value'
+            label: Item
+            syntax: '<Object | Record>.Item(<String>)'
+          join:
+            description: Zwraca Napis, który jest wynikiem łączenia elementów szeregu, używając określonego ogranicznika pomiędzy elementami.
+            example: '=Join(Parameters!MultiValueParameter.Value, ", ")'
+            label: Join
+            syntax: "Join(<Values>, <String>)"
+          level:
+            description: Zwraca Integer, reprezentujący obecny poziom głębokości w hierarchii rekurencyjnej w aktualnym zakresie. Numeracja rozpoczna się od 0.
+            example: '=Level()'
+            label: Level
+            syntax: Level()
+          levelWithScope:
+            description: Zwraca Integer, reprezentujący obecny poziom głębokości w hierarchii rekurencyjnej w określonym zakresie. Numeracja rozpoczyna się od 0.
+            example: '=Level("Order")'
+            label: Level (with scope)
+            syntax: "Level(<Scope>)"
+          lookup:
+            description: Zwraca pierwszą pasującą wartość dla określonej nazwy z zestawu danych.
+            example: '=Lookup(Fields!ProductID.Value, Fields!ProductID.Value, Fields!Quantity.Value, "DataSet2")'
+            label: Lookup
+            syntax: "Lookup(<Source>, <Destination>, <Result>, <DataSet>)"
+          lookupSet:
+            description: Zwraca zestaw pasujących wartości dla określonej nazwy z zestawu danych.
+            example: '=LookupSet(Fields!ProductID.Value, Fields!ProductID.Value, Fields!Quantity.Value, "DataSet2")'
+            label: LookupSet
+            syntax: "LookupSet(<Source>, <Destination>, <Result>, <DataSet>)"
+          previous:
+            description: Oblicza wartość wyrażenia dla poprzedniego wiersza danych.
+            example: '=Previous(Fields!OrderID.Value)'
+            label: Previous
+            syntax: "Previous(<Value>)"
+          rowNumber:
+            description: Oblicza dynamicznie liczbę wszystkich wierszy.
+            example: '=RowNumber()'
+            label: RowNumber
+            syntax: RowNumber()
+          rowNumberWithScope:
+            description: Oblicza dynamicznie liczbę wszystkich wierszy w określonym zakresie.
+            example: '=RowNumber("OrderID")'
+            label: RowNumber (with scope)
+            syntax: "RowNumber(<Scope>)"
+        programFlow:
+          choose:
+            description: Zwraca wartość z listy argumentów.
+            example: '=Choose(3, "10", "15", "20", "25")'
+            label: Choose
+            syntax: 'Choose(<Index>, <Value1>[, <Value2>,...[, <ValueN>]])'
+          iif:
+            description: Zwraca pierwszą wartość, jeśli wyrażanie zostanie zakwalifikowano jako Prawda, lub drugą, jeśli wyrażania zostanie zakwalifikowane jako Fałsz.
+            example: '=IIF(Fields!AnnualSales.Value >= 80000, "Above Average", "Below Average")'
+            label: IIF
+            syntax: "IIF(<Condition>, <TruePart>, <FalsePart>)"
+          partition:
+            description: "Zwraca Napis (w formie x : y), który reprezentuje obliczony zakres, bazując na określonym przedziale zawierającym określoną liczbę."
+            example: '=Partition(1999, 1980, 2000, 10)'
+            label: Partition
+            syntax: "Partition(<Value>, <Start>, <End>, <Interval>)"
+          switch:
+            description: Zwraca wartość pierwszego wyrażenia zakwalifikowanego jak Prawda spośród listy wyrażeń.
+            example: '=Switch(Fields!FirstName.Value = "Abraham", "Adria", Fields!FirstName.Value = "Charelotte", "Cherrie")'
+            label: Switch
+            syntax: 'Switch(<Condition1>, <Value1>[, <Condition2>, <Value2>,...[, <ConditionN>, <ValueN>]])'
+        text:
+          contains:
+            description: Zwraca Prawda, jeśli Napis zawiera określony fragment.
+            example: '=Fields!ShipAddress.Value.Contains("street")'
+            label: Contains
+            syntax: "<String>.Contains(<String>)"
+          endsWith:
+            description: Zwraca Prawda, jeśli Napis kończy się określonym fragmentem.
+            example: '=Fields!Description.Value.EndsWith("documents")'
+            label: EndsWith
+            syntax: "<String>.EndsWith(<String>)"
+          inStr:
+            description: Zwraca pozycję (początek) pierwszego wystąpienia określonego fragmentu wewnątrz Napisu.
+            example: '=InStr(Fields!Description.Value, "documents")'
+            label: InStr
+            syntax: "InStr(<String>, <String>)"
+          indexOf:
+            description: Zwraca indeks pierwszego wystąpienia określonego fragmentu wewnątrz Napisu.
+            example: '=Fields!Description.Value.IndexOf("documents")'
+            label: IndexOf
+            syntax: '<String>.IndexOf(<String>[, <Number>])'
+          lastIndexOf:
+            description: Zwraca indeks ostatniego wystąpienia określonego fragmentu wewnątrz Napisu.
+            example: '=Fields!Description.Value.LastIndexOf("documents")'
+            label: LastIndexOf
+            syntax: '<String>.LastIndexOf(<String>[, <Number>])'
+          replace:
+            description: Zamienia wszystkie wystąpienia pierwszego określonego fragmentu na drugi określony fragment.
+            example: '=Fields!Description.Value.Replace("documents", "invoices")'
+            label: Replace
+            syntax: "<String>.Replace(<String>, <String>)"
+          startsWith:
+            description: Zwraca Prawda, jeśli Napis rozpoczyna się od podanego fragmentu.
+            example: '=Fields!Description.Value.StartsWith("Invoice")'
+            label: StartsWith
+            syntax: "<String>.StartsWith(<String>)"
+          substring:
+            description: Zwraca fragment na określonej pozycji o określonej długości.
+            example: '=Fields!Description.Value.Substring(1, 10)'
+            label: Substring
+            syntax: "<String>.Substring(<Number>, <Number>)"
+          toLower:
+            description: Zwraca określony Napis jako małe znaki.
+            example: '=Fields!ShipCountry.Value.ToLower()'
+            label: ToLower
+            syntax: "<String>.ToLower()"
+          toUpper:
+            description: Zwraca określony Napis jako wielkie znaki.
+            example: '=Fields!ShipCountry.Value.ToUpper()'
+            label: ToUpper
+            syntax: "<String>.ToUpper()"
+          trim:
+            description: Zwraca Napis po usunięciu wszystkich zbędnych odstępów, zarówno na początku, jak i na końcu Napisu.
+            example: '=Parameters!Info.Value.Trim()'
+            label: Trim
+            syntax: "<String>.Trim()"
+          trimEnd:
+            description: Zwraca Napis po usunięciu wszystkich zbędnych odstępów z końca Napisu
+            example: '=Parameters!Info.Value.TrimEnd()'
+            label: TrimEnd
+            syntax: "<String>.TrimEnd()"
+          trimStart:
+            description: Zwraca Napis po usunięciu wszystkich zbędnych odstępów z początku Napisu
+            example: '=Parameters!Info.Value.TrimStart()'
+            label: TrimStart
+            syntax: "<String>.TrimStart()"
+      titles:
+        aggregate: Agregacja
+        conversion: Konwersja
+        dateTime: Data & Czas
+        inspection: Przegląd
+        label: Popularne funkcje
+        math: Matematyczne
+        miscellaneous: Różne
+        programFlow: Działanie programu
+        text: Tekstowe
+    operations:
+      info:
+        arithmetic:
+          add:
+            description: Zwraca sumę dwóch liczb lub łączy dwa Napisy
+            example: '=Fields!Quantity.Value + 2'
+            label: +
+            syntax: '<Value1> + <Value2>'
+          divide:
+            description: Dzieli dwie liczby i zwraca iloraz jako liczbę floating-point.
+            example: '=Fields!AnnualSales.Value / 2'
+            label: "/"
+            syntax: "<Number1> / <Number2>"
+          integerDivide:
+            description: Dzieli dwie liczby i zwraca wynik jako Integer.
+            example: '=Fields!AnnualSales.Value \ 2'
+            label: \
+            syntax: '<Number1> \ <Number2>'
+          mod:
+            description: Dzieli dwie liczby i zwraca resztę.
+            example: '=Fields!AnnualSales.Value Mod 12'
+            label: Mod
+            syntax: "<Number1> Mod <Number2>"
+          multiply:
+            description: Zwraca wynik mnożenia dwóch liczb.
+            example: '=Fields!Quantity.Value * 5'
+            label: '*'
+            syntax: '<Number1> * <Number2>'
+          power:
+            description: Podnosi liczbę do potęgi, którą określa druga liczba.
+            example: '=Fields!Quantity.Value ^ 2'
+            label: ^
+            syntax: '<Number1> ^ <Number2>'
+          subtract:
+            description: Zwraca różnicę pomiędzy dwiema liczbami lub podaje wartość ujemną wyrażenia.
+            example: '=Fields!Quantity.Value - 2'
+            label: -
+            syntax: "<Number1> - <Number2>"
+        bitShift:
+          leftShift:
+            description: Przeprowadza arytmetyczne przesunięcie w lewo na wzorze bitów.
+            example: '=Fields!RegionID.Value << 2'
+            label: "<<"
+            syntax: "<Number1> << <Number2>"
+          rightShift:
+            description: Przeprowadza arytmetyczne przesunięcie w prawo na wzorze bitów.
+            example: '=Fields!RegionID.Value >> 2'
+            label: ">>"
+            syntax: "<Number1> >> <Number2>"
+        comparison:
+          equal:
+            description: Zwraca Prawda, jeśli lewy argument jest równy prawemu.
+            example: '=Fields!AnnualSales.Value = 80000'
+            label: '='
+            syntax: '<Value1> = <Value2>'
+          greaterThan:
+            description: Zwraca Prawda, jeśli lewy argument jest większy od prawego.
+            example: '=Fields!AnnualSales.Value > 80000'
+            label: ">"
+            syntax: "<Value1> > <Value2>"
+          greaterThanOrEqual:
+            description: Zwraca Prawda, jeśli lewy argument jest większy lub równy w stosunku do prawego.
+            example: '=Fields!AnnualSales.Value >= 80000'
+            label: '>='
+            syntax: '<Value1> >= <Value2>'
+          is:
+            description: Porównuje dwa obiekty i zwraca Prawda, jeśli są równe sobie.
+            example: '=Fields!FirstName.Value Is Fields!LastName.Value'
+            label: Is
+            syntax: "<Value1> Is <Value2>"
+          like:
+            description: Porównuje dwa Napisy i zwraca Prawda, jeśli są takie same.
+            example: '=Fields!FirstName.Value Like "A*"'
+            label: Like
+            syntax: "<String1> Like <String2>"
+          lowerThan:
+            description: Zwraca Prawda, jeśli lewy argument jest mniejszy od prawego.
+            example: '=Fields!AnnualSales.Value < 80000'
+            label: "<"
+            syntax: "<Value1> < <Value2>"
+          lowerThanOrEqual:
+            description: Zwraca Prawda, jeśli lewy argument jest mniejszy lub równy w stosunku do prawego.
+            example: '=Fields!AnnualSales.Value <= 80000'
+            label: '<='
+            syntax: '<Value1> <= <Value2>'
+          notEqual:
+            description: Zwraca Prawda, jeśli lewy argument nie jest równy prawemu.
+            example: '=Fields!AnnualSales.Value <> 80000'
+            label: "<>"
+            syntax: "<Value1> <> <Value2>"
+        concatenation:
+          add:
+            description: Zwraca sumę dwóch liczb lub łączy dwa Napisy.
+            example: '=Fields!FirstName.Value + " " + Fields!LastName.Value'
+            label: +
+            syntax: '<String1> + <String2>'
+          concat:
+            description: Zwraca Napis z dwóch wyrażeń, z których każde jest Napisyem.
+            example: '=Fields!FirstName.Value & " " & Fields!LastName.Value'
+            label: &
+            syntax: "<String1> & <String2>"
+        logicalBitwise:
+          and:
+            description: Zwraca logiczne złożenie dwóch wyrażeń Boolean lub koniunkcję bitową dwóch wyrażeń liczbowych.
+            example: '=(Fields!AnnualSales.Value > 80000) And (Fields!Quantity.Value > 5)'
+            label: And
+            syntax: "<Value1> And <Value2>"
+          andAlso:
+            description: Zwraca logiczne złożenie dwóch wyrażeń Boolean, poprzez pomijanie oceny drugiego, jeśli pierwsze daje wynik.
+            example: '=(Fields!AnnualSales.Value > 80000) AndAlso (Fields!Quantity.Value > 1)'
+            label: AndAlso
+            syntax: "<Boolean1> AndAlso <Boolean2>"
+          not:
+            description: Zwraca logiczną negację wyrażenia Boolean lub bitową negację wyrażenia liczbowego.
+            example: '=Not (Fields!AnnualSales.Value > 80000)'
+            label: Not
+            syntax: "Not <Value>"
+          or:
+            description: Zwraca logiczną alternatywę dwóch wyrażeń Boolean lub bitową alternatywę dwóch wartości liczbowych.
+            example: '=(Fields!AnnualSales.Value > 80000) Or (Fields!Quantity.Value > 5)'
+            label: Or
+            syntax: "<Value1> Or <Value2>"
+          orElse:
+            description: Zwraca logiczną alternatywę dwóch wyrażeń Boolean, poprzez pomijanie oceny drugiego, jeśli pierwsze daje wynik.
+            example: '=(Fields!AnnualSales.Value > 80000) OrElse (Fields!Quantity.Value > 1)'
+            label: OrElse
+            syntax: "<Boolean1> OrElse <Boolean2>"
+          xor:
+            description: Zwraca logiczne wykluczenie dwóch wyrażeń Boolean lub bitowe wykluczenie dwóch wyrażeń liczbowych.
+            example: '=(Fields!AnnualSales.Value > 80000) Xor (Fields!Quantity.Value) > 5'
+            label: Xor
+            syntax: "<Value1> Xor <Value2>"
+      titles:
+        arithmetic: Arytmetyczne
+        bitShift: Przesunięcia bitowe
+        comparison: Porównania
+        concatenation: Konkatenacje
+        label: Operacje
+        logicalBitwise: "Logiczne/Bitowe"
+  fieldsLabel: Pola
+  infoPanel:
+    constant: "Stałe:"
+    description: "Opis:"
+    example: "Przykład:"
+    name: "Nazwa:"
+    syntax: "Składnia:"
+  reportItems: Elementy raportu
+  saveLabel: Zapisz
+  title: "Edytor wyrażenia: {propertyLabel}"
+filters:
+  add: Dodaj... #Add...
+  addCriterion: Dodaj Kryterium #Add Criterion
+  addGroup: Dodaj Grupę #Add Group
+  addItem: Dodaj Przedmiot #Add Item
+  allOf: Wszystkie Z #All Of
+  anyOf: Którykolwiek Z #Any Of
+  edit: Edytuj #Edit...
+  expressionText: Wyrażenie... #Expression...
+  filterPanelText: Wybierz Region Danych, aby edytować jego filtry #Select a Data Region to edit its filters
+  filtersText: Filtry #Filters
+  newParameter: Nowy Parametr #New Parameter
+  operators:
+    beginsWith: Zaczyna Się Z #Begins With
+    between: Pomiędzy #Between
+    bottomN: Dolne N #Bottom N
+    bottomPercent: Dolny Procent #Bottom Percent
+    contains: Zawiera #Contains
+    doesNotBeginWith: Nie Zaczyna Się Z #Does Not Begin With
+    doesNotContain: Nie Zawiera #Does Not Contain
+    equalTo: Równy Do #Equal To
+    greaterThan: Większy Od #Greater Than
+    greaterThanOrEqualTo: Większy Od lub Równy Do #Greater Than Or Equal To
+    in: W #In
+    lessThan: Mniej Niż #Less Than
+    lessThanOrEqualTo: Mniejszy Od lub Równy Do #Less Than Or Equal To
+    like: Jak #Like
+    notEqualTo: Nie Równy Do #Not Equal To
+    notIn: Nie W #Not In
+    topN: Górne N #Top N
+    topPercent: Górny Procent #Top Percent
+  reset: Reset #Reset
+groupEditor:
+  addGroup:
+    adjacentAfter: Przylegający za
+    adjacentBefore: Przylegający przed
+    child: Podrzędny
+    parent: Nadrzędny
+  addGroupLabel: Dodaj grupę
+  addTotal:
+    after: Za
+    before: Przed
+  addTotalLabel: Dodaj wszystko
+  advancedMode: Tryb zaawansowany
+  columnGroups: Grupy kolumn
+  deleteGroupLabel: Usuń
+  disableGroup: Wyłącz grupę
+  editExpressionLabel: Edytuj wyrażenie
+  enableGroup: Włącz grupę
+  hiddenStatic: (Statyczny)
+  rowGroups: Grupy wierszy
+  selectTablixLabel: Wybierz tablix, aby edytować jego grupy
+labels:
+  bandedList: Lista grupowana
+  bandedListDetails: Szczegóły
+  bandedListFooter: Stopka
+  bandedListGroup: Grupa
+  bandedListHeader: Nagłówek
+  barcode: Kod kreskowy
+  body: Treść
+  bullet: Punktor
+  chart: Wykres
+  checkbox: PoleWyboru
+  container: Kontener
+  dvchart: Wykres
+  dvchartAggregateEncoding: Zagregowane kodowanie
+  dvchartAxis: Osie
+  dvchartCategoryEncoding: Kodowanie kategorii
+  dvchartColorLegend: Legenda - kolor
+  dvchartDetailsEncoding: Kodowanie szczegółów
+  dvchartEncodingValue: Kodowanie wartości
+  dvchartFooter: Stopka
+  dvchartGlobalLegend: Ogólna legenda
+  dvchartHeader: Nagłówek
+  dvchartLegend: Legenda
+  dvchartPlot: Wykres
+  dvchartPlotArea: Obszar kreślenia
+  dvchartShapeLegend: Legenda - kształt
+  dvchartSizeLegend: Legenda - rozmiar
+  dvchartValueAggregateEncoding: Kodowanie agregacji wartości
+  dvchartXAxis: Oś X
+  dvchartYAxis: Oś Y
+  formattedText: Tekst sformatowany
+  gridColumn: Kolumna
+  gridRow: Wiersz
+  image: Obraz
+  inputField: Pole wprowadznia
+  line: Linia
+  list: Lista
+  overflowPlaceholder: Symbol zastępczy przepływu
+  page: Strona
+  pageFooter: Stopka strony
+  pageHeader: Nagłówek strony
+  pageSection: "Nagłówek/Stopka strony"
+  report: Raport
+  series: Serie
+  shape: Kształt
+  sparkline: Wykres przebiegu
+  subreport: Podraport
+  table: Tabela
+  tableColumn: Kolumna
+  tableDetails: Szczegóły
+  tableFooter: Stopka
+  tableGroup: Grupa
+  tableHeader: Nagłówek
+  tableOfContents: Spis treści
+  tableOfContentsLevel: Poziom
+  tableRow: Wiersz
+  tablix: Tablix
+  tablixColumn: Kolumna
+  tablixMember: Człon Tablixa
+  tablixRow: Wiersz
+  textbox: PoleTekstowe
+  total: Suma
+nameTemplates:
+  bandedList: ListaGrupowana
+  bandedListGroup: Grupa
+  barcode: WykresSlupkowy
+  bullet: Punktor
+  calculatedField: PoleObliczeniowe
+  categoryGroup: GrupaKategorii
+  chart: Wykres
+  checkbox: PoleWyboru
+  columnGroup: GrupaKolumn
+  container: Kontener
+  dataset: ZestawDanych
+  detailsGroup: GrupaSzczegółów
+  dvchart: Wykres
+  dvchartEncodingField: Pole
+  dvchartPlot: Wykres
+  field: Pole
+  fixedPage: StałaStrona
+  formattedText: TekstSformatowany
+  group: Grupa
+  image: Obraz
+  inputField: PoleWprowadzania
+  layer: Warstwa
+  line: Linia
+  list: Lista
+  mailMergeField: Pole
+  overflowPlaceholder: SymbolZastępczyPrzepływu
+  parameter: Parametr
+  reportParameter: Parametr
+  rowGroup: GrupaWierszy
+  seriesGroup: GrupaSerii
+  seriesValue: Wartość
+  shape: Kształt
+  sparkline: WykresPrzebiegu
+  subreport: Podraport
+  table: Tabela
+  tableDetailsGroup: GrupaSzczegółów
+  tableGroup: GrupaTabeli
+  tableOfContents: TabelaZawartości
+  tablix: Tablix
+  textbox: PoleTekstowe
+  tocLevel: Poziom
+  unknown: Element
+notifications:
+  addReportItem:
+    caption: "Element raportu typu '{reportItemType}' nie może zostać dodany do {containerType}"
+  convertTableForClient:
+    text: '✘ Tabela ''{name}'' ma niewłaściwą strukturę i została skonwertowana do Tablix'
+  deleteRowColumn:
+    caption: "Nie można usunąć {rowColumn}"
+    text: "{rowColumn} nie może zostać usunięta, ponieważ {itemType} '{itemName}' miałby nieprawidłowy rozmiar."
+  fixedPageSize:
+    caption: Akcja nie może zostać przeprowadzona
+    text: Element raportu nie może przekraczać rozmiaru strony
+  fplPasteFailed:
+    caption: Operacja wklejania zakończona niepowodzeniem
+    text: Nie ma wystarczająco miejsca, aby wkleić elementy raportu
+  innerException:
+    caption: Wystąpił wewnętrzny wyjątek
+  invalidPageSizes:
+    caption: Ta akcja zakończy się nieprawidłowym rozmiarem strony
+  lockLayout:
+    caption: Układ raportu jest zablokowany
+    text: Zmiana rozmiaru, przesuwanie, usuwanie, dodawanie elementów raportu i zmiana właściwości układu jest ograniczona
+  removeDefaultLayer:
+    caption: Nie można usunąć domyślnej warstwy
+  transaction:
+    caption: "Transakcja nieudana: {innerExceprion}"
+parametersViewEditor:
+  boundParameter:
+    allowBlank: Zezwól Na Puste
+    defaultValue: Wartość Domyślna
+    multiValue: Wielowartościowy
+    multiline: Wieloliniowy
+    nullable: Zezwól Na Null
+    parameter: "Parametr {name}"
+    text: Powiązany Parametr
+  canvas: Płótno
+  dataType:
+    boolean: Boolean
+    date: Data
+    dateTime: DataCzas
+    float: Float
+    integer: Integer
+    string: Napis
+  delete: Usuń
+  duplicate: Duplikuj
+  empty: "<Pusty>"
+  generateView: Generuj Widok
+  highlightRequired: Podświetl Wymagane
+  labels:
+    alignmentEnum:
+      bottom: Dół
+      center: Środek
+      horizontal: Poziomo
+      justify: Wyjustuj
+      left: Lewo
+      none: Brak
+      right: Prawo
+      top: Góra
+      vertical: Pionowo
+    binding: Powiązanie
+    bindingProperties:
+      any: Dowolny
+      boolean: Boolean
+      date: Data
+      dateDateTime: Data, DataCzas
+      integerFloat: Integer, Float
+    booleanEditor: Edytor Boolean
+    booleanParameter: Parametr Boolean
+    booleanProperties:
+      checkbox: Pole wyboru
+      falseText: Fałsz
+      radio: Przycisk
+      toggle: Przełącznik
+      trueText: Prawda
+      undefinedText: Niezdefiniowany
+    button: Przycisk
+    buttonProperties:
+      clear: Wyczyść
+      preview: Podgląd
+      reset: Resetuj
+    checkRangeTypeText: Parametry powinny mieć ten sam typ danych
+    dateRangeEditor: Edytor Zakresu Dat
+    dateRangeParameter: Parametr ZakresDat
+    dateRangeParameterLabels:
+      monthYearOrder: M-R
+      placeholderDateEnd: Koniec
+      placeholderDateStart: Początek
+      shortcuts:
+        labelLastMonth: Zeszły miesiąc
+        labelLastWeek: Zeszły tydzień
+        labelLastYear: Zeszły rok
+        labelMonthToDate: Od początku miesiąca
+        labelWeekToDate: Od początku tygodnia
+        labelYearToDate: Od początku roku
+      tabLabelAnnually: Rocznie
+      tabLabelDaily: Dziennie
+      tabLabelMonthly: Miesięcznie
+      textBack: Powrót do Kalendarza
+      textShortcutsList: Wspólne Zakresy
+    dateTimeEditor: Edytor DataCzas
+    dateTimeParameter: Parametr DataCzas
+    dateTimeParameterLabels:
+      monthYearOrder: M-R
+      textBack: Powrót do Kalendarza
+      textClear: Wyczyść
+      textToday: Dzisiaj
+    dateViewProperties:
+      accent: Akcent
+      days: Dni
+      default: Domyślnie
+      error: Błąd
+      months: Miesiące
+      noData: brak danych
+      none: Brak
+      warning: Ostrzeżenie
+      years: Lata
+    dropdownEditor: Edytor Listy Rozwijanej
+    dropdownParameter: Parametr rozwijany
+    fieldsProperties:
+      addBtnText: Dodaj
+      addBtnTitle: Dodaj pozycję
+      closeBtnTitle: Zamknij
+      collectionIsEmpty: Zbiór jest pusty
+      items: elementów
+      showItem: Pokaż pozycje
+    heading: Nagłówek
+    headingText: Tekst Nagłówka
+    hierarchicalParameter: Parametr hierarchiczny
+    listEditor: Edytor Listy
+    listParameter: Parametr listy
+    locationAndSize: Lokalizacja i Rozmiar
+    multivalueParameter: Parametr Wielowartościowy
+    nullText: 'Pusty' #'Null'
+    numberEditor: Edytor Liczb
+    numberParameter: Parmetr Liczbowy
+    numberRangeParameter: Parametr ZakresLiczbowy
+    numberReangeEditor: Edytor Zakresu Liczbowego
+    plainText: Zwykły Tekst
+    properties:
+      action: Akcja
+      alignment: Wyrównanie
+      background: Tło
+      color: Kolor
+      columns: Kolumny
+      common: Zwykły
+      daysHeaderFormat: Format Nagłówka Dni
+      details: Szczegóły
+      display: Wyświetlanie
+      dropdown: Lista Rozwijana
+      falseText: '"Fałsz"'
+      fields: Pola
+      from: Z
+      groupBy: Grupuj po
+      height: Wysokość
+      label: Etykieta
+      layout: Układ
+      left: Lewo
+      list: Lista
+      max: Maks.
+      maxRange: Maks. Zakres
+      min: Min.
+      mode: Tryb
+      multiValue: Wielowartościowy
+      multiline: Wieloliniowy
+      pathString: Ścieżka
+      recursive: Rekurencyjny
+      roundInputToStep: Zaokrąglanie
+      slider: Suwak
+      step: Stopień
+      strikethrough: Przekreślenie
+      text: Tekst
+      to: Do
+      top: Góra
+      trueText: '"Prawda"'
+      type: Typ
+      upDownEditor: Edytor Góra-Dół
+      value: Wartość
+      viewMode: Tryb Podglądu
+      width: Szerokość
+    propertyGrid:
+      closeSearchBtn: Zamknij
+      emptyListPlaceholder: Wybierz pozycję aby wyświetlić atrybuty
+      gridSearchPlaceholder: wprowadź nazwę atrybutu tutaj...
+      noCommonProperties: Brak wspólnych atrybutów
+      textUnknownProperty: "Nieznany atrybut:"
+    removeDefaultValue: Usuń Wartość Domyślną
+    singleLineParameter: Parametr Jednoliniowy
+    textEditor: Edytor Tekstu
+    treeView: Widok Drzewa
+    unspecified: Nieokreślony
+  msgString:
+    controlNotSupportParameters: Ten element sterujący nie obsługuje parametrów ze zdefiniowanymi wartościami
+    controlRequires: Ten element sterujący wymaga listy dostępnych wartości
+    notSupControl: nie jest wspierany przez ten element sterujący
+  multipleValues: "<Wiele wartości>"
+  propertiesText: Właściwości
+  removeView: Usuń Widok
+  resetView: Resetuj Widok
+  surface:
+    autoGenerate: Generować Automatycznie
+    emptySurfaceBlock:
+      descriptionButtonAfter: z dostępnych parametrów, lub rozpocząć od nowa z wykorzystaniem elementów z przybornika.
+      descriptionButtonBefore: Możesz
+      descriptionOne: Ten raport nie posiada widoku z niestandardowymi parametrami
+      descriptionTwo: Możesz go utworzyć korzystając z elementów z przybornika.
+    generate: Generować
+    messageBlock:
+      descriptionButtonAfter: dla nich edytory.
+      descriptionButtonBefore: możesz
+      descriptionOne: Nie wszystkie parametry raportu zostały powiązane.
+    scrollBar:
+      messagesOne: Parametry będą wyglądały w ten sposób na pasku bocznym użytkownika.
+      messagesTwo: Możesz zmienić kolejność przez przeciąganie elementów.
+  title: Parametry
+  verticalLayout: Układ Pionowy
+properties:
+  categories:
+    action: Akcja
+    appearance: Wygląd
+    availableValues: Dostępne wartości
+    background: Tło
+    backgroundAndBorders: Tło & Obramowania
+    bar: Ustawienia słupka
+    border: Obramowanie
+    borderColor: Kolor obramowania
+    borderRoundingRadius: Promień zaokrągleń obramowania
+    borderStyle: Styl obramowania
+    borderWidth: Szerokość obramowania
+    borders: Obramowania
+    column: Kolumna
+    common: Wspólne
+    content: Zawartość
+    data: Dane
+    dataLabel: Etykieta danych
+    dataLabelText: Tekst etykiety danych
+    defaultValue: Domyślna wartość
+    dimensions: Wymiary
+    documentMap: Mapa dokumentu
+    dvchartLabelBorder: Obramowanie etykiety
+    dvchartLabelLine: Linie etykiety
+    dvchartLabelText: Tekst etykiety
+    dvchartLegend: Legenda
+    dvchartLegendBackground: Tło legendy
+    dvchartLegendBorder: Obramowanie legendy
+    dvchartLegendText: Tekst legendy
+    dvchartLegendTitle: Tytuł legendy
+    dvchartPlotConfig: Konfiguracja
+    dvchartPlotEncodings: Kodowania
+    dvchartPlotStyle: Styl
+    dvchartPlotSymbols: Symbole
+    fields: Pola
+    fillStyle: Styl wypełnienia
+    font: Czcionka
+    general: Ogólne
+    grid: Linie siatki
+    group: Grupa
+    input: Wprowadzanie
+    international: Międzynarodowe
+    labelStyle: Styl etykiety
+    labels: Etykiety
+    layout: Układ
+    line: Linia
+    majorGrid: Główna siatka
+    majorTicks: Główne znaczniki osi
+    margins: Marginesy
+    marker: Znacznik
+    minorGrid: Pomniejsza siatka
+    minorTicks: Pomniejsze znaczniki osi
+    misc: Różne
+    noData: Brak danych
+    options: Opcje
+    pageSize: Rozmiar strony
+    preview: Podgląd
+    range: Zakres
+    referenceLine: Linia odniesienia
+    scale: Skala
+    seriesLineStyle: Styl linii serii
+    settings: Ustawienia
+    staticMembers: Elementy statyczne
+    symbology: Symbologia
+    tableFooter: Stopka
+    tableHeader: Nagłówek
+    targetDevice: Urządzenie docelowe
+    targetStyle: Docelowy styl
+    text: Tekst
+    threeDProperties: Właściwości 3D
+    tickStyle: Styl zaznaczenia
+    title: Tytuł
+    userSort: Sortowanie
+    valueStyle: Styl wartości
+    visibility: Widoczność
+  editors:
+    axisCollection:
+      propertiesTitle: Właściwości osi
+    boolean:
+      falseLabel: Fałsz
+      trueLabel: Prawda
+    colorDropdown:
+      theme: Kolory motywu
+      themeColors:
+        base: "{colorKey}"
+        darker25: '{colorKey} - 25% ciemniej'
+        darker50: '{colorKey} - 50% ciemniej'
+        lighter25: '{colorKey} - 25% jaśniej'
+        lighter50: '{colorKey} - 50% jaśniej'
+        lighter75: '{colorKey} - 75% jaśniej'
+    common:
+      disabled: Wyłączone
+      enabled: Włączone
+      expressionLabel: "<Wyrażenie>"
+      noneLabel: "<Brak>"
+    dataSetFieldCollection:
+      dataFieldHeader: Pole danych
+      dataFieldPlaceholder: "<Pole danych>"
+      fieldHeader: Nazwa pola
+      fieldPlaceholder: "<Nazwa>"
+      valueHeader: Wartość
+      valuePlaceholder: "<Wartość>"
+    dataSetParameterCollection:
+      nameHeader: Nazwa parametru
+      namePlaceholder: "<Nazwa>"
+      valueHeader: Wartość
+      valuePlaceholder: "<Wartość>"
+    datasetQuery:
+      placeholder: wprowadź zapytanie tutaj...
+    dvchartEncodingCollection:
+      aggregate:
+        prefix: Agregacja
+        propertiesTitle: Właściwości agregacji
+      color:
+        valuesName: Nazwy wartości w legendzie
+      details:
+        prefix: Szczegóły
+        propertiesTitle: Właściwości szczegółów
+      fieldPlaceholder: "<Klucz>"
+      value:
+        prefix: Wartość
+        propertiesTitle: Właściwości wartości
+      valuePlaceholder: "<Wartość>"
+    dvchartTemplate:
+      custom: "<Własne>"
+    filter:
+      label: "Filtruj {index}"
+      labels:
+        between: '[A] pomiędzy ([B], [C])'
+        bottomN: '[A] DolneN [N]'
+        bottomPercent: '[A] DolnyProcent [N%]'
+        equal: '[A] = [B]'
+        greaterThan: '[A] > [B]'
+        greaterThanOrEqual: '[A] >= [B]'
+        in: '[A] In ([B1],..,[Bn])'
+        lessThan: '[A] < [B]'
+        lessThanOrEqual: '[A] <= [B]'
+        like: '[A] jak [B]'
+        notEqual: '[A] <> [B]'
+        topN: '[A] GórneN [N]'
+        topPercent: '[A] GórnyProcent [N%]'
+      propertiesTitle: Filtruj właściwości
+      valuePlaceholder: "<Wartość>"
+    format:
+      $locale: pl-PL
+      $localeCurrency: PLN
+      currency: Waluta
+      custom: (Własne)
+      customFormatMask: '(###) ###-####'
+      decimal: Dziesiętny
+      default: "<Domyślny>"
+      digitsLabel: "znaki:"
+      fixedPoint: Stałopozycyjny
+      fullDateShortTime: "Pełna data/skrócony czas"
+      general: Ogólny
+      generalDateLongTime: "Ogólna data/pełny czas"
+      generalDateShortTime: "Ogólna data/skrócony czas"
+      hexadecimal: Szesnastkowy
+      longDate: Pełna data
+      longTime: Pełny czas
+      monthDay: Dzień miesiąca
+      number: Liczba
+      percent: Procent
+      scientific: Naukowy
+      shortDate: Skrócona data
+      shortTime: Skrócony czas
+      yearMonth: Rok miesiąc
+    image:
+      database: BAZA DANYCH
+      embedded: WBUDOWANA
+      load: Ładuj...
+      loading: Ładowanie...
+      noDataFieldsFound: Nie znaleziono pól danych
+      noImagesFound: Nie znaleziono obrazów
+      remove: "Usuń '{name}'..."
+      shared: UDOSTĘPNIONE
+    layerCollection:
+      propertiesTitle: "Właściwości warstwy: {layerName}"
+    mailMergeFieldsCollection:
+      nameHeader: Nazwa pola
+      namePlaceholder: "<Nazwa>"
+      valueHeader: Wartość
+      valuePlaceholder: "<Wartość>"
+    marginsSizes:
+      custom: (Własne)
+      values:
+        - _name: Brak
+          cm:
+            bottom: 0cm
+            left: 0cm
+            right: 0cm
+            top: 0cm
+          in:
+            bottom: 0in
+            left: 0in
+            right: 0in
+            top: 0in
+        - _name: Wąskie
+          cm:
+            bottom: 1.25cm
+            left: 1.25cm
+            right: 1.25cm
+            top: 1.25cm
+          in:
+            bottom: 0.5in
+            left: 0.5in
+            right: 0.5in
+            top: 0.5in
+        - _name: Normalne
+          cm:
+            bottom: 2.5cm
+            left: 2.5cm
+            right: 2.5cm
+            top: 2.5cm
+          in:
+            bottom: 1in
+            left: 1in
+            right: 1in
+            top: 1in
+        - _name: Szerokie
+          cm:
+            bottom: 2.5cm
+            left: 5cm
+            right: 5cm
+            top: 2.5cm
+          in:
+            bottom: 1in
+            left: 2in
+            right: 2in
+            top: 1in
+    pageSize:
+      custom: (Własne)
+      values:
+        - _name: List
+          cm:
+            height: 27.9cm
+            width: 21.6cm
+          in:
+            height: 11in
+            width: 8.5in
+        - _name: Tabloid
+          cm:
+            height: 43.2cm
+            width: 27.9cm
+          in:
+            height: 17in
+            width: 11in
+        - _name: Prawny
+          cm:
+            height: 35.6cm
+            width: 21.6cm
+          in:
+            height: 14in
+            width: 8.5in
+        - _name: Kierowniczy
+          cm:
+            height: 26.7cm
+            width: 18.4cm
+          in:
+            height: 10.5in
+            width: 7.25in
+        - _name: A3
+          cm:
+            height: 42cm
+            width: 29.7cm
+          in:
+            height: 16.54in
+            width: 11.69in
+        - _name: A4
+          cm:
+            height: 29.7cm
+            width: 21cm
+          in:
+            height: 11.69in
+            width: 8.27in
+        - _name: A5
+          cm:
+            height: 21cm
+            width: 14.8cm
+          in:
+            height: 8.27in
+            width: 5.83in
+        - _name: A6
+          cm:
+            height: 14.8cm
+            width: 10.5cm
+          in:
+            height: 5.83in
+            width: 4.13in
+        - _name: B4 (JIS)
+          cm:
+            height: 36.4cm
+            width: 25.7cm
+          in:
+            height: 14.33in
+            width: 10.12in
+        - _name: B5 (JIS)
+          cm:
+            height: 25.7cm
+            width: 18.2cm
+          in:
+            height: 10.12in
+            width: 7.17in
+        - _name: B6 (JIS)
+          cm:
+            height: 18.2cm
+            width: 12.8cm
+          in:
+            height: 7.17in
+            width: 5.04in
+        - _name: B5 (ISO)
+          cm:
+            height: 25cm
+            width: 17.6cm
+          in:
+            height: 9.84in
+            width: 6.93in
+    palette:
+      customPaletteLabel: "<Własny>"
+      extraPalettesHeader: Palety motywów
+      standardPalettesHeader: Standardowe palety
+    parameterCollection:
+      propertiesTitle: Właściwości parametru
+    picker:
+      dataVisualizerLabel: Wizualizator danych...
+      expressionLabel: Wyrażenie...
+      resetLabel: Reset
+    queryFilter:
+      addItem: Dodaj
+      addParent: Dodaj nadrzędne
+      chooseField: Wybierz atrybut lub parametr
+      chooseFunction: Wybierz funkcję
+      close: Zamknij
+      deleteItem: Usuń
+      deleteParent: Usuń nadrzędne
+      dropdowns:
+        functions:
+          titles:
+            aggregate: Agregacyjne
+            conditional: Warunkowe
+            conversion: Konwersje
+            dateTime: Data & Czas
+            logical: Logiczne
+            math: Matematyczne
+            miscellaneous: Różne
+            operators: Operatory
+            text: Tekst
+            userContext: Kontekst Użytkownika
+        parameters:
+          title: Parametry
+      inputConstant: Stałe wejście
+      noQueryFilters: Brak filtrów zapytań
+      queryFilterIsNotValid: "<Filtr zapytania nie jest prawidłowy. Rozwiń edytor i napraw znalezione błędy.>"
+      setFilter: Ustaw filtr
+      showItems: Pokaż elementy
+      title: Filtr zapytań
+      valuePlaceHolder: "<Wartość>"
+    reportParameter:
+      fromQuery: Z zapytania
+      label: Etykieta
+      nonQueried: Nie z zapytania
+      value: Wartość
+    reports:
+      loading: Ładowanie
+      loadingError: "Błąd {status}: {statusText}"
+    semanticPicker:
+      dataVisualizerLabel: Wizualizator danych...
+      expressionLabel: Wyrażenie...
+      resetLabel: Reset
+      specifyDataSetLabel: Określ Zestaw Danych, aby zobaczyć listę dostępnych atrybutów
+      warnings:
+        groupingByAggregate: nie zaleca się grupowania wg atrybutów agregacji
+        groupingIsDiscouraged: nie zaleca się grupowania wg tego atrybutu
+    simple:
+      backgroundColor:
+        label: Kolor tła
+      borders:
+        borderColor: Kolor obramowania
+        borderStyle: Styl obramowania
+        borderWidth: Grubość obramowania
+        borders: Obramowania
+        sides:
+          all: Wszystko
+          bottom: Dół
+          left: Lewa
+          reset: Reset
+          right: Prawa
+          top: Góra
+      common:
+        expression: Wyrażenie...
+        expressionCompactLabel: '< 𝑓 >'
+        expressionLabel: "<Wyrażenie>"
+      font:
+        fontFamily: Rodzina czcionki
+        fontSize: Rozmiar czcionki
+        fontStyle: Styl czcionki
+        fontWeight: Grubość czcionki
+        textColor: Kolor tekstu
+        textDecoration: Dekoracja tekstu
+    subreport:
+      parameter: Parametr
+      parameterNameHeader: Nazwa
+      parameterNamePlaceholder: "<Nazwa>"
+      parameterValueHeader: Wartość
+      parameterValuePlaceholder: "<Wartość>"
+    toggleState:
+      collapsed: Zwinięte
+      expanded: Rozwinięte
+    validationErrors:
+      enum:
+        incorrect: "Wartość Enum typu '{enumType}' powinna być jedną z następujących: {enumValues}"
+      expression:
+        errorPosition: "w wierszu {line}, kolumnie {column}"
+        incorrect: Nieprawidłowe wyrażenie
+        parseError: "Błąd składniowy: nie można przekonwertować tego wyrażenia składni interpolacji na składnię rdl" #"Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
+        syntaxError: "Błąd składni: nieoczekiwany token '{token}' {positionInfo}"
+        unknownField: "Uwaga: nieznana nazwa pola w '{token}' {positionInfo}"
+        unknownParameter: "Uwaga: nieznana nazwa parametru w '{token}' {positionInfo}"
+        unknownReportItem: "Uwaga: nieznana nazwa elementu raportu w '{token}' {positionInfo}"
+        warning: "Uwaga: nieznany token '{token}' {positionInfo}"
+      length:
+        negative: Wartość powinna być większa niż zero
+        tooLarge: "Wartość powinna być mniejsza niż {max}"
+        tooSmall: "Wartość powinna być większa niż {min}"
+        unit: "Poprawne jednostki: 'cm', 'mm', 'in', 'pt', oraz 'pc'"
+      mime_type:
+        incorrect: "Obraz typu MIME powinien pasować {wildcard}"
+      number:
+        nan: Wartość nie jest liczbą
+        tooLarge: "Wartość powinna być mniejsza niż {max}"
+        tooSmall: "Wartość powinna być większa niż {min}"
+      pattern: "Niewłaściwe wyrażenie. Wyrażenie dla tego atrybutu musi być typu '{type}'. {info}"
+  labels:
+    action:
+      jumpToBookmark: Przejdź do zakładki
+      jumpToReport: Przejdź do raportu
+      jumpToUrl: Przejdź do linku
+      parameters: Parametry
+    bandedList:
+      canGrow: Może rosnąć
+      canShrink: Może maleć
+      consumeWhiteSpace: Usuń zbędne odstępy
+      preventOrphanedFooter: Zapobiegaj osieroconej stopce
+      preventOrphanedHeader: Zapobiegaj osieroconemu nagłówkowi
+      printAtBottom: Wydrukuj na dole
+      repeatOnNewPage: Powtarzaj na nowej stronie
+    barcode:
+      barHeight: Wysokość słupka
+      captionGrouping: Grupowanie podpisów
+      captionLocation: Lokalizacja podpisów
+      checksum: Suma kontrolna
+      code49Options:
+        groupNumber: Numer grupy
+        grouping: Grupowanie
+      dataMatrixOptions:
+        ecc000_140SymbolSize: Symbol rozmiaru Ecc000_140
+        ecc200EncodingMode: Tryb kodowania Ecc200
+        ecc200SymbolSize: Symbol rozmiaru Ecc200
+        eccMode: Tryb Ecc
+        encoding: Kodowanie
+        fileIdentifier: identyfikator pliku
+        structureNumber: Numer struktury
+        structuredAppend: Ustruktyryzowane dodawanie
+      ean128Fnc1Options:
+        barAdjust: Dostosowywanie słupka
+        moduleSize: Rozmiar modułu
+        resolution: Dpi
+      gs1CompositeOptions:
+        type: Typ złożony
+        value: Wartość złożona
+      gs1QrCodeOptions:
+        encoding: Kodowanie
+        errorLevel: Poziom błędu
+        mask: Maska
+        version: Wersja
+      invalidBarcodeText: Nieprawidłowy tekst kodu kreskowego
+      maxiCodeOptions:
+        mode: Tryb
+      microPdf417Options:
+        compactionMode: Tryb zagęszczenia
+        fileId: ID pliku
+        segmentCount: Liczba segmentów
+        segmentIndex: Indeks segmentów
+        version: Wersja
+      microQrCodeOptions:
+        encoding: Kodowanie
+        errorLevel: Poziom błędu
+        mask: Maska
+        version: Wersja
+      narrowBarWidth: Szerokość wąskiego słupka
+      nwRatio: Współczynnik NW
+      nwRatio_help:
+        text: "Znany także jako wymiar N; jest to wartość definiująca wielokrotność proporcji pomiędzy wąskim a szerokim paskiem w symbologiach zawierających słupki w tylko dwóch wersjach."
+      pdf417Options:
+        columns: Kolumny
+        errorCorrectionLevel: Poziom korekcji błędu
+        rows: Wiersze
+        type: Typ PDF417
+      qrCodeOptions:
+        connection: Połączenie
+        connectionNumber: Numer połączenia
+        encoding: Kodowanie
+        errorLevel: Poziom błędu
+        mask: Maska
+        model: Model
+        version: Wersja
+      quietZone: Cicha strefa
+      rotation: Rotacja
+      rssExpandedStacked:
+        rowCount: Liczna wierszy
+      supplementOptions:
+        barHeight: Uzupełnij wysokość paska
+        captionLocation: Uzupełnij lokalizację podpisu
+        spacing: Uzupełnij rozstaw
+        value: Uzupełnij wartość
+      symbology: Typ
+      value: Wartość
+    border:
+      bottom: Dół
+      color: Kolor
+      default: Domyślnie
+      left: Lewo
+      right: Prawo
+      style: Styl
+      top: Góra
+      width: Szerokość
+    bullet:
+      bestValue: Najwyższa wartość
+      interval: Interwał
+      labelFontColor: Kolor czcionki
+      labelFontFamily: Rodzina czcionki
+      labelFontSize: Rozmiar czcionki
+      labelFontStyle: Styl czcionki
+      labelFormat: Format etykiety
+      orientation: Orietnacja
+      range1Boundary: Granica Zakres1
+      range2Boundary: Granica Zakres2
+      showLabels: Pokaż etykiety
+      targetLineColor: Kolor
+      targetLineWidth: Grubość linii
+      targetShape: Kształt
+      targetValue: Wartość docelowa
+      tickMarks: Znaczniki
+      ticksLineColor: Kolor
+      ticksLineWidth: Grubość linii
+      value: Wartość
+      valueColor: Kolor wartości
+      worstValue: Najniższa wartość
+    checkBox:
+      checkAlignment: Sprawdź wyrównanie
+      checked: Zaznaczone
+      text: Tekst
+    container:
+      consumeWhiteSpace: Usuń zbędne odstępy
+      gridMode: Tryb siatki
+      linkToChild: Linkuj do podrzędnych
+      pageBreak: Przełamanie strony
+    data:
+      dataElementName: Nazwa elementu
+      dataElementOutput: Wynik elementu
+      dataElementStyle: Styl elementu
+    dataRegion:
+      dataSetName: Nazwa zestawu danych
+      dataSetParameters: Parametry zestawu danych
+      dataSetParameters_help:
+        text: Ustawienie parametru ParametryZestawuDanych pozwoli na dodawanie relacji dla wyświetlania danych w zagnieżdżonych regionach danych, które są połączone do innych zestawów danych.
+      filters: Filtry
+      newSection: Nowa sekcja
+      noRowsMessage: Wiadomość
+      overflowName: Nazwa przepływu
+      pageBreak: Przełamanie strony
+      repeatToFill: Powtórz, aby wypełnić
+      sortExpressions: Wyrażenia sortowania
+      throwIfPlaceHoldersEmpty: Wyrzuć jeśli symbole zastępcze są puste
+    dataSet:
+      accentSensitivity: Czułość akcentu
+      boundFields: Pola zakresu
+      calculatedFields: Pola obliczeniowe
+      caseSensitivity: Rozróżnianie wielkości liter
+      collation: Porównywanie znaków
+      commandType: Rodzaj polecenia
+      fields: Pola
+      filters: Filtry
+      kanatypeSensitivity: Czułość Kanatype
+      name: Nazwa
+      parameters: Parametry
+      query: Zapytanie
+      widthSensitivity: Czułość grubości
+    dataSetParameter:
+      name: Nazwa
+      value: Wartość
+    dataVisualizer:
+      colorScale:
+        maximum: Maksimum
+        maximumColor: Maksymalny kolor
+        middle: Środkowy
+        middleColor: Środkowy kolor
+        minimum: Minimum
+        minimumColor: Minimalny kolor
+        useMiddleColor: Użyj środkowego koloru
+        value: Wartość
+      dataBar:
+        alternateColor: Alternatywny kolor
+        color: Kolor
+        maximum: Maksimum
+        minimum: Minimum
+        useAlternateColor: Użyj kolor alternatywnego
+        useAlternateColor_help:
+          text: "Jeśli jest włączony, 'Alternatywny kolor' będzie używany kiedy 'Wartość' jest mniejsza niż 'Wartość zerowa'"
+        value: Wartość
+        zeroValue: Wartość zerowa
+      gradient:
+        color1: Kolor 1
+        color2: Kolor 2
+        gradientType: Typ gradientu
+      hatch:
+        color1: Kolor 1
+        color2: Kolor 2
+        hatchStyle: Styl kreskowania
+      iconSet:
+        icon1Value: Wartość Ikony 1
+        icon2Value: Wartość Ikony 2
+        icon3Value: Wartość Ikony 3
+        icon4Value: Wartość Ikony 4
+        icon5Value: Wartość Ikony 5
+        iconSet: Zestaw ikon
+      rangeBar:
+        color: Kolor
+        displayProgressIndicator: Wyświetl wskaźnik postępu
+        length: Długość
+        maximum: Maksimum
+        minimum: Minimum
+        progressIndicatorColor: Kolor wskaźnika postępu
+        progressIndicatorLength: Długość wskaźnika postępu
+        startingValue: Wartość początkowa
+      visualizerType: Typ wizualizatora
+    dimensions:
+      bottom: Odległość od dołu
+      endPointX: Punkt końcowy osi X
+      endPointY: Punkt końcowy osi Y
+      fixedHeight: Maksymalna wysokość
+      fixedSize: Maksymalny rozmiar
+      fixedWidth: Maksymalna szerokość
+      height: Wysokość
+      left: Odległość od lewej
+      location: Lokalizacja
+      right: Odległość od prawej
+      size: Rozmiar
+      startPointX: Punkt początkowy osi X
+      startPointY: Punkt początkowy osi Y
+      top: Odległość od góry
+      width: Szerokość
+    dvchart:
+      bar:
+        bottomWidth: Dolna szerokość
+        neckHeight: Wysokość szyjki
+        overlap: Nasunięcie
+        topWidth: Szerokość górna
+        width: Szerokość
+      customPaletteColors: Własna paleta kolorów
+      legendHidden: Ukryte
+      legendOrientation: Orientacja
+      legendPosition: Pozycja
+      legendWrapping: Zawijanie
+      palette: Paleta
+      plotTemplate: Szablon wykresu #Plot Template
+      plotTemplateDropdown: Wybierz... #Select...
+      plots: Wykresy
+    dvchartAxis:
+      axisType: Typ osi
+      gridLinesStyle: Styl linii siatki
+      labelAngle: Kąt etykiety
+      lineStyle: Styl linii
+      logBase: Baza logów
+      majorInterval: Główny odstęp
+      max: Maks
+      min: Min
+      minorInterval: Pomniejszy odstęp
+      origin: Źródło
+      overlappingLabels: Nakładanie etykiet
+      plots: Wykresy
+      position: Pozycja
+      reversed: Odwrócone
+      scale: Typ skali
+      showGridLines: Pokaż linie siatki
+      showMajorGridLines: Główne linie siatki
+      showMinorGridLines: Pomniejsze linie siatki
+      tickMarks: Znaczniki
+      tickSize: Rozmiar znaczników
+      tickStyle: Styl zaznaczników
+      title: Tytuł
+      visible: Widoczność
+    dvchartEncoding:
+      aggregateType: Agregacja
+      excludeNulls: Wyklucz null
+      fieldType: Typ pola
+      fieldValue: Wartość
+      group: Grupa
+      sort: Kierunek sortowania
+      sortingAggregate: Agregat sortowania
+      sortingField: Wyrażenie sortowania
+      value: Wartości
+    dvchartHeaderFooter:
+      caption: Podpis
+      height: Wysokość
+    dvchartLegend:
+      hidden: Ukryte
+      orientation: Orientacja
+      position: Pozycja
+      title: Tytuł
+    dvchartPlot:
+      bar: Linie słupka
+      category: Kategoria
+      categorySort: Kierunek sortowania
+      categorySortingField: Wyrażenie sortowania
+      clippingMode: Tryb obcinania
+      color: Kolor
+      colorAggregate: Agregacja koloru
+      details: Szczegóły
+      innerRadius: Wewnętrzny promień
+      lineAspect: Aspekt linii
+      lineColor: Kolor linii
+      lineStyle: Styl linii
+      lineWidth: Szerokośc linii
+      offset: Offset
+      opacity: Nieprzezroczystość
+      plotStyle: Styl wykresu
+      radial: Promieniowy
+      shape: Kształt
+      shapeAggregate: Agregacja kształtu
+      showNulls: Pokaż nulle
+      size: Rozmiar
+      sizeAggregate: Agregacja rozmiaru
+      startAngle: Kąt startowy
+      swapAxes: Zamień osie
+      sweep: Wyczyść
+      symbolBackgroundColor: Kolor tła
+      symbolOpacity: Nieprzezroczystość symbolu
+      symbolShape: Kształt symbolu
+      symbolStyle: Styl symbolu
+      symbols: Pokaż symbole
+      text: Tekst
+      textBackgroundColorStyle: Kolor tła
+      textConnectingLine: Linia łącząca
+      textLinePosition: Pozycja
+      textOffset: Offset
+      textOverlappingLabels: Nakładanie etykiet
+      textPosition: Pozycja
+      textTemplate: Szablon
+      tooltip: Etykietka
+      tooltipTemplate: Szablon etykietyki
+      type: Typ wykresu
+      values: Wartości
+    dvchartPlotArea:
+      axes: Osie
+    dvchartValueEncoding:
+      field:
+        close: Blisko
+        high: Wysoko
+        low: Nisko
+        lower: Niżej
+        open: Otwarte
+        upper: Wyżej
+        value: Wartość
+    filter:
+      filterExpression: Filtruj wyrażenie
+      filterValues: Filtruj wartości
+      operator: Operator
+      value: Wartość
+    font:
+      fontFamily: Rodzina czcionek
+      fontSize: Rozmiar czcionek
+      fontStyle: Styl czcionek
+      fontWeight: Grubość czcionek
+    formattedText:
+      encodeMailMergeFields: Koduj pola scalania
+      html: Html
+      mailMergeFields: Pola scalania
+    fplReport:
+      fixedElementName: Nazwa elementu strony
+      fixedElementOutput: Wyjście elementu strony
+    group:
+      dataCollectionName: Nazwa zbioru danych
+      dataElementName: Nazwa elementu danych
+      dataElementOutput: Wyjście elementu danych
+      documentMapLabel: Etykieta
+      filters: Filtry
+      groupExpressions: Wyrażenia grupy
+      name: Nazwa
+      newSection: Nowa sekcja
+      pageBreak: Przełamanie strony
+      pageBreakDisabled: Przełamanie strony wyłączone
+      parent: Nadrzędny
+      printFooterAtBottom: Drukuj stopkę na dole
+    image:
+      backgroundRepeat: Powtórz
+      horizontalAlignment: Wyrównanie poziome
+      imageLabel: Obraz
+      mimeType: Typ MIME
+      sizing: Zmiana rozmiary obrazu
+      source: ŹródłowSource
+      value: WartośćValue
+      verticalAlignment: Wównanie pionowe
+    inputField:
+      checkSize: Sprawdź rozmiar
+      checkStyle: Sprawdź styl
+      checked: Zaznaczone
+      fieldName: Nazwa pola
+      inputType: Typ
+      maxLength: Maksymalna długość
+      multiline: Wieloliniowy
+      password: Hasło
+      readonly: Tylko do odczytu
+      required: Wymagane
+      spellCheck: Sprawdzanie pisowni
+      value: Wartość
+    layer:
+      designerLock: Blokada projektanta
+      designerTransparency: Przezroczystość projektanta
+      designerVisible: Widoczność projektanta
+      name: Nazwa
+      targetDevice:
+        all: Wszystko
+        export: Eksport
+        paper: Papier
+        screen: Obraz
+    line:
+      endPoint: Punkt końcowy
+      lineColor: Kolor linii
+      lineStyle: Styl linii
+      lineWidth: Szerokośc linii
+      startPoint: Punkt początkowy
+    list:
+      consumeWhiteSpace: Usuń zbędne odstępy
+      dataInstanceElementOutput: Wyjście elementu instancji danych
+      dataInstanceName: Nazwa instancji danych
+      gridMode: Tryb siatki
+    margins:
+      bottom: Dół
+      left: Lewo
+      right: Prawo
+      top: Góra
+    overflowPlaceHolder:
+      overflowName: Nazwa przepływu
+    padding:
+      bottom: Dół
+      left: Lewo
+      right: Prawo
+      top: Góra
+    pageSection:
+      printOnFirstPage: Drukuj na pierwszej stronie
+      printOnLastPage: Drukuj na ostatniej stronie
+    parameter:
+      omit: Pomiń
+      parametername: Nazwa parametru
+      parameters: Parametry
+      value: Wartość
+    report:
+      author: Autor
+      collateBy: Posortuj według
+      columnSpacing: Odstęp kolumn
+      columns: Kolumny
+      consumeContainerWhitespace: Usuń zbędne odstępy
+      description: Opis
+      displayType: Typ wyświetlania
+      embeddedImages: Wbudowane obrazy
+      language: Język
+      layers: Warstwy
+      level: Poziom
+      levels: Poziomy
+      marginsSizes: Rozmiary
+      marginsStyle: Styl
+      numberingStyle: Styl numerowania
+      pageHeight: Wysokość strony
+      pageOrientation: Orientacja strony
+      pageSize: Rozmiar strony
+      pageWidth: Szerokość strony
+      sizeType: Typ rozmiaru
+      source: Źródło
+      startPageNumber: Numer strony startowej
+      theme: Motyw
+      themes: Motywy
+    reportItem:
+      actionType: Typ
+      bookmark: Zakładka
+      keepTogether: Trzymaj razem
+      label: Etykieta
+      layerName: Nazwa warstwy
+      name: Nazwa
+      pageName: Nazwa strony
+      style: Styl
+      toolTip: Etykietka
+      visibility: Widoczność
+      zIndex: Indeks-Z
+    reportParameter:
+      allowBlankValue: Zezwól na puste
+      allowNullValue: Zezwól na null
+      dataSetName: Nazwa zestawu danych
+      dataType: Typ danych
+      hidden: Ukryte
+      label: Etykieta
+      labelField: Pole etykiety
+      multiline: Wieloliniowy
+      multivalue: Wielowartościowy
+      name: Nazwa
+      parameterValues: Wartości parametru
+      prompt: Etykieta
+      selectAllValue: Wybierz wszystkie wartośći
+      selectAllValue_help:
+        text: 'Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy "Wybierz wszystkie" jest ustawione na parametr Wielowartościowy'
+      value: Wartość
+      valueField: Pole wartości
+      values: Wartości
+    roundingRadius:
+      bottomLeft: Lewy dolny
+      bottomRight: Prawy dolny
+      default: Domyślnie
+      label: Promień zaokrąglenia
+      topLeft: Lewy górny
+      topRight: Prawy górny
+    sparkline:
+      fillColor: Kolor wypełnienia
+      gradientEndColor: Graniczny kolor gradientu
+      gradientStyle: Typ gradientu
+      lineColor: Kolor linii
+      lineWidth: Szerokość linii
+      markerColor: Kolor znacznika
+      markerVisibility: Widoczność znacznika
+      maximumColumnWidth: Maksymalna szerokość
+      rangeFillColor: Kolor wypełnienia
+      rangeGradientEndColor: Graniczny kolor gradientu
+      rangeGradientStyle: Typ gradientu
+      rangeLowerBound: Dolny zakres
+      rangeUpperBound: Górny zakres
+      rangeVisibility: Widoczność
+      seriesValue: Wartość serii
+      sparklineType: Typ wykresu przebiegu
+    style:
+      angle: Kąt
+      backgroundAndBorders: Tło i obramowania
+      backgroundColor: Kolor
+      backgroundGradientEndColor: Graniczny kolor gradientu
+      backgroundGradientType: Typ gradientu
+      backgroundImage: Obraz
+      border: Obramowanie
+      calendar: Kalendarz
+      characterSpacing: Odstęp znaków
+      color: Kolor
+      corner: Róg
+      direction: Kierunek
+      font: Czcionka
+      format: Format
+      headingLevel: Poziom nagłówka
+      language: Język
+      lineHeight: Wysokość linii
+      lineSpacing: Odstęp linii
+      maxLevel: Maksymalny poziom
+      minCondenseRate: Minimalna stopa kondensowania
+      minCondenseRate_help:
+        text: Określna minimalną stopę poziomego zmniejszania tekstu w procentach. Powinien być pomiędzy 10 a 100.
+      numeralLanguage: Język liczb
+      numeralVariant: Wariant liczb
+      padding: Marginesy
+      shapeStyle: Styl kształtu
+      shrinkToFit: Zmniejszaj, aby dopasować
+      textAlign: Wyrównanie tekstu
+      textDecoration: Dekoracja tekstu
+      textIndent: Wcięcie tekstu
+      textJustify: Justowanie tekstu
+      unicodeBiDi: Unicode BiDi
+      verticalAlign: Wyrównanie pionowe
+      wrapMode: Tryb zawijania
+      writingMode: Tryb pisania
+    subreport:
+      inheritStyleSheet: Dziedzicz arkusz stylów
+      mergeTransactions: Łącz transakcje
+      reportName: Nazwa raportu
+      reportParameters: Parametry raportu
+      substituteThemeOnSubreport: Zastąp motyw na podraporcie
+    table:
+      detailsDataCollectionName: Nazwa zbioru danych szczegółów
+      detailsDataElementName: Nazwa elementów danych szczegółów
+      detailsDataElementOutput: Wynik elementów danych szczegółów
+      keepTogether: Trzymaj razem
+      preventOrphanedFooter: Zapobiegaj osieroconej stopce
+      printAtBottom: Drukuj na dole
+      repeatOnNewPage: Powtórz na nowej stronie
+    tablix:
+      frozenColumns: Zablokowane kolumny
+      frozenRows: Zablokowane wiersze
+      groupsBeforeRowHeaders: Grupy przed nagłówkami wierszy
+      layoutDirection: Kierunek układu
+      repeatColumnHeaders: Powtarzaj nagłówki kolumn
+      repeatRowHeaders: Powtarzaj nagłówki wierszy
+    tablixBodyCell:
+      autoMergeMode: Tryb automatycznego scalania
+      autoMergeMode_help:
+        text: Wskazuje czy dwie lub więcej następujących po sobie w kolumnie komórek mających tę samę zawartość powinny podlegać scaleniu. Będzie działać tylko dla komórki PoleTekstowe.
+    tablixMember:
+      groupEnabled: Włączone
+      keepWithGroup: Trzymaj z grupą
+      repeatOnNewPage: Powtórz na nowej stronie
+    textbox:
+      canGrow: Może rosnąć
+      canShrink: Może maleć
+      initialToggleState: Początkowy stan przełącznika
+      value: Wartość
+    tocLevel:
+      displayFillCharacters: Wyświetl znak wypełnienia
+      displayPageNumber: Wyświetl numer strony
+      fillCharacter: Znak wypełnienia
+      label: Etykieta
+    userSort:
+      sortExpression: Wyrażenie sortowania
+      sortExpressionScope: Zakres wyrażenia sortowania
+      sortTarget: Cel sortowania
+    visibility:
+      hidden: Ukryte
+      toggleItem: Przełącznik
+romLabels:
+  chart: Wykres
+  dvchart: Wykres.DV
+  matrix: Matryca
+  table: Tabela
+  tablix: Tablix
+tablixWizard:
+  addDataSet: Najpier dodaj zestaw danych do raportu
+  addValue: Proszę dodać przynamniej jedną wartość aby stworzyć Tablix. #Please add at least a single value to create a Tablix.
+  aggregate: Agregacja
+  aggregates:
+    avg: Avg
+    count: Count
+    max: Max
+    min: Min
+    none: None
+    sum: Sum
+  asRows: Jako Wiersze #As Rows
+  cannotEditInWizard: Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup.
+  collapsedGroups: Zwinięte Grupy #Collapsed Groups
+  columns: Grupy Kolumn #Column Groups
+  dataSets: Zestawy danych
+  delete: Usuń #Delete
+  expandCollapse: "Rozwiń/Zwiń grupy"
+  format: Format
+  formats:
+    currency: Waluta
+    decimal: Dziesiętny
+    default: Domyślny
+    general: Ogólny
+    number: Liczbowy
+    percent: Procentowy
+  frozenColumns: Zablokuj kolumny
+  frozenRows: Zablokuj wiersze
+  layoutDesign: Design Układu
+  layoutOptions: Opcje Układu
+  makeTablix:
+    total: Całkowity #Total
+    values: Wartości #Values
+  noDataSets: Raport nie ma zestawu danych
+  noFieldPlaceholder: brak pola #no field
+  noValues: Brak określonych wartości. #There are no values specified.
+  none: Brak
+  openWizard: Otwórz Wziard Tablixa
+  organization: Organizacja
+  rows: Grupy Wierszy #Row Groups
+  showTotalsBeforeGroup: Pokaż sumy przed grupą
+  showValuesAsRows: Pokaż Wartości jako Wiersze #Show Values as Rows
+  sorting: "Sortowanie: {sorting}"
+  sortings:
+    Ascending: Rosnąco
+    Descending: Malejąco
+    None: Brak
+  steppedRowGroups: Wystąpienie Grupy Wierszy #Stepped Row Groups
+  styling: Stylizacja
+  subTotalsForColumns: Sumy pośrednie dla Grup Kolumn #Subtotals for Column Groups
+  subTotalsForRows: Sumy pośrednie dla Grup Wierszy #Subtotals for Row Groups
+  swap: Zamiana #Swap
+  swapRowColumnGroups: Zamień grupy wierszy i kolumn
+  title: Kreator Tablix #Tablix Wizard
+  totals: Sumy
+  totalsForColumns: Sumy dla Grup Kolumn #Totals for Column Groups
+  totalsForRows: Sumy dla Grup Wierszy #Totals for Row Groups
+  userSortEnabled: Włącz sortowanie użytkownika
+  values: Wartości
+  warning:
+    changedStructure: Kreator Tablix nie może edytować Tablix, ponieważ jego struktura została zmieniona. #Tablix Wizard cannot edit the Tablix as its structure has been changed.
+    confirmReverting: Potwierdź powrót do poprzedniego stanu Tablix, który może być edytowany przez kreatora. #Please confirm reverting to the previous Tablix state editable by Wizard.
+    otherwiseCannotEdit: W przeciwnym razie nie będzie można kontynuować edycji w Kreatorze Tablix. #Otherwise, it will not be possible to continue editing within Tablix Wizard.
+    quit: Zamknij #Quit
+    revert: Wróć do poprzedniego stanu #Revert
+    title: Ostrzeżenie #Warning
+warning:
+  embeddedImage:
+    badFile: "Wybrany plik '{name}' nie jest obrazem."
+    badFileType: "Wybrany plik '{name}' ({type}) nie jest obsługiwany."
+    badImageFile: "Wybrany plik obrazu '{name}' jest nieprawidłowy."
+    badImageSize: "Wybrany plik obrazu '{name}' przekracza limit {limit} MB."
+  margins:
+    caption: Nie można ustawić określonych marginesów #The specified margins cannot be set
+    info: "- '{name}' nie może być większe od {value}." #"- '{name}' cannot be greater than {value}."
+    labels:
+      bottom: Dolny Margines #Bottom Margin
+      left: Lewy Margines #Left Margin
+      right: Prawy Margines #Right Margin
+      top: Górny Margines #Top Margin
+  pageSize:
+    caption: Nie można ustawić określonego rozmiaru strony #The specified page size cannot be set
+    info: "- '{name}' nie może być mniejsze od {value}." #"- '{name}' cannot be less than {value}."
+    labels:
+      height: Wysokość strony #Page Height
+      width: Szerokość strony #Page Width

@@ -1,0 +1,260 @@
+
+[
+  {
+    "ns": "export",
+    "lng": "pl",
+    "resources": {
+      "emptyTextPlaceholder": "<puste>", 
+      "boolTextFalse": "Fałsz", 
+      "boolTextTrue": "Prawda", 
+      "nodocument": "Nie wybrano dokumentu", 
+      "inprogress-lbl": "Eksport w trakcie", 
+      "cancel-btn": "Anuluj", 
+      "file-format-label": "Format",
+      "start-btn": "Eksport" 
+    }
+  },
+  {
+    "ns": "jsviewer",
+    "lng": "pl", 
+    "resources": {
+      "errors": {
+        "bad-response-delayed": "Błąd opóźnia zawartość", 
+        "bad-response-doc": "Nie udało się wyeksportować zawartości", 
+        "bad-response-report": "Nie udało się wyeksportować zawartości", 
+        "commandTextIsEmpty": "Tekst polecenia jest pusty", 
+        "dataSetNotFound": "Nie można znaleźć zestawu danych {{dataSetName}} użytego w raporcie.", 
+        "dataSetNotSpecified": "Nazwa zestawu danych musi zostać określona w ustawieniach Ustalonego Layoutu Strony", 
+        "datasourceMissingElement": "Brakuje wymaganego elementu w dokumencie XML udostępnionego źródła danych - {{datasourceName}}.", 
+        "infinitePages": "Wykryto niekończącą się petlę.", 
+        "invalidColumnSpacing": "Kiedy strona (szerokość jest ustawiona w RozmiarStrony raportu) jest podzielona na kolumny, szerokość kolumn musi być większa niż zero oraz przestrzeń między kolumnami.", 
+        "invalidKeyInConnectionString": "Niewłaściwy klucz:{{invalidKey}} w parametrach połączenia", 
+        "InvalidReportFormat": "Format raportu jest nieprawidłowy", 
+        "invalidSharedDataSource": "Udostępnione źródło danych już nie istnieje lub jego zawartość jest nieprawidłowa.", 
+        "jsonDataSourceNotFound": "JSON, który miał być źrodłem danych nie został znaleziony", 
+        "no-fmt": "Niewłaściwy klucz formatu lub moduł dla {{format}} nie jest załadowany.", 
+        "no-params-refresh": "Nie udało się odświeżyć (nie wszystkie parametry zostały określone)", 
+        "noDataSets": "Brak zestawów danych", 
+        "render-doc": "Niepowodzenie przetwarzania raportu.", 
+        "resourceNotFound": "Nie można załadować zasobu z:{{uri}}", 
+        "scriptCompilationFailed": "Nie udało się skompliować skryptu.", 
+        "subreportNotFoundError": "Nie można zlokalizować podraportu: {{subName}}", 
+        "subreportNotSpecified": "Nazwa podraportu nie jest określona dla elementu podraportu {{itemName}}", 
+        "unknown-display": "Nieznany typ wyświetlania {{displayType}}", 
+        "unknown-format": "Nieobsługiwany typ eksportu: '{{exportType}}'", 
+        "unknown-response": "Nieznana odpowiedź serwera", 
+        "UnsupportedReportType": "Typ raportu z zapytania nie jest obsługiwany"
+      },
+      "export": {
+        "export-preparing": "Preparing export..."
+      },
+      "panels": {
+        "export": "Eksport", 
+        "parameters": "Parametry", 
+        "reports": "Lista raportów", 
+        "toc": "Tabela zawartości" 
+      },
+      "toolbar": {
+        "galley-mode": "Tryb szpalty", 
+        "item-exist": "Element o tym samym kluczu (\"{{itemKey}}\") już istnieje.", 
+        "mode-continious": "Widok ciągły", 
+        "mode-single": "Widok jednej strony", 
+        "print-btn": "Wydruk", 
+        "print-preparing": "Przygotowywanie wydruku..." ,
+        "resume-rendering": "Częściowe dane: Uruchom Pełny raport"
+      }
+    }
+  },
+  {
+    "ns": "params", 
+    "lng": "pl", 
+    "resources": {
+      "bool-true-label": "Prawda", 
+      "bool-false-label": "Fałsz", 
+      "paramsTextInvalidValue": "Niewłaściwa wartość", 
+      "datePlaceholder": "Wybierz datę..", 
+      "daysViewHeaderFormat": "MMMM RRRR",
+      "ddpTextNull": "(pusto)", 
+      "ddpTextSelectValue": "(wybierz wartość)", 
+      "ddpTextSelectAllValues": "(wybierz wszystko)", 
+      "null": "Pusto", 
+      "preview-btn-title": "Podgląd"
+    }
+  },
+  {
+    "ns": "rdlxparams", 
+    "lng": "pl", 
+    "resources": {
+      "TextHasOutstandingDependencies": "* Parametr ma zaległe zależności", 
+      "TextNeedBoolean": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu boolean", 
+      "TextNoEmptyStrings": "* Niewłaściwa wartość. Puste stringi nie są dozwolone.", 
+      "TextMaxInteger": "* Wartość nie może przekraczać 32-bitowego integera", 
+      "TextNeedInteger": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu integer", 
+      "TextNeedFloat": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu float", 
+      "TextNeedDateTime": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu date", 
+      "TextUnknownError": "! Nieznany błąd sprawdzania poprawności", 
+      "TextValueExpected": "* Spodziewana wartość", 
+      "TextPickFromList": "* Niewłaściwa wartość. Wybierz poprawną z listy.", 
+      "TextSingleValueExpected": "* Spodziewana pojedyncza wartość", 
+      "TextNoNull": "* Wartość nie może być nullem" 
+    }
+  },
+  {
+    "ns": "paramsView",
+    "lng": "pl",
+    "resources": {
+      "boolTextTrue": "Prawda",
+      "boolTextFalse": "Fałsz",
+      "boolTextUnspecified": "Nieokreślony",
+      "btnTextPreview": "Podgląd",
+      "btnTextReset": "Resetuj",
+      "btnTextClear": "Wyczyść",
+      "drDaysViewHeaderFormat": "MMMM YYYY",
+      "drTabLabelDaily": "Dziennie",
+      "drTabLabelMonthly": "Miesięcznie",
+      "drTabLabelAnnually": "Rocznie",
+      "drTextBack": "Powrót do Kalendarza",
+      "drTextShortcutsList": "Wspólne Zakresy",
+      "drPlaceholderDateStart": "Początek",
+      "drPlaceholderDateEnd": "Koniec",
+      "drShortcutsLabelLastWeek": "Zeszły tydzień",
+      "drShortcutsLabelLastMonth": "Zeszły miesiąc",
+      "drShortcutsLabelLastYear": "Zeszły rok",
+      "drShortcutsLabelWeekToDate": "Od początku tygodnia",
+      "drShortcutsLabelMonthToDate": "Od początku miesiąca",
+      "drShortcutsLabelYearToDate": "Od początku roku",
+      "drMonthYearOrder": "M-Y",
+      "dtTextSelectDate": "Wybierz Datę...",
+      "dtDaysViewHeaderFormat": "MMMM YYYY",
+      "dtMonthYearOrder": "M-Y",
+      "dtTextBack": "Powrót do Kalendarza",
+      "dtTextClear": "Wyczyść",
+      "dtTextToday": "Dzisiaj",
+      "ddeTextNull": "(pusty)",
+      "ddeTextSelectValue": "(wybierz wartość)",
+      "ddeTextSelectAllValues": "(wybierz wszystkie)",
+      "lblTextInvalidValue": "Nieprawidłowa Wartość",
+      "listTextSelectAllValues": "(wybierz wszystkie)",
+      "nwrpTextNull": "Pusty"
+    }
+  },
+  {
+    "ns": "viewer", 
+    "lng": "pl", 
+    "resources": {
+      "error": {
+        "details": "Szczegóły", 
+        "dismiss": "Odrzuć", 
+        "dismiss-all": "Odrzuć wszystko" 
+      },
+      "sidebar": {
+        "expand-btn": "Rozwiń",
+        "collapse-btn": "Zwiń"
+      },
+      "cancel-btn": "Anuluj", 
+      "toolbar": {
+        "zoom-fitwidth": "Dopasuj do szerokości", 
+        "zoom-fitpage": "Dopasuj stronę", 
+        "zoom-zoomout": "Oddalenie", 
+        "zoom-zoomin": "Zbliżenie", 
+        "zoom-menu-header": "Tryb powiększania", 
+        "gotofirst": "Idź do pierwszego", 
+        "gotoprevious": "Idź do poprzedniego", 
+        "gotonext": "Idź do następnego", 
+        "gotolast": "Idź do ostatniego", 
+        "hist-parent": "Z powrotem", 
+        "hist-back": "W tył", 
+        "hist-fwd": "W przód", 
+        "movetool": "Przesuwanie", 
+        "fullscreen": "Włącz pełny ekran", 
+        "refresh": "Odśwież", 
+        "cancel": "Anuluj" 
+      },
+      "errors": {
+        "noHostElement": "Nie można odnaleźć elementu hosta." 
+      },
+      "progress": {
+        "page": "Strona" 
+      },
+      "search": {
+        "match-case": "Uwzględniaj wielkość znaków", 
+        "whole-word": "Całe słowo", 
+        "cancel-btn": "Anuluj", 
+        "start-search-btn": "Szukaj", 
+        "clear-btn": "Wyczyść", 
+        "more-results-btn": "Więcej wyników", 
+        "search-results": "Wyniki szukania", 
+        "search-cancelled-msg": "Szukanie przerwane na stronie {{page}}", 
+        "didn-find-msg": "Niczego nie znaleziono.", 
+        "paneltitle": "Szukaj"
+      }
+    }
+  },
+  {
+    "ns": "viewererror",
+    "lng": "pl",
+    "resources": {
+      "title": {
+        "open-report": "Nie udało się otworzyć raportu",
+        "set-parameters": "Błąd ustawiania parametrów",
+        "get-toc": "Błąd pobierania spisu treści",
+        "render-report": "Nie udało się wygenerować raportu",
+        "export-report": "Błąd eksportu raportu",
+        "print-report": "Błąd wydruku raportu"
+      },
+      "details": {
+        "report-info": "Nie można uzyskać informacji o raporcie.",
+        "rendering-info": "Cannot obtain rendering info",
+        "job-info": "Cannot obtain job info",
+        "no-report": "Nie znaleziono raportu: {{reportId}}", 
+        "no-document-loaded": "Nie załadowano żadnych dokumentów.",
+        "no-current-document": "Brak dokumentu.",
+        "no-toc": "Brak zawartości spisu treści.", 
+        "bad-response-toc": "Niepowodzenie pobierania spisu treści.",
+        "no-params-render": "Nie wszystkie parametry zostały określone.",
+        "params-hidden": "Niektóre ukryte parametry są nieprawidłowe.", 
+        "ignore-disposition": "Przewiduje się, że zawartość będzie wyświetlana jako osadzona w przeglądarce, ale będzie to ignorowane.", 
+        "empty-response-header": "Nagłówek odpowiedzi '{{header}}' jest pusty. Możliwe, że nagłówki nie są dozwolone w polityce CORS.",
+        "unknown-event": "Nieznane wydarzenie nie zostało przeprocesowane",
+        "job-canceled": "Job was canceled by administrator",
+        "job-not-found": "Job not found",
+        "unexpected-job-error-info": "Informacja o nieoczekiwanym błędzie zadania.",
+        "unexpected-job-state": "Nieoczekiwany stan zadania.",
+        "ie-no-pdf-addon": "By umożliwić drukowanie w IE, zainstaluj i włącz dodatek do odczytu PDF."
+      },
+      "reporting_plugin": {
+        "lrt": "W pluginie raportującym wystąpił wyjątek LRT",
+        "bad_response": "Usługa Raportowa odpowiedziała błędem",
+        "streaming": "Wystąpił błąd podczas transmisji z Usługi Raportowej",
+        "response_verification": "Wystąpił błąd po transmisji wyników z Usługi Raportowej",
+        "unknown": "Nieznany błąd podczas wykonywania zadania"
+      },
+      "reporting_worker": {
+        "export": {
+          "invalid_parameters": "Niewłaściwe parametry raportu",
+          "unknown_rendering_ext": "Nieznane rozszerzenie przetwarzania {{0}}"
+        },
+        "task_init": {
+          "file_not_found": "Plik {0} nie został znaleziony",
+          "unable_to_load_file": "Nie można załadować pliku {{0}}",
+          "unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
+        },
+        "fail_check": {
+          "invalid_parameters": "Niewłaściwe parametry raportu",
+          "no_dataset": "Nie wybrano zestawu danych",
+          "data_not_found": "Specified {{0}} document with id '{{1}}' not found",
+          "data_not_allowed": "Specified {{0}} '{{1}}' inaccessible due to insufficient permissions",
+          "data_unknown": "Specified data inaccessible: {{0}}",
+          "unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
+        },
+        "rendering": {
+          "unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
+        },
+        "report": {
+          "cyclic_parameter_references": "Wykryto cykliczne odwołania parametrów raportu",
+          "unknown": "Nieznany błąd podczas pobierania informacji o raporcie: {{0}}"
+        }
+      }
+    }
+  }
+]

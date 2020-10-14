@@ -288,6 +288,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'smdsc!description': 'Modele semantyczne', // Semantic Models
 	'rdlx-template!title': 'Szablony raportów', // Report Templates
 	'rdlx-template!description': 'Szablony raportów', // Report Templates
+	'rdlx-master!title': 'Master Report',
+	'rdlx-master!description': 'Master Report',
 	'dataset!title': 'Zestawy danych', // Datasets
 	'dataset!name': 'Zestawy danych', // Datasets
 	'dataset!description': 'Zestawy danych', // Datasets
@@ -326,6 +328,7 @@ export const portalPL: LanguageKeyValueMap = {
 	// Nav Toolbar
 	globalOrgName: 'Global',
 	switchOrganization: 'Switch Organization',
+	editProfileSetting: 'Edit Profile Setting',
 
 	// Version Info
 	'productVersion': 'Wyn Enterprise',
@@ -355,4 +358,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipTips': 'Skip until another version published',
 	'UpdateNotificationSkipVersionError': 'Failed to skip the version',
 	'UpdateNotificationSkipVersionSuccessDetail': 'Failed to skip the version "Version {{version}}"',
+
+	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
+	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.
+	err_20017: 'Kategoria o nazwie "{{name}}" już istnieje.', // Category with the name "{{name}}" already exists.
+	err_20018: 'Kategoria z linkiem "{{urlName}}" już istnieje.', // Category with the url "{{urlName}}" already exists.
+	err_20019: 'Kategoria z liczbą porządkową "{{order}}" już istnieje.', // Category with the order "{{order}}" already exists ### Kontekst do sprawdzenia
+	err_20029: 'Nie można użyć systemowej nazwy "{{ name }}".', // Can not use system reserved tag name "{{ name }}"
 };

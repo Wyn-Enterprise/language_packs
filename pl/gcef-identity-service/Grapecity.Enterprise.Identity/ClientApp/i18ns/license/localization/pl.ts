@@ -6,7 +6,7 @@
 	ContactUs: 'Możesz także skontaktować się z nami przez essales.cn@grapecity.com', // You could also contact us 400-657-6008, essales.cn@grapecity.com
 	InputKey: 'Wprowadź klucz produktu', // Please input license key
 	InputMail: 'Wprowadź adres e-mail', // Please input Mail
-	InputName: 'Wprowadź imię i nazwisko', // Please input Name
+	InputName: 'Wprowadź imię i nazwisko', // Please input Name.
 	InputPhone: 'Wprowadź numer telefonu', // Please input Phone.
 	LicenseSettings: 'Klucz Produktu', // License Key
 	LoginAdminInfo: 'Nazwa użytkownika: admin, Hasło: admin', // User name: admin, Password: admin

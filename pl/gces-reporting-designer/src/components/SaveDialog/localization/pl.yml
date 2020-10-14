@@ -1,0 +1,10 @@
+cancelLabel: Anuluj
+commentLabel: Komentarz
+report:
+  saveLabel: Zapisz raport
+  saving: Zapisywanie raportu...
+  title: "Zapisz raport - {name}"
+template:
+  saveLabel: Zapisz szablon
+  saving: Zapisywanie szablonu...
+  title: "Zapisz szablon - {name}"

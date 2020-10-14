@@ -19,6 +19,7 @@
 	pluginDataSource: 'Źródła danych', // Data Sources
 	pluginSemanticModel: 'Model semantyczny', // Semantic Model
 	pluginTemplates: 'Szablony', // Templates
+	pluginMasters: 'Master Report',
 
 	// Notifications
 	ntfDismiss: 'Odrzuć', // Dismiss
@@ -84,6 +85,7 @@
 	// nav org
 	globalOrgName: 'Global',
 	switchOrganization: 'Switch Organization',
+	editProfileSetting: 'Edit Profile Setting',
 
 	// Upload Dialog
 	udTextFiles: '{{count}} plik', // {{count}} file
@@ -216,6 +218,8 @@
 	'rdl!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
+	'rdlx-master!name': 'Master Report',
+	'rdlx-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',

@@ -1,0 +1,27 @@
+dialogs:
+  cancelLabel: Anuluj
+editors:
+  binding:
+    expression: Wyrażenie...
+    reset: Reset
+  collection:
+    addItem: Dodatj element
+    close: Zamknij
+    collectionIsEmpty: Zbiór jest pusty
+    itemsCountLabel: "{itemsCount} elementów"
+    showItems: Pokaż elementy
+  color:
+    colorPicker: Selektor
+    expression: Wyrażenie...
+    swatchColors: Próbki
+    webColors: Sieć
+  colorCustom:
+    basicColors: Podstawowe kolory
+    colorPicker: Selektor kolorów
+    otherColors: Inne kolory
+    standardColors: Standardowe kolory
+    webColors: Kolory sieciowe
+  empty: "<Pusty>"
+  falseLabel: Fałsz
+  multipleValues: Wiele wartości
+  trueLabel: Prawda

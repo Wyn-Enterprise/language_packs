@@ -1,0 +1,34 @@
+cancelLabel: Anuluj
+category: Kategoria
+commentLabel: Komentarz
+report:
+  emptyNameTooltip: Nazwa raportu nie może zawierać samych spacji
+  getting: Pobieranie raportów...
+  invalidName: Nazwa raportu jest nieprawidłowa.
+  invalidNameTooltip: 'Nie używaj zastrzeżonych symboli ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' oraz nie używaj ''.'' jako pierwszego symbolu.'
+  nameLabel: Nazwa raportów
+  namePlaceholder: Wprowadź nazwę raportu tutaj...
+  saveLabel: Zapisz raport
+  saving: Zapisywanie raportu...
+  tileLabel: Raport
+  willBeOverwritten: Raport zostanie nadpisany
+rolesSelector:
+  permission:
+    read: Odczyt
+    readWrite: Odczyt i zapis
+  permissionTooltip: Wybierz poziom uprawnienia
+  roleTooltip: Rola
+  shareLabel: Udostępnianie
+saveAsTemplate: Zapisz jako szablon
+template:
+  emptyNameTooltip: Nazwa szablonu nie może zawierać samych spacji
+  getting: Pobieranie szablonów...
+  invalidName: Nazwa szablonu jest nieprawidłowa.
+  invalidNameTooltip: 'Nie używaj zastrzeżonych symboli ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' oraz nie używaj ''.'' jako pierwszego symbolu.'
+  nameLabel: Nazwa szablonu
+  namePlaceholder: Wprowadź nazwę szablonu tutaj...
+  saveLabel: Zapisz szablon
+  saving: Zapisywanie szablonu...
+  tileLabel: Szablon
+  willBeOverwritten: Szablon zostanie nadpisany.
+title: Zapisz jako

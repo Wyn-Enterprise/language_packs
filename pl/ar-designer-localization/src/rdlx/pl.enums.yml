@@ -1,0 +1,1008 @@
+action:
+  - Brak #None
+  - Przejdź do raportu #Jump to Report
+  - Przejdź do zakładki #Jump to Bookmark
+  - Przejdź do linku #Jump to URL
+auto_merge_mode:
+  - Nigdy #Never
+  - Zawsze #Always
+  - Ograniczone #Restricted
+axis_location:
+  - Z lewej #Left
+  - Z prawej #Right
+barcode_caption_location:
+  - Brak #None
+  - Powyżej #Above
+  - Poniżej #Below
+barcode_encoding:
+  - 37: IBM EBCDIC (Stany Zjednoczone-Kanada)
+  - 437: OEM Stany Zjednoczone
+  - 500: IBM EBCDIC (międzynarodowy)
+  - 708: Arabski (ASMO 708)
+  - 720: Arabski (DOS)
+  - 737: Grecki (DOS)
+  - 775: Bałtycki (DOS)
+  - 850: Zachodnioeuropejski (DOS)
+  - 852: Środkowoeuropejski (DOS)
+  - 855: OEM cyrylica
+  - 857: Turecki (DOS)
+  - 858: OEM wielojęzyczny Latin I
+  - 860: Portugalski (DOS)
+  - 861: Islandzki (DOS)
+  - 862: Hebrajski (DOS)
+  - 863: Francuski kanadyjski (DOS)
+  - 864: Arabski (864)
+  - 865: Nordycki (DOS)
+  - 866: Cyrylica (DOS)
+  - 869: Grecki współczesny (DOS)
+  - 870: IBM EBCDIC (wielojęzyczny Latin-2)
+  - 874: Tajski (Windows)
+  - 875: IBM EBCDIC (grecki współczesny)
+  - 932: Japoński (Shift-JIS)
+  - 936: Chiński uproszczony (GB2312)
+  - 949: Koreański
+  - 950: Chiński tradycyjny (Big5)
+  - 1026: IBM EBCDIC (Turecki Latin-5)
+  - 1047: IBM Latin-1
+  - 1140: IBM EBCDIC (Stany Zjednoczone-Kanada-Euro)
+  - 1141: IBM EBCDIC (Niemcy-Euro)
+  - 1142: IBM EBCDIC (Dania-Norwegia-Euro)
+  - 1143: IBM EBCDIC (Finlandia-Szwecja-Euro)
+  - 1144: IBM EBCDIC (Włochy-Euro)
+  - 1145: IBM EBCDIC (Hiszpania-Euro)
+  - 1146: IBM EBCDIC (Zjednoczone Królestwo-Euro)
+  - 1147: IBM EBCDIC (Francja-Euro)
+  - 1148: IBM EBCDIC (międzynarodowy-Euro)
+  - 1149: IBM EBCDIC (islandzki-Euro)
+  - 1200: Unicode
+  - 1201: Unicode (Big-Endian)
+  - 1250: Środkowoeuropejski (Windows)
+  - 1251: Cyrylica (Windows)
+  - 1252: Zachodnioeuropejski (Windows)
+  - 1253: Grecki (Windows)
+  - 1254: Turecki (Windows)
+  - 1255: Hebrajski (Windows)
+  - 1256: Arabski (Windows)
+  - 1257: Bałtycki (Windows)
+  - 1258: Wietnamski (Windows)
+  - 1361: Koreański (Johab)
+  - 10000: Zachodnioeuropejski (Mac)
+  - 10001: Japoński (Mac)
+  - 10002: Chiński tradycyjny (Mac)
+  - 10003: Koreański (Mac)
+  - 10004: Arabski (Mac)
+  - 10005: Hebrajski (Mac)
+  - 10006: Grecki (Mac)
+  - 10007: Cyrylica (Mac)
+  - 10008: Chiński uproszczony (Mac)
+  - 10010: Rumuński(Mac)
+  - 10017: Ukraiński (Mac)
+  - 10021: Tajski (Mac)
+  - 10029: Środkowoeuropejski (Mac)
+  - 10079: Islandzki (Mac)
+  - 10081: Turecki (Mac)
+  - 10082: Chorwacki (Mac)
+  - 12000: Unicode (UTF-32)
+  - 12001: Unicode (UTF-32 Big-Endian)
+  - 20000: Chiński tradycyjny (CNS)
+  - 20001: TCA Tajwan
+  - 20002: Chiński tradycyjny (Eten)
+  - 20003: IBM5550 Tajwan
+  - 20004: TeleText Tajwan
+  - 20005: Wang Tajwan
+  - 20105: Zachodnioeuropejski (IA5)
+  - 20106: Niemiecki (IA5)
+  - 20107: Szwedzki (IA5)
+  - 20108: Norweski (IA5)
+  - 20127: US-ASCII
+  - 20261: T.61
+  - 20269: ISO-6937
+  - 20273: IBM EBCDIC (Niemcy)
+  - 20277: IBM EBCDIC (Dania-Norwegia)
+  - 20278: IBM EBCDIC (Finlandia-Szwecja)
+  - 20280: IBM EBCDIC (Włochy)
+  - 20284: IBM EBCDIC (Hiszpania)
+  - 20285: IBM EBCDIC (Zjednoczone Królestwo)
+  - 20290: IBM EBCDIC (japoński Katakana)
+  - 20297: IBM EBCDIC (Francja)
+  - 20420: IBM EBCDIC (arabski)
+  - 20423: IBM EBCDIC (grecki)
+  - 20424: IBM EBCDIC (hebrajski)
+  - 20833: IBM EBCDIC (koreański rozszerzony)
+  - 20838: IBM EBCDIC (tajski)
+  - 20866: Cyrylica (KOI8-R)
+  - 20871: IBM EBCDIC (islandzki)
+  - 20880: IBM EBCDIC (rosyjski cyrylica)
+  - 20905: IBM EBCDIC (turecki)
+  - 20924: IBM Latin-1
+  - 20932: Japoński (JIS 0208-1990 i 0212-1990)
+  - 20936: Chiński uproszczony (GB2312-80)
+  - 20949: Koreański Wansung
+  - 21025: IBM EBCDIC (serbski-bułgarski cyrylica)
+  - 21866: Cyrylica (KOI8-U)
+  - 28591: Zachodnioeuropejski (ISO)
+  - 28592: Środkowoeuropejski (ISO)
+  - 28593: Latin 3 (ISO)
+  - 28594: Bałtycki (ISO)
+  - 28595: Cyrylica (ISO)
+  - 28596: Arabski (ISO)
+  - 28597: Greek (ISO)
+  - 28598: Hebrajski (ISO-Visual)
+  - 28599: Turecki (ISO)
+  - 28603: Estoński (ISO)
+  - 28605: Latin 9 (ISO)
+  - 29001: Europa
+  - 38598: Hebrajski (ISO-Logical)
+  - 50220: Japoński (JIS)
+  - 50221: Japoński (JIS-dozwolone 1-bajtowe znaki Kana)
+  - 50222: Japoński (JIS-dozwolone 1-bajtowe znaki Kana - SO/SI)
+  - 50225: Koreański (ISO)
+  - 50227: Chiński uproszczony (ISO-2022)
+  - 51932: Japoński (EUC)
+  - 51936: Chiński uproszczony (EUC)
+  - 51949: Koreański (EUC)
+  - 52936: Chiński uproszczony (HZ)
+  - 54936: Chiński uproszczony (GB18030)
+  - 57002: ISCII dewanagari
+  - 57003: ISCII bengalski
+  - 57004: ISCII temilski
+  - 57005: ISCII telugu
+  - 57006: ISCII assamski
+  - 57007: ISCII odia
+  - 57008: ISCII kannada
+  - 57009: ISCII malajalam
+  - 57010: ISCII gudżarati
+  - 57011: ISCII pundżabski
+  - 65000: Unicode (UTF-7)
+  - 65001: Unicode (UTF-8)
+
+barcode_rotation:
+  - Brak #None
+  - Obróc90Stopni #Rotate90Degrees
+  - Obróc180Stopni #Rotate180Degrees
+  - Obróc270Stopni #Rotate270Degrees
+barcode_symbology:
+  - None: Brak #None
+  - Ansi39: ANSI 3 of 9
+  - Ansi39x: ANSI Extended 3 of 9
+  - BC412: BC412
+  - Codabar: Codabar
+  - Code_11: Code 11
+  - Code_128_A: Code 128 A
+  - Code_128_B: Code 128 B
+  - Code_128_C: Code 128 C
+  - Code_128auto: Code 128 Auto
+  - Code_2_of_5: Code 2 of 5
+  - Code_93: Code 93
+  - Code25intlv: Interleaved 2 of 5
+  - Code39: Code 39
+  - Code39x: Extended Code 39
+  - Code49: Code 49
+  - Code93x: Extended Code 93
+  - DataMatrix: Data Matrix
+  - EAN_13: EAN-13
+  - EAN_8: EAN-8
+  - EAN128FNC1: EAN-128FNC1
+  - GS1QRCode: GS1 QR Code
+  - HIBCCode128: HIBC Code 128
+  - HIBCCode39: HIBC Code 39
+  - IATA_2_of_5: IATA 2 of 5
+  - IntelligentMail: Intelligent Mail
+  - IntelligentMailPackage: Intelligent Mail Package
+  - ISBN: ISBN (International Standard Book Number)
+  - ISMN: ISMN (Internationally Standard Music Number)
+  - ISSN: ISSN (International Standard Serial Number)
+  - ITF14: ITF-14
+  - JapanesePostal: Japanese Postal
+  - Matrix_2_of_5: Matrix 2 of 5
+  - MaxiCode: MaxiCode
+  - MicroPDF417: Micro PDF417
+  - MicroQRCode: Micro QR Code
+  - MSI: MSI Code
+  - Pdf417: PDF417
+  - Pharmacode: Pharmacode
+  - Plessey: Plessey
+  - PostNet: PostNet
+  - PZN: PZN (Pharmaceutical Central Number)
+  - QRCode: QR Code
+  - RM4SCC: RM4SCC (Royal Mail)
+  - RSS14: RSS-14
+  - RSS14Stacked: RSS-14 Stacked
+  - RSS14StackedOmnidirectional: RSS-14 Stacked Omnidirectional
+  - RSS14Truncated: RSS-14 Truncated
+  - RSSExpanded: RSS Expanded
+  - RSSExpandedStacked: RSS Expanded Stacked
+  - RSSLimited: RSS Limited
+  - SSCC_18: SSCC-18
+  - Telepen: Telepen
+  - UCCEAN128: UCC/EAN–128
+  - UPC_A: UPC-A
+  - UPC_E0: UPC-E0
+  - UPC_E1: UPC-E1
+border_style:
+  - Brak #None
+  - Kropkowany #Dotted
+  - LiniaPrzerywana #Dashed 
+  - Stały #Solid
+  - Podwójny #Double
+  - Wklęsły #Groove 
+  - Wypukły #Ridge
+  - Ramka #Inset  
+  - OknoWstawka #WindowInset 
+  - Przycisk #Outset 
+  - KreskaKropka #DashDot
+  - KreskaKropkaKropka #DashDotDot
+bullet_tick_marks:
+  - Brak #None
+  - Wewnątrz #Inside
+  - Zewnątrz #Outside
+calendar:
+  - Gregoriański #Gregorian
+  - Gregoriański arabski #Gregorian Arabic
+  - Gregoriański Środkowy Wschód-Francja #Gregorian Middle East French
+  - Gregoriański angielski transliterowany #Gregorian Transliterated English
+  - Gregoriański francuski transliterowany #Gregorian Transliterated French
+  - Gregoriański amerykański angielski #Gregorian US English
+  - Hebrajski #Hebrew
+  - Hijri
+  - Japoński #Japanese
+  - Koreański #Korean
+  - Tajwański #Taiwan
+  - Tajski buddyjski #Thai Buddhist
+check_alignment:
+  - GóraLewo #TopLeft
+  - GóraŚrodek #TopCenter
+  - GóraPrawo #TopRight
+  - ŚrodekLewo #MiddleLeft
+  - ŚrodekŚrodek #MiddleCenter
+  - ŚrodekPrawo #MiddleRight
+  - DółLewo #BottomLeft
+  - DółŚrodek #BottomCenter
+  - DółPrawo #BottomRight
+check_style:
+  - Akcept #Check 
+  - Okrąg #Circle
+  - Krzyżyk #Cross
+  - Romb #Diamond
+  - Kwadrat #Square
+  - Gwiazda #Star
+collate_by:
+  - Prosto #Simple
+  - IndeksWartości #ValueIndex
+  - Wartość #Value
+collation:
+  - Domyślnie #Default
+  - Albanian: Albański #Albanian
+  - Arabic: Arabski #Arabic
+  - Chinese_PRC: Chiński #Chinese PRC
+  - Chinese_PRC_Stroke: Chiński Stroke #Chinese PRC Stroke
+  - Chinese_Taiwan_Bopomofo: Chiński-tajwański Bopomofo #Chinese Taiwan Bopomofo
+  - Chinese_Taiwan_Stroke: Chiński-tajwański Stroke #Chinese Taiwan Stroke
+  - Croatian: Chorwacki #Croatian
+  - Cyrillic_General: Cyrylica ogólna #Cyrillic General
+  - Czech: Czeski #Czech
+  - Danish_Norwegian: Duńsko-norweski #Danish Norwegian
+  - Estonian: Estoński #Estonian
+  - Finnish_Swedish: Fińsko-szewdzki #Finnish Swedish
+  - French: Francuski #French
+  - Georgian_Modern_Sort: Gruziński współczesny #Georgian Modern Sort
+  - German_PhoneBook: Niemiecki #German Phone Book
+  - Greek: Grecki #Greek
+  - Hebrew: Hebrajski #Hebrew
+  - Hindi: Hinduski #Hindi
+  - Hungarian: Węgierski #Hungarian
+  - Hungarian_Technical: Węgierski techniczny #Hungarian Technical
+  - Icelandic: Islandzki #Icelandic
+  - Japanese: Japoński #Japanese
+  - Japanese_Unicode: Japoński Unicode #Japanese Unicode
+  - Korean_Wansung: Koreański Wansung #Korean Wansung
+  - Korean_Wansung_Unicode: Koreański Wansung Unicode #Korean Wansung Unicode
+  - Latin1_General: Łaciński ogólny #Latin-1 General
+  - Latvian: Łotewski #Latvian
+  - Lithuanian: Litewski #Lithuanian
+  - Lithuanian_Classic: Litewski klasyczny #Lithuanian Classic
+  - FYRO_Macedonian: Macedoński #Macedonian FYRO
+  - Mexican_Trad_Spanish: Hiszpański meksykański techniczny #Spanish Mexican Traditional
+  - Modern_Spanish: Hiszpański współczesny #Spanish Modern
+  - Polish: Polski #Polish
+  - Romanian: Rumuński #Romanian
+  - Slovak: Słowacki #Slovak
+  - Slovenian: Słoweński #Slovenian
+  - Thai: Tajski #Thai
+  - Turkish: Turecki #Turkish
+  - Ukrainian: Ukraiński #Ukrainian
+  - Vietnamese: Wietnamski #Vietnamese
+data_element_output:
+  - Automatycznie #Auto
+  - Wyjście #Output
+  - BrakWyjścia #NoOutput
+  - TylkoZawartość #ContentsOnly 
+data_element_output_aon:
+  - Automatycznie #Auto
+  - Wyjście #Output
+  - BrakWyjścia #NoOutput
+data_element_output_on:
+  - Wyjście #Output
+  - BrakWyjścia #NoOutput
+data_element_style:
+  - Automatycznie #Auto
+  - AtrybutNormalnie #AttributeNormal
+  - ElementNormalnie #ElementNormal
+data_label_position:
+  - Automatycznie #Auto
+  - GóraLewo #TopLeft
+  - Góra #Top
+  - GóraPrawo #TopRight
+  - Lewo #Left
+  - Środek #Center
+  - Prawo #Right
+  - DółLewo #BottomLeft
+  - Dół #Bottom
+  - DółPrawo BottomRight
+data_visualizer_color_type:
+  - colorScale: Skala kolorów #Color Scale
+data_visualizer_gradient_type:
+  - Poziomo #Horizontal
+  - Pionowo #Vertical
+  - PrzekątnieWGórę #DiagonalUp
+  - PrzekątnieWDół #DiagonalDown
+  - OdŚrodka #FromCenter
+  - OdRogu #FromCorner
+data_visualizer_hatch_style:
+  - WsteczniePrzekątnie #BackwardDiagonal
+  - Krzyżowo #Cross
+  - CiemneWDółPrzekątnie #DarkDownwardDiagonal
+  - CiemnePoziomo #DarkHorizontal
+  - CiemneWGóręPrzekątnie #DarkUpwardDiagonal
+  - CiemnePionowo #DarkVertical
+  - MyślnikWDółPrzekątnie #DashedDownwardDiagonal
+  - MyślnikPoziomo #DashedHorizontal
+  - MyślnikWGóręPrzekątnie #DashedUpwardDiagonal
+  - MyślnikPionowo #DashedVertical
+  - PrzekątnieCegła #DiagonalBrick
+  - PrzekątnieKrzyż #DiagonalCross
+  - Darń #Divot
+  - KropkowanyRomb #DottedDiamond
+  - KropkowanaSiatka #DottedGrid
+  - NaprzódPrzekątna #ForwardDiagonal
+  - Poziomo #Horizontal
+  - PoziomoCegła #HorizontalBrick
+  - DużaSzachownica #LargeCheckerBoard
+  - DużeKonfetti #LargeConfetti
+  - DużaSiatka #LargeGrid
+  - LekkoWDółPrzekątnie #LightDownwardDiagonal
+  - LekkoPoziomo #LightHorizontal
+  - LekkoWGóręPrzekątnie #LightUpwardDiagonal
+  - LekkoPionowo #LightVertical
+  - WąskiPoziomo #NarrowHorizontal
+  - WąskiPionowo #NarrowVertical
+  - KonturRomb #OutlinedDiamond
+  - Procent05 #Percent05
+  - Procent10 #Percent10
+  - Procent20 #Percent20
+  - Procent25 #Percent25
+  - Procent30 #Percent30
+  - Procent40 #Percent40
+  - Procent50 #Percent50
+  - Procent60 #Percent60
+  - Procent70 #Percent70
+  - Procent75 #Percent75
+  - Procent80 #Percent80
+  - Procent90 #Percent90
+  - Pled #Plaid
+  - Dachówka #Shingle 
+  - MałaSzachownica #SmallCheckerBoard
+  - MałeKonfetti #SmallConfetti
+  - MałaSiatka #SmallGrid
+  - CiągłyRomb #SolidDiamond
+  - Kula #Sphere 
+  - Krata #Trellis
+  - Pionowo #Vertical
+  - Fala #Wave
+  - Splot #Weave
+  - SzerokoWDółPrzekątnie #WideDownwardDiagonal
+  - SzerokoWGórkę Przekątnie #WideUpwardDiagonal
+  - ZygZak #ZigZag
+data_visualizer_icon_set_type:
+  - PoleWyboru #Checkbox
+  - 3ŚwiatłaRuchuDrogowego #3TrafficLights
+  - Strzałki #Arrows
+  - Puste #Blank
+  - Flagi #Flags
+  - SzareStrzałki #GrayArrows
+  - Kwarty #Quarters
+  - Oceny #Ratings
+  - CzerwoneDoCzarnego #RedToBlack
+  - Znaki #Signs
+  - Symbole1 #Symbols1
+  - Symbole2 #Symbols2
+  - ŚwiatłaRuchuDrogowego #TrafficLights
+data_visualizer_icon_set_value:
+  - 'Prawda' #True
+  - 'Fałsz' #False
+data_visualizer_image_type:
+  - iconSet: Zestaw ikon #Icon Set
+  - rangeBar: Pasek zasięgu #Range Bar
+  - dataBar: Pasek danych #Data Bar
+  - gradient: Gradient
+  - hatch: Szraf #Hatch - nie wiem co to może być 
+dataset_option:
+  - 'Prawda' #'True'
+  - 'Fałsz' #'False'
+  - Automatycznie #Auto
+dataset_query_command_type:
+  - Tekst #Text
+  - ProceduraSkładowana #StoredProcedure
+direction:
+  - LDP 
+  - PDL 
+display_type:
+  - Szpalta #Galley
+  - Strona #Page
+documentmap_numbering_style:
+  - None: Brak #None
+  - Decimal: 1, 2, 3, 4, 5
+  - DecimalLeadingZero: 01, 02, 03, 04, 05
+  - LowerRoman: i, ii, iii, iv, v
+  - UpperRoman: I, II, III, IV, V
+  - LowerLatin: a, b, c, d, e
+  - UpperLatin: A, B, C, D, E
+  - CircledNumber: '①, ②, ③, ④, ⑤'
+  - KatakanaBrackets: (ア), (イ), (ウ), (エ), (オ)
+  - KatakanaIrohaBrackets: イ), ロ), ハ), ニ), ホ)
+  - Katakana: ア, イ, ウ, エ, オ
+  - KatakanaIroha: イ, ロ, ハ, ニ, ホ
+  - KatakanaLower: ｱ, ｲ, ｳ, ｴ, ｵ
+  - KatakanaIrohaLower: ｨ, ﾛ, ﾊ, ﾆ, ﾎ
+  - LowerGreek: α, β, γ, δ, ε
+  - UpperGreek: Α, Β, Γ, Δ, Ε
+  - LowerArmenian: ա, բ, գ, դ, ե
+  - UpperArmenian: Ա, Բ, Գ, Դ, Ե
+  - Georgian: ა, ბ, გ, დ, ე
+documentmap_source:
+  - Etykiety #Labels
+  - Nagłówki #Headings
+  - Wszystko #All
+  - Brak #None
+dvchart_aggregate_type: ##celowo nie tłumaczę - nazwy miar nie tłumaczyliśmy; tylko opisy 
+  - Brak #None
+  - Średnia #Average
+  - Liczba #Count
+  - LiczbaWszystkich #CountOfAll
+  - Lista #List
+  - Maksimum #Max
+  - Minimum #Min
+  - OdchylenieStandardowePopulacji #PopulationStandardDeviation
+  - WariancjaPopulacji #PopulationVariance
+  - Zakres #Range
+  - OdchylenieStandardowe #StandardDeviation
+  - Suma #Sum
+  - Wariancja #Variance
+dvchart_axis_position:
+  - Brak #None
+  - Blisko #Near
+  - Daleko #Far
+dvchart_clipping_mode:
+  - Brak #None
+  - Przycięcie #Clip
+  - Dopasowane #Fit
+dvchart_encoding_field_type:
+  - Proste #Simple
+  - Złożone #Complex
+dvchart_encoding_sort:
+  - Brak #None
+  - Rosnąco #Ascending
+  - Malejąco #Descending
+dvchart_group_type:
+  - Brak #None
+  - Grupa #Cluster
+  - Stos #Stack
+dvchart_halign:
+  - Lewo #Left
+  - Środek #Center
+  - Prawo #Right
+dvchart_legend_position:
+  - Dół #Bottom
+  - Lewo #Left
+  - Prawo #Right
+  - Góra #Top
+dvchart_line_aspect:
+  - Domyślnie #Default
+  - Spline #Spline  
+  - KrokCentrum #StepCenter 
+  - KrokLewo #StepLeft
+  - KrokPrawo #StepRight
+dvchart_line_position:
+  - Automatycznie #Auto
+  - Środek #Center
+dvchart_orientation:
+  - Poziomo #Horizontal
+  - Pionowo #Vertical
+dvchart_overlapping_labels:
+  - Automatycznie #Auto
+  - Pokaż #Show
+dvchart_plot_type:
+  - Słupkowy #Bar
+  - Liniowy #Line
+  - Wartswowy #Area
+  - Punktowy #Scatter
+  - Giełdowy #HighLowOpenClose
+  - Świecowy #Candlestick 
+dvchart_scale:
+  - Liniowa #Linear
+  - Logarytmiczna #Logarithmic
+  - Porządkowa #Ordinal
+  - Procentowa #Percentage
+dvchart_show_nulls:
+  - Połączone #Connected
+  - Przerwy #Gaps
+  - Zera #Zeros
+dvchart_symbol_shape:
+  - Automatyczny #Auto
+  - Kropka #Dot
+  - Kwadrat #Box 
+  - Romb #Diamond
+  - Trójkąt #Triangle
+  - X
+  - Myślnik #Dash
+  - Plus
+dvchart_template:
+  - valueField.name: Nazwa pola wartości #Value Field Name
+  - valueField.value: Wartość pola wartości #Value Field Value
+  - PercentageDetail:p0: Procent w szczegółach #Percentage In Details
+  - PercentageCategory:p0: Procent w kategorii #Percentage In Category
+  - categoryField.name: Nazwa pola kategorii #Category Field Name
+  - categoryField.value: Wartość pola kategorii #Category Field Value
+  - detailFields.name: Nazwa pola szczegółów #Details Field Name
+  - detailFields.value: Wartość pola szczegółów #Details Field Value
+  - colorField.name: Nazwa pola koloru #Color Field Name
+  - colorField.value: Wartość pola koloru #Color Field Value
+  - shapeField.name: Nazwa pola kształtu #Shape Field Name
+  - shapeField.value: Wartość pola kształtu #Shape Field Value
+  - sizeField.name: Nazwa pola rozmiaru #Size Field Name
+  - sizeField.value: Wartość pola rozmiaru #Size Field Value
+dvchart_text_position:
+  - Automatycznie #Auto
+  - Środek #Center
+  - Wewnątrz #Inside
+  - Zewnątrz #Outside
+dvchart_tick_mark:
+  - Brak #None
+  - Krzyż #Cross
+  - Wewnątrz #Inside
+  - Zewnątrz #Outside
+dvchart_valign:
+  - Góra #Top
+  - Środek #Middle
+  - Dół #Bottom
+end_cap:
+  - Brak #None
+  - Strzałka #Arrow
+font_style:
+  - Normalny #Normal
+  - Kursywa #Italic
+font_weight:
+  - Cieńsza #Lighter
+  - Najcieńsza #Thin 
+  - EkstraCienka #ExtraLight
+  - Cienka #Light
+  - Normalna #Normal
+  - Średnia #Medium
+  - PółPogrubiona #SemiBold
+  - Pogrubiona #Bold
+  - EkstraPogrubiona #ExtraBold
+  - Najgrubsza #Heavy
+  - Grubsza #Bolder
+gradient_type:
+  - Brak #None
+  - LewoPrawo #LeftRight
+  - GóraDół #TopBottom
+  - Środek #Center
+  - PrzekątnieWLewo #DiagonalLeft 
+  - PrzekątnieWPrawo #DiagonalRight 
+  - PoziomoŚrodek #HorizontalCenter
+  - PionowoŚrodek #VerticalCenter
+grid_mode:
+  - Kropki #Dots
+  - Linie #Lines
+horizontal_align:
+  - Lewo #Left
+  - Środek #Center
+  - Prawo #Right
+image_repeat:
+  - Powtórz #Repeat
+  - NiePowtarzaj #NoRepeat
+  - PowtórzX #RepeatX
+  - PowtórzY #RepeatY
+image_sizing:
+  - AutomatycznyRozmiar #AutoSize
+  - Dopasowany #Fit
+  - DopasujProporcjonalnie #FitProportional
+  - Przycięcie #Clip
+image_source:
+  - Zewnętrzne #External
+  - Wbudowane #Embedded
+  - BazaDanych #Database
+input_type:
+  - Tekst #Text
+  - PoleWyboru #CheckBox
+keep_with_group:
+  - Brak #None
+  - Przed #Before
+  - Za #After
+label_font_style:
+  - Zwykły #Regular 
+  - Pogrubiony #Bold
+  - Kursywa #Italic
+  - Podkreślenie #Underline
+  - Przekreślenie #Strikeout  
+labels_text_orientation:
+  - Automatycznie #Auto
+  - PodKątem #Angled
+  - Poziomo #Horizontal
+  - Obrócone90Stopni #Rotated90
+  - Obrócone270Stopni #Rotated270
+  - Stos #Stacked
+language:
+  - Domyślny #Default
+  - af-ZA: Afrikaans - RPA #Afrikaans - South Africa
+  - sq-AL: Albański - Albania #Albanian - Albania
+  - gsw-FR: Alzacki - Francja #Alsatian - France
+  - am-ET: Amharski - Etiopia #Amharic - Ethiopia
+  - ar-DZ: Arabski - Algieria #Arabic - Algeria
+  - ar-BH: Arabski - Bahrain #Arabic - Bahrain
+  - ar-EG: Arabski - Egipt #Arabic - Egypt
+  - ar-IQ: Arabski - Irak #Arabic - Iraq
+  - ar-JO: Arabski - Jordania #Arabic - Jordan
+  - ar-KW: Arabski - Kuwejt #Arabic - Kuwait
+  - ar-LB: Arabski - Liban #Arabic - Lebanon
+  - ar-LY: Arabski - Libia #Arabic - Libya
+  - ar-MA: Arabski - Maroko #Arabic - Morocco
+  - ar-OM: Arabski - Oman #Arabic - Oman
+  - ar-QA: Arabski - Katar #Arabic - Qatar
+  - ar-SA: Arabski - Arabia Saudyjska #Arabic - Saudi Arabia
+  - ar-SY: Arabski - Syria #Arabic - Syria
+  - ar-TN: Arabski - Tunezja #Arabic - Tunisia
+  - ar-AE: Arabski - ZEA #Arabic - United Arab Emirates
+  - ar-YE: Arabski - Jemen #Arabic - Yemen
+  - hy-AM: Ormiański - Amrenia #Armenian - Armenia
+  - as-IN: Asamski - Indie #Assamese - India
+  - az-AZ-Cyrl: Azerski (Cyrylica) - Azerbejdżan #Azeri (Cyrillic) - Azerbaijan
+  - az-AZ-Latn: Azerski (Łacina) - Azerbejdżan #Azeri (Latin) - Azerbaijan
+  - ba-RU: Baszkirski - Rosja #Bashkir - Russia
+  - eu-ES: Baskijski - Kraj Basków #Basque - Basque
+  - be-BY: Białoruski - Białoruś #Belarusian - Belarus
+  - bn-BD: Bengalski - Bangladesz #Bengali - Bangladesh
+  - bn-IN: Bengalski - Indie #Bengali - India
+  - bs-Cyrl-BA: Bośniacki (Cyrylica) - Bośnia i Hercegowina #Bosnian (Cyrillic) - Bosnia and Herzegovina
+  - bs-Latn-BA: Bośniacki (Łacina) - Bośnia i Hercegowina #Bosnian (Latin) - Bosnia and Herzegovina
+  - br-FR: Bretański - Francja #Breton - France
+  - bg-BG: Bułgarski - Bułgaria #Bulgarian - Bulgaria
+  - ca-ES: Kataloński - Katalonia # Catalan - Catalan
+  - zh-HK: Chiński - Hong Kong #Chinese - Hong Kong SAR
+  - zh-MO: Chiński - Makau #Chinese - Macau SAR
+  - zh-CN: "Chiński - Chińska Republika Ludowa" # Chinese - People's Republic of China
+  - zh-SG: Chiński - Singapur #Chinese - Singapore
+  - zh-TW: Chiński - Tajwan #Chinese - Taiwan
+  - co-FR: Korsykański - Francja #Corsican - France
+  - hr-HR: Chorwacki - Chorwacja #Croatian - Croatia
+  - hr-BA: Chorwacki (Łacina) - Bośnia i Hercegowina #Croatian (Latin) - Bosnia and Herzegovina
+  - cs-CZ: Czeski - Czechy #Czech - Czech Republic
+  - da-DK: Duński - Dania #Danish - Denmark
+  - prs-AF: Dari - Afganistan #Dari - Afghanistan
+  - div-MV: Dhivehi - Malediwy #Dhivehi - Maldives
+  - nl-BE: Holenderski - Belgia #Dutch - Belgium
+  - nl-NL: Holenderski - Holandia #Dutch - The Netherlands
+  - en-AU: Angielski - Australia #English - Australia
+  - en-BZ: Angielski - Belize #English - Belize
+  - en-CA: Angielski - Kanada #English - Canada
+  - en-CB: Angielski - Karaibski #English - Caribbean
+  - en-IN: Angielski - Indie #English - India
+  - en-IE: Angielski - Irlandia #English - Ireland
+  - en-JM: Angielski - Jamajka #English - Jamaica
+  - en-MY: Angielski - Malezja #English - Malaysia
+  - en-NZ: Angielski - Nowa Zelandia #English - New Zealand
+  - en-PH: Angielski - Filipiny #English - Philippines
+  - en-SG: Angielski - Singapur #English - Singapore
+  - en-ZA: Angielski - RPA #English - South Africa
+  - en-TT: Angielski - Trynidad i Tobago #English - Trinidad and Tobago
+  - en-GB: Angielski - Wielka Brytania #English - United Kingdom
+  - en-US: Angielski - Stany Zjednoczone #English - United States
+  - en-ZW: Angielski - Zimbabwe #English - Zimbabwe
+  - et-EE: Estoński - Estonia #Estonian - Estonia
+  - fo-FO: Farerski - Wyspy Owcze #Faroese - Faroe Islands
+  - fil-PH: Filipiński - Filipiny #Filipino - Philippines
+  - fa-IR: Farsi - Iran
+  - fi-FI: Fiński - Finlandia #Finnish - Finland
+  - fr-BE: Francuski - Belgia #French - Belgium
+  - fr-CA: Francuski - Kanada #French - Canada
+  - fr-FR: Francuski - Francja #French - France
+  - fr-LU: Francuski - Luksemburg #French - Luxembourg
+  - fr-MC: Francuski - Monako #French - Monaco
+  - fr-CH: Francuski - Szwajcaria #French - Switzerland
+  - fy-NL: Fryzyjski - Holandia #Frisian - Netherlands
+  - gl-ES: Galicyjski - Galicyjski #Galician - Galician
+  - ka-GE: Gruziński - Gruzja #Georgian - Georgia
+  - de-AT: Niemiecki - Austria #German - Austria
+  - de-DE: Niemiecki - Niemcy #German - Germany
+  - de-LI: Niemiecki - Liechtenstein #German - Liechtenstein
+  - de-LU: Niemiecki - Luksemburg #German - Luxembourg
+  - de-CH: Niemiecki - Szwajcaria #German - Switzerland
+  - el-GR: Grecki - Grecja #Greek - Greece
+  - kl-GL: Grenlandzki - Grenlandia #Greenlandic - Greenland
+  - gu-IN: Gujarati - Indie #Gujarati - India
+  - ha-Latn-NG: Hausa (Łacina) - Nigeria #Hausa (Latin) - Nigeria
+  - he-IL: Hebrajski - Izrael #Hebrew - Israel
+  - hi-IN: Hindi - India #Hindi - India
+  - hu-HU: Węgierski - Węgry #Hungarian - Hungary
+  - is-IS: Islandzki - Islandia #Icelandic - Iceland
+  - ig-NG: Igbo - Nigeria
+  - id-ID: Indonezyjski - Indonezja #Indonesian - Indonesia
+  - iu-Latn-CA: Inuicki (Łacina) - Kanada #Inuktitut (Latin) - Canada
+  - iu-Cans-CA: Inuciki (Sylaby) - Kanada #Inuktitut (Syllabics) - Canada
+  - ga-IE: Irlandzki - Irlandia #Irish - Ireland
+  - xh-ZA: isiXhosa - RPA #isiXhosa - South Africa
+  - zu-ZA: isiZulu - RPA #isiZulu - South Africa
+  - it-IT: Włoski - Włochy #Italian - Italy
+  - it-CH: Włoski - Szwajcaria #Italian - Switzerland
+  - ja-JP: Japoński - Japonia #Japanese - Japan
+  - kn-IN: Kannada - Indie #Kannada - India
+  - kk-KZ: Kazachski - Kazachstan #Kazakh - Kazakhstan
+  - km-KH: Khmerski - Kambodża #Khmer - Cambodia
+  - qut-GT: "K'iche - Gwatemala"
+  - rw-RW: Kinyarwanda - Rwanda
+  - sw-KE: Kiswahili - Kenia #Kiswahili - Kenya
+  - kok-IN: Konkani - Indie #Konkani - India
+  - ko-KR: Koreański - Korea #Korean - Korea
+  - ky-KG: Kirgiski - Kirgistan #Kyrgyz - Kyrgyzstan
+  - lo-LA: Laotański - Laos #Lao - Lao P.D.R.
+  - lv-LV: Łotewski - Łotwa #Latvian - Latvia
+  - lt-LT: Litewski - Litwa #Lithuanian - Lithuania
+  - wee-DE: Dolnołużycki - Niemcy #Lower Sorbian - Germany
+  - lb-LU: Luksemburski - Luksemburg #Luxembourgish - Luxembourg
+  - mk-MK: Macedoński - Macedonia #Macedonian - Macedonia
+  - ms-BN: Malajski - Brunei #Malay - Brunei
+  - ms-MY: Malajski - Malezja #Malay - Malaysia
+  - ml-IN: Malajalam - Indie #Malayalam - India
+  - mt-MT: Maltański - Malta #Maltese - Malta
+  - mi-NZ: Maorycki - Nowa Zelandia #Maori - New Zealand
+  - arn-CL: Mapudungun - Chile
+  - mr-IN: Marathi - Indie #Marathi - India
+  - moh-CA: Mohawk - Mohawk
+  - mn-Mong-MN: Mongolski - Mongolia #Mongolian - Mongolia
+  - mn-MN: Mongolski (Cyrilica) - Mongolia #Mongolian (Cyrillic) - Mongolia
+  - mn-Mong-CN: Mongolski (Mongolski tradycyjny) - Mongolia #Mongolian (Traditional Mongolian) - PRC
+  - ne-NP: Nepalski - Nepal #Nepali - Nepal
+  - nb-NO: Norweski (Bokmål) - Norwegia #Norwegian (Bokmål) - Norway
+  - nn-NO: Norweski (Nynorsk) - Norwegia #Norwegian (Nynorsk) - Norway
+  - oc-FR: Prowansalski - Francja #Occitan - France
+  - or-IN: Oriya - Indie #Oriya - India
+  - ps-AF: Paszto - Afganistan #Pashto - Afghanistan
+  - fa-IR: Perski - Iran #Persian - Iran
+  - pl-PL: Polski - Polska #Polish - Poland
+  - pt-BR: Portugalski - Brazylia #Portuguese - Brazil
+  - pt-PT: Portugalski - Portugalia #Portuguese - Portugal
+  - pa-IN: Pundżabski - Indie #Punjabi - India
+  - quz-BO: Quechua - Boliwia #Quechua - Bolivia
+  - quz-EC: Quechua - Ekwador #Quechua - Ecuador
+  - quz-PE: Quechua - Peru
+  - ro-RO: Rumuński - Rumunia #Romanian - Romania
+  - rm-CH: Romański - Szwajcaria #Romansh - Switzerland
+  - ru-RU: Rosyjski - RosjaRussian - Russia
+  - smn-FI: Sami, Inari - Finlandia #Sami, Inari - Finland
+  - smj-NO: Sami, Lule - Norwegia #Sami, Lule - Norway
+  - smj-SE: Sami, Lule - Szwecja #Sami, Lule - Sweden
+  - se-FI: Sami, Północny - Finlandia #Sami, Northern - Finland
+  - se-NO: Sami, Północny - Norwegia #Sami, Northern - Norway
+  - se-SE: Sami, Północny - Szwecja #Sami, Northern - Sweden
+  - sms-FI: Sami, Skolt - Finlandia #Sami, Skolt - Finland
+  - sma-NO: Sami, Południowy - Norwegia #Sami, Southern - Norway
+  - sma-SE: Sami, Południowy - Szwecja #Sami, Southern - Sweden
+  - sa-IN: Sanskryt - Indie #Sanskrit - India
+  - gd-GB: Szkocki gaelicki - Wielka Brytania #Scottish Gaelic - United Kingdom
+  - sr-SP-Cyrl: Serbski (Cyrilica) - Serbia #Serbian (Cyrillic) - Serbia
+  - sr-SP-Latn: Serbski (Łacina) - Serbia #Serbian (Latin) - Serbia
+  - nso-ZA: Sesotho sa Leboa - RPA #Sesotho sa Leboa - South Africa
+  - tn-ZA: Setswana - RPA #Setswana - South Africa
+  - si-LK: Sinhala - Sri Lanka
+  - sk-SK: Słowacki - Słowacja #Slovak - Slovakia
+  - sl-SI: Słoweński - Słowenia #Slovenian - Slovenia
+  - es-AR: Hiszpański - Argentyna #Spanish - Argentina
+  - es-BO: Hiszpański - Boliwia #Spanish - Bolivia
+  - es-CL: Hiszpański - Chile #Spanish - Chile
+  - es-CO: Hiszpański - Kolumbia #Spanish - Colombia
+  - es-CR: Hiszpański - Kostaryka #Spanish - Costa Rica
+  - es-DO: Hiszpański - Dominikana #Spanish - Dominican Republic
+  - es-EC: Hiszpański - Ekwador #Spanish - Ecuador
+  - es-SV: Hiszpański - Salwador #Spanish - El Salvador
+  - es-GT: Hiszpański - Gwatemala #Spanish - Guatemala
+  - es-HN: Hiszpański - Honduras #Spanish - Honduras
+  - es-MX: Hiszpański - Meksyk #Spanish - Mexico
+  - es-NI: Hiszpański - Nikaragua #Spanish - Nicaragua
+  - es-PA: Hiszpański - Panama #Spanish - Panama
+  - es-PY: Hiszpański - Paragwaj #Spanish - Paraguay
+  - es-PE: Hiszpański - Peru #Spanish - Peru
+  - es-PR: Hiszpański - Puertoryko #Spanish - Puerto Rico
+  - es-ES: Hiszpański - Hiszpania #Spanish - Spain
+  - es-US: Hiszpański - Stany Zjednoczone #Spanish - United States
+  - es-UY: Hiszpański - Urugwaj #Spanish - Uruguay
+  - es-VE: Hiszpański - Wenezuela #Spanish - Venezuela
+  - sw-KE: Suahili - Kenia #Swahili - Kenya
+  - sv-FI: Szwedzki - Finalndia #Swedish - Finland
+  - sv-SE: Szwedzki - Szwecja #Swedish - Sweden
+  - syr-SY: Syryjski - Syria #Syriac - Syria
+  - tg-Cyrl-TJ: Tadżycki (Cyrylica) - Tadżykistan #Tajik (Cyrillic) - Tajikistan
+  - tzm-Latn-DZ: Tamazight (Łacina) - Algieria #Tamazight (Latin) - Algeria
+  - ta-IN: Tamilski - Idnia #Tamil - India
+  - tt-RU: Tatarski - Rosja #Tatar - Russia
+  - te-IN: Telugu - India #Telugu - India
+  - th-TH: Tajski - Tajlandia #Thai - Thailand
+  - bo-CN: Tybetański - Chińska Republika Ludowa #Tibetan - PRC
+  - tr-TR: Turecki - Turcja #Turkish - Turkey
+  - tk-TM: Turkmeński - Turkmenistan #Turkmen - Turkmenistan
+  - uk-UA: Ukraiński - Ukraina #Ukrainian - Ukraine
+  - wen-DE: Górnołużycki - Niemcy #Upper Sorbian - Germany
+  - ur-PK: Urdu - Pakistan
+  - ug-CN: Ujgurski - Chińska Republika Ludowa #Uyghur - PRC
+  - uz-UZ-Cyrl: Uzbecki (Cyrilica) - Uzbekistan #Uzbek (Cyrillic) - Uzbekistan
+  - uz-UZ-Latn: Uzbecki (Łacina) - Uzbekistan #Uzbek (Latin) - Uzbekistan
+  - vi-VN: Wietnamski - Wietnam #Vietnamese - Vietnam
+  - cy-GB: Walijski - Wielka Brytania #Welsh - United Kingdom
+  - wo-SN: Wolof - Senegal
+  - sah-RU: Jakucki - Rosja #Yakut - Russia
+  - ii-CN: Yi - Chińska Republika Ludowa #Yi - PRC
+  - yo-NG: Yoruba - Nigeria #Yoruba - Nigeria
+layout_direction:
+  - Ltr
+  - Rtl
+legend_layout:
+  - Kolumna #Column
+  - Wiersz #Row
+  - Tabela #Table
+legend_position:
+  - GóraLewo #TopLeft
+  - GóraŚrodek #TopCenter
+  - GóraPrawo #TopRight
+  - LewoGóra #LeftTop
+  - LewoŚrodek #LeftCenter
+  - LewoDół #LeftBottom
+  - PrawoGóra #RightTop
+  - PrawoŚrodek #RightCenter
+  - PrawoDół #RightBottom
+  - DółPrawo #BottomRight
+  - DółŚrodek #BottomCenter
+  - DółLewo #BottomLeft
+line_control_style:
+  - Przezroczysta #Transparent
+  - Ciągła #Solid
+  - Przerywana #Dashed  
+  - Kropkowana #Dotted
+  - KreskaKropka #DashDot
+  - KreskaKropkaKropka #DashDotDot
+  - Podwójna #Double
+marker_type:
+  - Brak #None
+  - Automatyczny #Auto
+  - Okrąg #Circle
+  - Krzyż #Cross
+  - Romb #Diamond
+  - Kwadrat #Square
+  - Trójkąt #Triangle
+operator: 
+  - Equal
+  - Like
+  - NotEqual
+  - GreaterThan
+  - GreaterThanOrEqual
+  - LessThan
+  - LessThanOrEqual
+  - TopN
+  - BottomN
+  - TopPercent
+  - BottomPercent
+  - In
+  - Between
+orientation:
+  - Pozioma #Horizontal
+  - Pionowa #Vertical
+page_break:
+  - Brak #None
+  - Początek #Start
+  - Koniec #End
+  - PoczątekIKoniec #StartAndEnd
+page_break_with_between:
+  - Brak #None
+  - Początek #Start
+  - Koniec #End
+  - PoczątekIKoniec #StartAndEnd
+  - Pomiędzy #Between
+page_orientation:
+  - Portret #Portrait
+  - Krajobraz #Landscape
+plot_type:
+  - Automatycznie #Auto
+  - Linia #Line
+  - Punkt #Point
+projection_mode:
+  - Perspektywa #Perspective
+  - RzutProstokątny #Orthographic 
+reportparameter_datatype:
+  - Boolean
+  - Date
+  - DateTime
+  - Integer
+  - Float
+  - String
+shading:
+  - Brak #None
+  - Proste #Simple
+  - Rzeczywiste #Real
+shape_styles:
+  - Prostokąt #Rectangle 
+  - Zaokrąglony #RoundRect 
+  - Elipsa #Ellipse
+size_type:
+  - Default: Domyślny #Default
+  - FitToPage: Dopasuj do strony #Fit To Page
+  - FitToWidth: Dopasuj do szerokości #Fit To Width
+  - Stretch: Rozciągnij #Stretch
+sparkline_type:
+  - Linia #Line
+  - Kolumny #Columns
+  - Wąsy #Whiskers
+  - Powierzchnia #Area
+  - SkumulowanySłupkowy #StackedBar 
+target_shape:
+  - Linia #Line
+  - Kropka #Dot
+  - Kwadrat #Square
+text_align:
+  - Ogólne #General
+  - Lewo #Left
+  - DoŚrodka #Center
+  - Prawo #Right
+  - Wyjustowanie #Justify
+text_align_glcr:
+  - Ogólne #General
+  - Lewo #Left
+  - DoŚrodka #Center
+  - Prawo #Right
+text_decoration:
+  - Brak #None
+  - Podkreślenie #Underline
+  - LiniaPonad #Overline
+  - LiniaPrzez #LineThrough
+text_justify:
+  - Automatycznie #Auto
+  - Rozprowadzenie #Distribute
+  - RozprowadźWszystkieLinie #DistributeAllLines
+text_orientation:
+  - Automatycznie #Auto
+  - Poziomo #Horizontal
+  - Obrócone90Stopni #Rotated90
+  - Obrócone270Stopni #Rotated270
+  - Stos #Stacked
+tick_mark:
+  - Brak #None
+  - Wewnątrz #Inside
+  - Zewnątrz #Outside
+  - Krzyż #Cross
+title_position:
+  - Środek #Center
+  - Blisko #Near
+  - Daleko #Far
+unicode_bidi:
+  - Normalnie #Normal
+  - Osadź #Embed
+  - ZastąpieniaBidi #BidiOverride
+vertical_align:
+  - Góra #Top
+  - Środek #Middle
+  - Dół #Bottom
+wrap_mode:
+  - BezZawijania #NoWrap
+  - ZawijanieZnaków #CharWrap
+  - ZawijanieSłów #WordWrap
+writing_mode:
+  - lr-tb
+  - tb-rl
