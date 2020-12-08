@@ -6,13 +6,13 @@ export const portalPL: LanguageKeyValueMap = {
 	unableSaveChanges: 'Nie można zapisać zmian', // Unable to save changes
 	saveSettingsFailed: 'Zapisywanie ustawień nie powiodło się', // Save settings failed
 	PortalUriRequiedForSmtpSettings: 'Przed zapisaniem ustawień e-mail upewnij się, że „Portal URI” w ustawieniach interfejsu użytkownika jest dostępny.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you save the email settings.
-	WorkerJobMaxExecTimeIsInvalid: 'Maksymalny czas wykonania powinien wynosić pomiędzy 0(s) i 2147481(s).', // Maximal exec time should be between 0(s) and 2147481(s).
+	WorkerJobMaxExecTimeIsInvalid: 'Maximal exec time should be between 0(s) and 2147481(s).',
 	WorkerTaskMaxCountIsInvalid: 'Task per worker should be between 0 and 100.',
 
 	// Common
 	Save: 'Zapisz', // Save
 	Ok: 'OK',
-	Close: 'Zamknij', // Close
+	Close: 'Close',
 	Cancel: 'Anuluj', // Cancel
 	Reset: 'Resetuj', // Reset
 	Upload: 'Załaduj', // Upload
@@ -55,7 +55,7 @@ export const portalPL: LanguageKeyValueMap = {
 	pcAllowCustomSchedule: 'Zezwól użytkownikowi tworzyć własne harmonogramy', // Allow User To Create Custom Schedule
 	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
-	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
+	pcHideWelcomeScreen: 'Hide Welcome Screen On Document Portal',
 	pcShowGlobalOrganization: 'Show Global Organization',
 	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
 	pcHideActions: 'Ukryj Akcje', // Hide Actions
@@ -89,9 +89,9 @@ export const portalPL: LanguageKeyValueMap = {
 	pcLoginImageRecommended: 'Zalecany rozmiar: 960px * 830px', // Recommended size: 960px * 830px
 	pcLoginTip: 'Podpowiedź logowania', // Login Tip
 	pcLoginTipDescription: 'Podpowiedź będzie wyświetlana na stronie logowania', // This tip message will be displayed in the login page
-	pcLoginPreview: 'Podgląd Logowania', // Login Preview
+	pcLoginPreview: 'Login Preview',
 	pcWCAGCompatibility: 'WCAG Compatibility',
-	pcAutoDismissNotifications: 'Automatyczne Odrzucanie Powiadomień', // Auto Dismiss Notifications
+	pcAutoDismissNotifications: 'Auto Dismiss Notifications',
 	pcDurationOfNotifications: 'Duration of Notifications(s)',
 
 	// SMTP
@@ -191,8 +191,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'googleApisError_7': 'Token Odświeżania nie może być pusty', // The Refresh Token cannot be empty
 
 	'scheduleSettings!ignoreEmptyContent': 'Nie dostarczaj pustego dokumentu', // Don\'t deliver the empty document
-	'scheduleSettings!disableManualAndOneTimeTask': 'Wyłącz zadanie ręczne i jednorazowe', // Disable Manual and One-time task
-	'scheduleSettings!disableFileShare': 'Wyłącz dostarczanie \"File Share\"', // Disable \"File Share\" delivery
+	'scheduleSettings!disableManualAndOneTimeTask': 'Disable Manual and One-time task',
+	'scheduleSettings!disableFileShare': 'Disable \"File Share\" delivery',
 
 	'queue!maxWorkerTasks': 'Maksymalna liczba zadań na Usługę Raportową', // Max tasks per worker
 	'queue!defaultExecLimit': 'Domyślny limit czasu wykonania (s)', // Default exec time limit (s)
@@ -322,14 +322,16 @@ export const portalPL: LanguageKeyValueMap = {
 	'previewPagesSettings_previewPages': 'Strony podglądu', // Preview pages
 	'previewPagesSettings_hint': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.',
 	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia',
+	'reporting!hideBlankRDLReport': 'Ukryj pusty raport RDL',
+	'reporting!hideBlankPageReport': 'Ukryj raport z pustymi stronami',
 
 	'scheduleSettings!title': 'Ustawienia planowania', // Schedule Settings
 	'scheduleSettings!description': 'Zarządzanie ustawieniami planowania', // Schedule Settings management
 
 	// Nav Toolbar
 	globalOrgName: 'Global',
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Switch Organization',
+	editProfileSetting: 'Edit Profile Setting',
 
 	// Version Info
 	'productVersion': 'Wyn Enterprise',
@@ -354,13 +356,16 @@ export const portalPL: LanguageKeyValueMap = {
 	storageIntervalSettingsUnitForever: 'Beztermionowo', // Forever
 	storageIntervalSettingsLabel: 'Maks. interwał przechowywania', // Max. storage interval
 
-	'UpdateNotificationTips': 'Nowa wersja "Version {{newestVersion}}" jest dostępna do zaktualizowania.', // There is a new version "Version {{newestVersion}}" to update.
-	'UpdateNotificationTipsViewMore': 'Kliknij tutaj by zobaczyć więcej informacji', // Click here to view more info...
-	'UpdateNotificationSkip': 'Pomiń tą wersję', // Skip this version
-	'UpdateNotificationSkipTips': 'Pomiń do następnej opublikowanej wersji', // Skip until another version published
-	'UpdateNotificationSkipVersionError': 'Nie udało się pominąć wersji', // Failed to skip the version
-	'UpdateNotificationSkipVersionSuccess': 'Pomyślnie pominięto wersję', // Skipped version successfully
-	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
+	'UpdateNotificationTips': 'There is a new version "Version {{newestVersion}}" to update.',
+	'UpdateNotificationTipsViewMore': 'Click here to view more info...',
+	'UpdateNotificationSkip': 'Skip this version',
+	'UpdateNotificationSkipTips': 'Skip until another version published',
+	'UpdateNotificationSkipVersionError': 'Failed to skip the version',
+	'UpdateNotificationSkipVersionSuccess': ' Skipped version successfully',
+	'UpdateNotificationSkipVersionSuccessDetail': 'Success to skip the version "Version {{version}}"',
+	'vsReleaseTime': 'Release Date:',
+	'vsSummary': 'Summary:',
+	'vsViewDetail': 'View Detail',
 
 	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
 	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.
